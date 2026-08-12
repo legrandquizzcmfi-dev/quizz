@@ -4,15 +4,4950 @@
   "levels": [
     {
       "index": 1,
-      "stages": []
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "ztf_l1_s1_q1",
+              "text": "What is the name of the little book that collects Professor Fomum's short stories?",
+              "options": [
+                "My Father's Friend",
+                "The Childhood Years",
+                "From His Lips",
+                "Darling ZT"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s1_q2",
+              "text": "Who wrote the preface of the book?",
+              "options": [
+                "Zacharias Tanee Fomum",
+                "Prisca Fomum",
+                "Godfred Osimensa",
+                "Theodore Wanneh Andoseh"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s1_q3",
+              "text": "Which king in the Bible spoke freely about his relationship with God in the Psalms?",
+              "options": [
+                "The apostle Paul",
+                "King David",
+                "Professor Landor",
+                "Pastor Fai"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s1_q4",
+              "text": "How long was the Lord Jesus led by the Holy Spirit into the desert to fast?",
+              "options": [
+                "fourteen days",
+                "four days",
+                "forty days",
+                "forty years"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s1_q5",
+              "text": "On what date was Brother Zach born in the flesh?",
+              "options": [
+                "1st October, 1966",
+                "20th June, 1945",
+                "13th June, 1956",
+                "14th March, 2009"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s1_q6",
+              "text": "On what date was Brother Zach born of the Holy Spirit?",
+              "options": [
+                "24th October, 1970",
+                "1st October, 1966",
+                "13th June, 1956",
+                "20th June, 1945"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s1_q7",
+              "text": "When did Brother Zach make an absolute surrender of himself to the Lord Jesus?",
+              "options": [
+                "13th June, 1956",
+                "20th June, 1945",
+                "24th October, 1970",
+                "1st October, 1966"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s1_q8",
+              "text": "When was Brother Zach filled with the Holy Spirit?",
+              "options": [
+                "14th March, 2009",
+                "24th October, 1970",
+                "13th June, 1956",
+                "1st October, 1966"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s1_q9",
+              "text": "On what date did Brother Zach go to be with the Lord?",
+              "options": [
+                "20th June, 1945",
+                "12th March, 2009",
+                "14th March, 2009",
+                "24th October, 1970"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s1_q10",
+              "text": "How old was Brother Zach when he went to be with the Lord?",
+              "options": [
+                "54",
+                "44",
+                "74",
+                "64"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s1_q11",
+              "text": "At which college did Brother Zach earn a first-class Bachelor of Science degree?",
+              "options": [
+                "University of Yaounde 1",
+                "Fourah Bay College",
+                "University of Makerere",
+                "University of Durham"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s1_q12",
+              "text": "In what month and year did Brother Zach graduate with his Bachelor of Science degree?",
+              "options": [
+                "October 1966",
+                "October 1973",
+                "October 2005",
+                "October 1969"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "ztf_l1_s2_q1",
+              "text": "Which university awarded Brother Zach his PhD?",
+              "options": [
+                "University of Yaounde 1",
+                "University of Durham",
+                "University of Makerere, Kampala, Uganda",
+                "Fourah Bay College"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s2_q2",
+              "text": "In what year was Brother Zach awarded his PhD?",
+              "options": [
+                "October 1969",
+                "October 1970",
+                "October 1973",
+                "October 2005"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s2_q3",
+              "text": "Which British university evaluated Brother Zach's scientific work and awarded him a D.Sc.?",
+              "options": [
+                "University of Makerere",
+                "University of Yaounde 1",
+                "Fourah Bay College",
+                "University of Durham"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s2_q4",
+              "text": "When was Brother Zach awarded the D.Sc. (Doctor of Science) degree?",
+              "options": [
+                "October 2005",
+                "October 1973",
+                "October 1969",
+                "March 2009"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s2_q5",
+              "text": "At which university did Brother Zach serve as a Professor of Organic Chemistry?",
+              "options": [
+                "University of Yaounde 1",
+                "Fourah Bay College",
+                "University of Makerere",
+                "University of Durham"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s2_q6",
+              "text": "About how many Master's and Doctoral theses did Brother Zach supervise or co-supervise?",
+              "options": [
+                "1,330",
+                "100",
+                "50",
+                "155"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s2_q7",
+              "text": "About how many scientific articles did Brother Zach co-author in international journals?",
+              "options": [
+                "over 1,330",
+                "over 155",
+                "over 50",
+                "over 100"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s2_q8",
+              "text": "Brother Zach saw scientific research as obedience to God's command to do what?",
+              "options": [
+                "seek first the kingdom",
+                "love your neighbour",
+                "be fruitful and multiply",
+                "subdue the earth"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s2_q9",
+              "text": "About how many books on the Christian faith had Brother Zach read?",
+              "options": [
+                "over 1,330",
+                "over 100",
+                "over 150",
+                "over 50,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s2_q10",
+              "text": "About how many books did Brother Zach author to advance the Gospel?",
+              "options": [
+                "over 1,330",
+                "over 150",
+                "16 million",
+                "over 100"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s2_q11",
+              "text": "About how many of Brother Zach's books are in circulation?",
+              "options": [
+                "fifty thousand",
+                "sixteen million",
+                "one million",
+                "four million"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s2_q12",
+              "text": "In how many languages are Brother Zach's books in circulation?",
+              "options": [
+                "seven languages",
+                "eleven languages",
+                "fifty languages",
+                "seventeen languages"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "ztf_l1_s3_q1",
+              "text": "About how many gospel tracts authored by Brother Zach are in circulation?",
+              "options": [
+                "eighteen thousand",
+                "sixteen million",
+                "four million",
+                "fifty thousand"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s3_q2",
+              "text": "In how many languages are Brother Zach's gospel tracts in circulation?",
+              "options": [
+                "fifty nations",
+                "eleven languages",
+                "seven languages",
+                "seventeen languages"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s3_q3",
+              "text": "About how many recorded answers to prayer did Brother Zach have?",
+              "options": [
+                "over 50,000",
+                "over 18,000",
+                "over 1,330",
+                "over 10,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s3_q4",
+              "text": "How many Prayer Crusades had Brother Zach and his team carried out?",
+              "options": [
+                "57",
+                "80",
+                "100",
+                "250"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s3_q5",
+              "text": "How long does a Prayer Crusade last, as defined in the introduction?",
+              "options": [
+                "eighty hours",
+                "twenty-four hours",
+                "twenty-one days",
+                "forty days and nights"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s3_q6",
+              "text": "How many prayer sieges had Brother Zach and his team carried out?",
+              "options": [
+                "57",
+                "80",
+                "100",
+                "250"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s3_q7",
+              "text": "How long can a prayer siege last, according to the introduction?",
+              "options": [
+                "5 to 47 kilometres",
+                "3 to 21 days",
+                "40 days and nights",
+                "24 to 120 hours"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s3_q8",
+              "text": "How many prayer walks had Brother Zach carried out?",
+              "options": [
+                "100",
+                "80",
+                "57",
+                "700"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s3_q9",
+              "text": "What was the distance range of Brother Zach's prayer walks?",
+              "options": [
+                "three and forty days",
+                "one and ten kilometres",
+                "five and forty-seven kilometres",
+                "twenty and one hundred kilometres"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s3_q10",
+              "text": "About how many fasts had Brother Zach carried out?",
+              "options": [
+                "over 100",
+                "over 50,000",
+                "over 250",
+                "over 60"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s3_q11",
+              "text": "What was the usual length range of Brother Zach's fasts?",
+              "options": [
+                "one day to a week",
+                "fifty-two to eighty days",
+                "three days to forty days",
+                "one to six weeks"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s3_q12",
+              "text": "What was the length of the special supra-long fasts Brother Zach was later asked to carry out?",
+              "options": [
+                "3 and 40 days",
+                "5 and 47 kilometres",
+                "52 and 80 days",
+                "24 and 120 hours"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "ztf_l1_s4_q1",
+              "text": "What percentage of their income did Brother Zach and his wife invest into the Gospel?",
+              "options": [
+                "92.5%",
+                "50%",
+                "99%",
+                "15%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q2",
+              "text": "What percentage did Brother Zach and his wife hope to one day invest into the Gospel?",
+              "options": [
+                "100%",
+                "92.5%",
+                "50%",
+                "99%"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s4_q3",
+              "text": "What did Brother Zach call his daily time alone with God?",
+              "options": [
+                "Daily Dynamic Encounters with God",
+                "Retreats For Spiritual Progress",
+                "Prayer Crusades",
+                "Prayer Sieges"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q4",
+              "text": "About how many recorded Daily Dynamic Encounters with God did Brother Zach have?",
+              "options": [
+                "over 18,000",
+                "over 10,000",
+                "over 60",
+                "over 50,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q5",
+              "text": "What name did Brother Zach give to his periods of withdrawing to seek God alone?",
+              "options": [
+                "Retreats For Spiritual Progress",
+                "Prayer Crusades",
+                "Daily Dynamic Encounters with God",
+                "Missionary Journeys"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q6",
+              "text": "How many missionary journeys did Brother Zach make within Cameroon?",
+              "options": [
+                "over 10,000",
+                "over 60",
+                "over 700",
+                "over 500"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s4_q7",
+              "text": "How many missionary journeys did Brother Zach make to other nations?",
+              "options": [
+                "over 10,000",
+                "over 50",
+                "over 500",
+                "over 700"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s4_q8",
+              "text": "What is the name of the movement Brother Zach founded and led?",
+              "options": [
+                "Daily Dynamic Encounters with God",
+                "Basel Mission",
+                "Christian Missionary Fellowship International",
+                "Retreats For Spiritual Progress"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s4_q9",
+              "text": "About how many recorded miracles of healing did Brother Zach and his team see?",
+              "options": [
+                "over 10,000",
+                "over 700",
+                "over 1,330",
+                "over 50,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q10",
+              "text": "What was the name of Brother Zach's wife?",
+              "options": [
+                "Musi",
+                "Prisca Zei Fomum's mother",
+                "Darling ZT",
+                "Prisca"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s4_q11",
+              "text": "How many children did Brother Zach and his wife have?",
+              "options": [
+                "seven",
+                "five",
+                "two",
+                "eight"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s4_q12",
+              "text": "What kind of ministry work is Prisca Zei Fomum known for?",
+              "options": [
+                "a prayer-siege leader",
+                "a minister to children",
+                "a Bible school teacher",
+                "a chemistry professor"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "ztf_l1_s5_q1",
+              "text": "What was Brother Zach's father's job?",
+              "options": [
+                "a pastor in the Presbyterian Church",
+                "a coffee farmer",
+                "a schoolteacher",
+                "a chemistry professor"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s5_q2",
+              "text": "In 'A Model Father', what did Brother Zach's father do so people would see his example of giving?",
+              "options": [
+                "circulated his communion card",
+                "refused to give",
+                "hid his giving",
+                "borrowed money from members"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s5_q3",
+              "text": "In 'My Father Was A Preacher', where did Brother Zach's father practice his sermons?",
+              "options": [
+                "a river bank",
+                "his own bedroom",
+                "the church pulpit",
+                "a big stone at the top of a hill"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q4",
+              "text": "What time did Brother Zach's father practice his sermons at the valley?",
+              "options": [
+                "6 a.m. to 8 a.m.",
+                "8 p.m. to 10 p.m.",
+                "12 p.m. to 2 p.m.",
+                "4 p.m. to 6 p.m."
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q5",
+              "text": "In 'Pastor's Son', where was the Presbyterian Bible school that Brother Zach's father attended?",
+              "options": [
+                "Bambili",
+                "Nyasoso",
+                "Ngie",
+                "Njikwa"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s5_q6",
+              "text": "In 'Pastor's Son', who did the Presbyterian church bring in that changed its direction?",
+              "options": [
+                "two pastors from Uganda",
+                "two missionaries from Sierra Leone",
+                "two evangelists from Britain",
+                "two liberal theologians from Belgium"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q7",
+              "text": "In 'A Careful Child', for how long and at what ages did young Zacharias use the same pencil?",
+              "options": [
+                "one year, between ages three and four",
+                "ten years, between ages one and eleven",
+                "two years, between ages eight and ten",
+                "four years, between the ages of six and ten"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q8",
+              "text": "In 'Son Of A Missionary', where did the Basel Mission send Brother Zach's father, to a place known for cannibals?",
+              "options": [
+                "Wumnembug",
+                "Nyasoso",
+                "Ngie",
+                "Njikwa in the Batibo division"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q9",
+              "text": "In 'Son Of A Missionary', where was Brother Zach born on the mission field?",
+              "options": [
+                "Ngie",
+                "Njikwa",
+                "Mbengwi",
+                "Wumnembug"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s5_q10",
+              "text": "In 'Son Of A Missionary', what was the title of the gospel tract his father gave him at Ngie?",
+              "options": [
+                "someone died for you",
+                "darling ZT",
+                "food is finished",
+                "remembered of the Lord"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s5_q11",
+              "text": "In 'First Salary', who did young Zacharias ask for a piece of land to clear in order to earn money?",
+              "options": [
+                "a coffee farmer",
+                "a pastor",
+                "a missionary",
+                "a schoolteacher"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s5_q12",
+              "text": "In 'First Salary', how much was young Zacharias paid after two months of work?",
+              "options": [
+                "six pence",
+                "one shilling",
+                "two shillings",
+                "four thousand francs"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": [
+            {
+              "id": "ztf_l1_s6_q1",
+              "text": "In 'First Salary', how old was young Zacharias when he worked to earn money for his father?",
+              "options": [
+                "not yet nine",
+                "thirteen",
+                "exactly ten",
+                "seven"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s6_q2",
+              "text": "In 'When I Fell In Love', how old was Zacharias when he fell in love with his father?",
+              "options": [
+                "ten years old",
+                "eight years old",
+                "six years old",
+                "eleven years old"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q3",
+              "text": "In 'When I Fell In Love', what task did Zacharias take on at the age of ten for his father?",
+              "options": [
+                "built his father's house",
+                "wrote his father's sermons",
+                "washed and ironed his father's clothes",
+                "cooked all his father's meals"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s6_q4",
+              "text": "In 'When I Fell In Love', what was one reason young Zacharias was beaten by his father?",
+              "options": [
+                "changing his name",
+                "telling his elder sister to 'Shut up'",
+                "losing his father's cutlass",
+                "stealing sugar cane"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q5",
+              "text": "In 'Welcome Gifts', what did young Zacharias do when he had nothing else to give his father as a welcome gift?",
+              "options": [
+                "wrote a letter of apology",
+                "bought kernels at the market",
+                "sang a welcome song",
+                "memorized the whole of Matthew chapter 5"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s6_q6",
+              "text": "In 'Welcome Gifts', how many churches did Brother Zach's father supervise?",
+              "options": [
+                "one hundred churches",
+                "eighty churches",
+                "eighteen churches",
+                "fifty churches"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q7",
+              "text": "In 'Hands Full Of Blisters', at which school did young Zacharias study?",
+              "options": [
+                "Fourah Bay College",
+                "CPC (Cameroon Protestant College) Bali",
+                "a Bible school in Nyasoso",
+                "University of Yaounde 1"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q8",
+              "text": "In 'Hands Full Of Blisters', what did young Zacharias do during the holidays so his hands became full of blisters?",
+              "options": [
+                "get firewood for his mother",
+                "build a new house",
+                "repair the church roof",
+                "plant new crops"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s6_q9",
+              "text": "In 'A Hardworking Child', by what time on Saturdays was young Zacharias already on the farm?",
+              "options": [
+                "8 a.m.",
+                "6 a.m.",
+                "noon",
+                "3.30 a.m."
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q10",
+              "text": "In 'Water For My Father', what time did young Zacharias wake up to heat water for his father's bath?",
+              "options": [
+                "6 a.m. every morning",
+                "3.30 every morning",
+                "midnight",
+                "5 p.m. every evening"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s6_q11",
+              "text": "In 'My Father's Friend', how far away was the place of the Empire Day celebrations?",
+              "options": [
+                "eleven kilometres",
+                "forty-seven kilometres",
+                "eighteen kilometres",
+                "five kilometres"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s6_q12",
+              "text": "In 'My Father's Friend', how much money did the father give young Zacharias for the six days of the Empire Day trip?",
+              "options": [
+                "two shillings",
+                "twenty francs",
+                "six pence",
+                "one shilling"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "questions": [
+            {
+              "id": "ztf_l1_s7_q1",
+              "text": "In 'My Father's Friend', how much did the father give to the elder sister for the same trip?",
+              "options": [
+                "six pence",
+                "one shilling",
+                "four thousand francs",
+                "two shillings"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s7_q2",
+              "text": "In 'My Father's Friend', why did young Zacharias give the six pence back to his father?",
+              "options": [
+                "he spent it all on groundnuts",
+                "he gave it to a friend",
+                "he had lost it on the way",
+                "he had not spent it, having eaten at his godmother's"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s7_q3",
+              "text": "In 'My Father's Friend', how old was Zacharias when his father made him his friend?",
+              "options": [
+                "nine",
+                "eight",
+                "eleven",
+                "thirteen"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s7_q4",
+              "text": "In 'Groundnuts Seller', between what ages did young Zacharias sell groundnuts for his mother?",
+              "options": [
+                "age six to fourteen",
+                "age eight to sixteen",
+                "age three to ten",
+                "age ten to eighteen"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s7_q5",
+              "text": "In 'Groundnuts Seller', what does Zacharias say about eating the groundnuts he sold?",
+              "options": [
+                "he ate some groundnuts himself",
+                "he gave them away for free",
+                "he never ate a single grain of what he sold",
+                "he sold them at double price"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s7_q6",
+              "text": "In 'The Name Zacharias', what did his father say the name Zacharias means?",
+              "options": [
+                "Fomum means 'blessed by God'",
+                "Roy means 'favoured of God'",
+                "ZT means 'servant of God'",
+                "Zacharias means 'remembered of the Lord'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s7_q7",
+              "text": "In one version of 'The Name Zacharias', what 'show name' did the boy want to be called instead?",
+              "options": [
+                "ZT",
+                "Roy",
+                "Darling",
+                "Fomum"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s7_q8",
+              "text": "In 'First Tergal Trousers', where did Zacharias work to earn money for his first trousers?",
+              "options": [
+                "a coffee farm",
+                "Rev. Gordon's garden",
+                "his father's church",
+                "a fishing pond"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s7_q9",
+              "text": "In 'First Tergal Trousers', how much was young Zacharias paid per hour of garden work?",
+              "options": [
+                "twenty francs per hour",
+                "fifty francs per hour",
+                "four thousand francs per hour",
+                "two shillings per hour"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s7_q10",
+              "text": "In 'First Tergal Trousers', how much did the trousers cost in 1962?",
+              "options": [
+                "two hundred francs",
+                "twenty francs",
+                "fifty francs",
+                "four thousand francs"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s7_q11",
+              "text": "In 'First Tergal Trousers', how many total hours did Zacharias work to buy his trousers?",
+              "options": [
+                "one hundred hours",
+                "two hundred hours",
+                "fifty hours",
+                "four hundred hours"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s7_q12",
+              "text": "In 'Lying Silence', how old was Zacharias when the sugar cane incident happened?",
+              "options": [
+                "thirteen years old",
+                "eleven or twelve years old",
+                "seven or eight years old",
+                "five years old"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "questions": [
+            {
+              "id": "ztf_l1_s8_q1",
+              "text": "In 'Lying Silence', what was the name of the big boy who led the children to steal sugar cane?",
+              "options": [
+                "Pastor Fai",
+                "Musi",
+                "Thaddeus",
+                "Godfred Osimensa"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s8_q2",
+              "text": "In 'Lying Silence', to whom did the stolen sugar cane belong?",
+              "options": [
+                "Rev. Gordon",
+                "Pastor Fai",
+                "Thaddeus",
+                "Professor Landor"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s8_q3",
+              "text": "In 'Lying Silence', how many of the children refused to swear secrecy about the stolen sugar cane?",
+              "options": [
+                "just Zacharias alone",
+                "none of the children",
+                "two of them, out of seven or eight children",
+                "all of the children"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s8_q4",
+              "text": "In 'Abundance Of Food', what phrase was forbidden to say in the home where Zacharias grew up?",
+              "options": [
+                "'The pot is empty'",
+                "'I am hungry'",
+                "'There is no more meat'",
+                "'Food is finished'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s8_q5",
+              "text": "In 'Miraculously Healed At Twelve', what did his mother give young Zacharias when he was dying of illness?",
+              "options": [
+                "penicillin mixed with a bit of oil",
+                "a visit to the hospital",
+                "traditional herbs",
+                "only prayer and fasting"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s8_q6",
+              "text": "In 'Miraculously Healed At Twelve', about how old was Zacharias when he fell seriously ill?",
+              "options": [
+                "seven or eight",
+                "twenty-eight",
+                "eleven or twelve",
+                "thirteen"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s8_q7",
+              "text": "In 'Father's Cook', how old was Zacharias when he had to cook for his father for a month?",
+              "options": [
+                "eleven",
+                "twelve",
+                "fourteen",
+                "thirteen"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s8_q8",
+              "text": "In 'Father's Cook', how much did half a kilo of meat cost each week?",
+              "options": [
+                "four thousand francs",
+                "fifty francs",
+                "six pence",
+                "twenty francs"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s8_q9",
+              "text": "In 'No Difference', at what age did Zacharias's elder sister get married?",
+              "options": [
+                "eleven",
+                "twenty-eight",
+                "sixteen",
+                "fourteen"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s8_q10",
+              "text": "In 'No Difference', what household tasks did Zacharias take over after his sister married?",
+              "options": [
+                "washing clothes only",
+                "pounding 'achu' and making 'gari'",
+                "farming groundnuts only",
+                "cooking rice and beans"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s8_q11",
+              "text": "In 'A Big Heart', where was Zacharias attending High School when two girls asked about his heart?",
+              "options": [
+                "Bambili, North West Cameroon",
+                "Ngie",
+                "Njikwa",
+                "Nyasoso"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s8_q12",
+              "text": "In 'A Big Heart', how many women did young Zacharias say his heart could love, when asked by two girls?",
+              "options": [
+                "one thousand",
+                "fifty",
+                "five hundred",
+                "one hundred"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "questions": [
+            {
+              "id": "ztf_l1_s9_q1",
+              "text": "In 'A Big Heart', in what month and year did the corridor conversation take place?",
+              "options": [
+                "December 1964",
+                "September 1999",
+                "October 2002",
+                "1962"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s9_q2",
+              "text": "In 'Giving To Parents', what did young Zacharias receive at CPC after one term?",
+              "options": [
+                "a Bible",
+                "a scholarship",
+                "a set of trousers",
+                "a new bicycle"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s9_q3",
+              "text": "In 'Giving To Parents', what did young Zacharias do with the scholarship money the school returned to him?",
+              "options": [
+                "gave the money to his sister",
+                "donated the money to the church",
+                "kept the money for himself",
+                "took the returned money back to his father"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q4",
+              "text": "In 'Discipled In Harsh Discipline', what discipline did his father impose on Zacharias for a month, even though there were beds at home?",
+              "options": [
+                "clean the church every morning",
+                "give up his meals",
+                "walk eighteen kilometres daily",
+                "sleep on the mat the whole month"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q5",
+              "text": "In 'Lasting Relationships', how old was Zacharias when his family left Wumnembug?",
+              "options": [
+                "eleven years old",
+                "five years old",
+                "thirteen years old",
+                "eight years old"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s9_q6",
+              "text": "In 'Lasting Relationships', what was the name of his childhood friend from Wumnembug?",
+              "options": [
+                "Thaddeus",
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Musi"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q7",
+              "text": "In 'Lasting Relationships', what did Zacharias give to his old friend Musi when they reunited?",
+              "options": [
+                "a new pair of trousers",
+                "his father's old cutlass",
+                "a Bible and hymn book",
+                "half of the money he had, and a specially cooked dish"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q8",
+              "text": "In 'Lasting Relationships', who is credited with making the Bible 'alive' to Zacharias in 1966?",
+              "options": [
+                "Theodore Wanneh Andoseh",
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Musi"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s9_q9",
+              "text": "In 'Lasting Relationships', who supervised Zacharias's thesis and helped him enter the British system?",
+              "options": [
+                "Rev. Gordon",
+                "Godfred Osimensa",
+                "Pastor Fai",
+                "Professor Landor"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q10",
+              "text": "In 'Darling ZT', how did his father address him in letters?",
+              "options": [
+                "'My Friend'",
+                "'Remembered of the Lord'",
+                "'Pastor's Son'",
+                "'Darling ZT'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s9_q11",
+              "text": "In 'I Give You Jesus For Your Wealth', what did his father tell him in 1971 instead of leaving him land?",
+              "options": [
+                "'I give you my land'",
+                "'I give you Jesus for your wealth'",
+                "'I give you my name'",
+                "'I give you my blessing'"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s9_q12",
+              "text": "In 'Where Is ZT?', what were his father's last words before he passed away?",
+              "options": [
+                "'Where is ZT'",
+                "'Take care of your mother'",
+                "'I am proud of you'",
+                "'Keep the faith'"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "questions": [
+            {
+              "id": "ztf_l1_s10_q1",
+              "text": "In 'In My Father's Presence', how old was Zacharias when his father died?",
+              "options": [
+                "twenty-eight years old",
+                "thirteen years old",
+                "thirty years old",
+                "twenty-one years old"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s10_q2",
+              "text": "In 'A Seal Of Faithfulness', where had Zacharias been working as a lecturer before returning home at twenty-eight?",
+              "options": [
+                "three years abroad, at Fourah Bay",
+                "seven years abroad, at Makerere",
+                "ten years abroad, in Sierra Leone",
+                "five years abroad, at Durham"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s10_q3",
+              "text": "In 'A Seal Of Faithfulness', what else happened to his mother around the same period as his father's death?",
+              "options": [
+                "his mother moved abroad",
+                "his mother recovered fully",
+                "his mother also died in his hands",
+                "his mother remarried"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s10_q4",
+              "text": "In 'Just To Please', what did his mother prepare when his father came home from a tour, unsure of his appetite?",
+              "options": [
+                "no food at all, only prayer",
+                "three different types of food",
+                "a single elaborate feast",
+                "food from the market only"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s10_q5",
+              "text": "In 'Just To Please', what did the children do along the road to welcome their father home, in addition to the food?",
+              "options": [
+                "painted the house walls",
+                "lined palm branches along the road",
+                "planted new flowers in the yard",
+                "hung new curtains in the house"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s10_q6",
+              "text": "In 'The Treason Of Treasons', how old was Zacharias when his mother said she was going back to her family?",
+              "options": [
+                "thirteen",
+                "twenty-eight",
+                "sixteen",
+                "eleven"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s10_q7",
+              "text": "In 'The Treason Of Treasons', in what year did Zacharias finally forgive his mother?",
+              "options": [
+                "1969",
+                "1966",
+                "1971",
+                "1978"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s10_q8",
+              "text": "In 'The Canadian Scholarship', in what year was Zacharias offered a scholarship to Canada?",
+              "options": [
+                "1973",
+                "1966",
+                "1978",
+                "1969"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s10_q9",
+              "text": "In 'The Canadian Scholarship', where did Zacharias spend a week for a detailed medical exam?",
+              "options": [
+                "Douala",
+                "Bamenda",
+                "Buea",
+                "Yaounde"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s10_q10",
+              "text": "In 'The Canadian Scholarship', after missing the scholarship deadline, where did Zacharias go the next month, meeting the Lord Jesus afresh?",
+              "options": [
+                "Cameroon",
+                "Sierra Leone",
+                "Uganda",
+                "Great Britain"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s10_q11",
+              "text": "In 'The Canadian Scholarship', what results were delayed and cost Zacharias the Canadian opportunity?",
+              "options": [
+                "his birth certificate",
+                "his father's approval letter",
+                "the London GCE results",
+                "the medical exam results"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s10_q12",
+              "text": "In 'Serving My Parents', how many years did the Lord Jesus spend serving His own parents?",
+              "options": [
+                "eighteen years",
+                "seven years",
+                "twenty-eight years",
+                "thirteen years"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "questions": [
+            {
+              "id": "ztf_l1_s11_q1",
+              "text": "In 'Serving My Parents', what does a child's attitude towards his parents say about his future, according to the text?",
+              "options": [
+                "a prophecy of his life",
+                "of no real importance",
+                "only relevant to pastors",
+                "a private family matter"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s11_q2",
+              "text": "In the short story titled 'My Father', how are the three words used to describe Brother Zach's father?",
+              "options": [
+                "strict, distant and silent",
+                "gentle, quiet and shy",
+                "wealthy, famous and busy",
+                "holy, consecrated and radical"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s11_q3",
+              "text": "At the end of 'Lying Silence', what lesson does Zacharias draw about staying quiet?",
+              "options": [
+                "children should never speak up",
+                "honesty always hurts",
+                "silence is always golden",
+                "the one who keeps silent is a companion of the wicked"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s11_q4",
+              "text": "What do the initials 'CPC', the school Zacharias attended in Bali, stand for?",
+              "options": [
+                "Christian Missionary Fellowship",
+                "Cameroon Protestant College",
+                "Church Prayer Crusade",
+                "College of Presbyterians"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s11_q5",
+              "text": "According to a footnote, what does the term 'big' mean, as young Zacharias used it about inspecting his trousers?",
+              "options": [
+                "a senior student in boarding school charged to take care of a younger student",
+                "a church pastor",
+                "a school headmaster",
+                "a farm supervisor"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s11_q6",
+              "text": "According to footnotes, what are 'achu' and 'gari', which Zacharias's sister used to prepare?",
+              "options": [
+                "types of prayer meetings",
+                "kinds of gospel tracts",
+                "Presbyterian church offices",
+                "local dishes eaten by some tribes of Cameroon"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s11_q7",
+              "text": "According to a footnote, who was Godfred Osimensa?",
+              "options": [
+                "a Cameroonian pastor",
+                "a British university professor",
+                "a childhood friend from Wumnembug",
+                "a Ghanaian preacher and Bible teacher"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s11_q8",
+              "text": "According to a footnote, what were 'tergal' trousers?",
+              "options": [
+                "a type of local food",
+                "a school uniform",
+                "fashionable trousers of the time",
+                "a kind of prayer meeting"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s11_q9",
+              "text": "Where and when did Brother Zach share the testimony 'A Model Father'?",
+              "options": [
+                "Tuesday Teaching, Yaounde, 17th December, 1996",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s11_q10",
+              "text": "Where and when did Brother Zach share the testimony 'Paganism In The Village'?",
+              "options": [
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "120-hour Prayer Siege, Yaounde, 14th October, 2004",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s11_q11",
+              "text": "Where and when did Brother Zach share the testimony 'My Father Was A Preacher'?",
+              "options": [
+                "Yaounde, 11th February, 2006",
+                "Yaounde, 7th October, 2004",
+                "Yaounde, 12th September, 2002",
+                "Yaounde, 13th February, 2006"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s11_q12",
+              "text": "Where and when did Brother Zach share the testimony 'Pastor's Son'?",
+              "options": [
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Leadership Course, Yaounde, 22-24 March, 1996",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Sharing Informally, Yaounde, 7th October, 2004"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "questions": [
+            {
+              "id": "ztf_l1_s12_q1",
+              "text": "Where and when did Brother Zach share the testimony 'A Careful Child'?",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Yaounde, 12th September, 2002",
+                "Morning Prayer, Yaounde, 4th November, 1999"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s12_q2",
+              "text": "Where and when did Brother Zach share the testimony 'Son Of A Missionary'?",
+              "options": [
+                "Ivorian Convention, 17th September, 1999",
+                "Yaounde, 21st August, 2003",
+                "Yaounde, 5th June, 2008",
+                "Yaounde, 18th October, 2008"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s12_q3",
+              "text": "Where and when did Brother Zach share the testimony 'First Salary'?",
+              "options": [
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Ivorian Convention, 17th September, 1999",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s12_q4",
+              "text": "Where and when did Brother Zach share the testimony 'When I Fell In Love'?",
+              "options": [
+                "Special Night, Yaounde, 11th January, 2002",
+                "Yaounde, 6th November, 2004",
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "Prayer Night, Yaounde, 4th November, 1999"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s12_q5",
+              "text": "Where and when did Brother Zach share the testimony 'Welcome Gifts'?",
+              "options": [
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Yaounde, 13th October, 1996"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l1_s12_q6",
+              "text": "Where and when did Brother Zach share the testimony 'Hands Full Of Blisters'?",
+              "options": [
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l1_s12_q7",
+              "text": "Where and when did Brother Zach share the testimony 'A Hardworking Child'?",
+              "options": [
+                "Yaounde, 11th February, 2006",
+                "Yaounde, 13th February, 2006",
+                "Yaounde, 7th October, 2002",
+                "Yaounde, 12th September, 2002"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s12_q8",
+              "text": "Where and when did Brother Zach share the testimony 'Water For My Father'?",
+              "options": [
+                "52 Day Prayer Crusade, Yaounde, 19th July, 2000",
+                "40-Day Prayer Crusade, Day 2, Yaounde, 18th June, 2000",
+                "83rd Prayer Siege",
+                "40-Day Prayer Crusade, Day 10, Yaounde, 27th June, 2000"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s12_q9",
+              "text": "Where and when did Brother Zach share the testimony 'My Father's Friend'?",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Special Prayer, Yaounde, 21st August, 2003",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l1_s12_q10",
+              "text": "Where and when did Brother Zach share the testimony 'You Will Be Sent Away'?",
+              "options": [
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 12th January, 2009"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s12_q11",
+              "text": "Where and when did Brother Zach first share the testimony 'The Name Zacharias' (the 'change it in heaven' version)?",
+              "options": [
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "Yaounde, 28th October, 2000",
+                "Prayer Night, Yaounde, 5th January, 2009"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l1_s12_q12",
+              "text": "Where and when did Brother Zach share the testimony 'First Tergal Trousers'?",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "77th Prayer Siege, Yaounde, 18th October, 2008",
+                "Monday World Conquest Prayer Meeting, Yaounde, 13th October, 1996"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "index": 2,
-      "stages": []
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "ztf_l2_s1_q1",
+              "text": "The small collection of brief testimonies given by Professor Fomum is called what?",
+              "options": [
+                "Darling ZT",
+                "My Father's Friend",
+                "The Childhood Years",
+                "From His Lips"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s1_q2",
+              "text": "The preface of the book was signed by which person?",
+              "options": [
+                "Zacharias Tanee Fomum",
+                "Prisca Fomum",
+                "Godfred Osimensa",
+                "Theodore Wanneh Andoseh"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s1_q3",
+              "text": "The preface says which Bible king wrote openly about his joys and failures in the Psalms?",
+              "options": [
+                "Pastor Fai",
+                "The apostle Paul",
+                "King David",
+                "Professor Landor"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s1_q4",
+              "text": "According to the preface, the Lord Jesus fasted in the desert, led by the Holy Spirit, for how long?",
+              "options": [
+                "fourteen days",
+                "forty years",
+                "four days",
+                "forty days"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s1_q5",
+              "text": "Brother Zach's physical birth date, as given in the introduction, is:",
+              "options": [
+                "20th June, 1945",
+                "13th June, 1956",
+                "1st October, 1966",
+                "14th March, 2009"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s1_q6",
+              "text": "The date on which Brother Zach was born of the Holy Spirit is:",
+              "options": [
+                "20th June, 1945",
+                "13th June, 1956",
+                "1st October, 1966",
+                "24th October, 1970"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s1_q7",
+              "text": "Brother Zach's absolute surrender of himself to the Lord Jesus and His service happened on:",
+              "options": [
+                "24th October, 1970",
+                "1st October, 1966",
+                "20th June, 1945",
+                "13th June, 1956"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s1_q8",
+              "text": "According to the introduction, Brother Zach was filled with the Holy Spirit on:",
+              "options": [
+                "24th October, 1970",
+                "13th June, 1956",
+                "14th March, 2009",
+                "1st October, 1966"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s1_q9",
+              "text": "Brother Zach passed away and went to be with the Lord on which date?",
+              "options": [
+                "20th June, 1945",
+                "12th March, 2009",
+                "24th October, 1970",
+                "14th March, 2009"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s1_q10",
+              "text": "At the time of his passing, Brother Zach was how many years old?",
+              "options": [
+                "44",
+                "54",
+                "74",
+                "64"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s1_q11",
+              "text": "Brother Zach graduated with a first-class BSc, as a prize-winning student, from which college?",
+              "options": [
+                "University of Makerere",
+                "University of Durham",
+                "Fourah Bay College",
+                "University of Yaounde 1"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s1_q12",
+              "text": "Brother Zach's graduation from Fourah Bay College took place in:",
+              "options": [
+                "October 1966",
+                "October 1973",
+                "October 2005",
+                "October 1969"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "ztf_l2_s2_q1",
+              "text": "Brother Zach's PhD (Doctor of Philosophy) in Organic Chemistry research was awarded by:",
+              "options": [
+                "Fourah Bay College",
+                "University of Makerere, Kampala, Uganda",
+                "University of Yaounde 1",
+                "University of Durham"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s2_q2",
+              "text": "Brother Zach's PhD was awarded in which month and year?",
+              "options": [
+                "October 1970",
+                "October 1969",
+                "October 1973",
+                "October 2005"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s2_q3",
+              "text": "Brother Zach's published scientific work was evaluated by which university in Great Britain?",
+              "options": [
+                "Fourah Bay College",
+                "University of Yaounde 1",
+                "University of Durham",
+                "University of Makerere"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s2_q4",
+              "text": "The D.Sc. degree from the University of Durham was awarded to Brother Zach in:",
+              "options": [
+                "October 1969",
+                "October 1973",
+                "October 2005",
+                "March 2009"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s2_q5",
+              "text": "Brother Zach was a Professor of Organic Chemistry at which university in Cameroon?",
+              "options": [
+                "University of Yaounde 1",
+                "Fourah Bay College",
+                "University of Makerere",
+                "University of Durham"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s2_q6",
+              "text": "The introduction states Brother Zach supervised or co-supervised how many Master's/Doctoral theses?",
+              "options": [
+                "155",
+                "1,330",
+                "100",
+                "50"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s2_q7",
+              "text": "Brother Zach co-authored over how many scientific articles in leading international journals?",
+              "options": [
+                "over 50",
+                "over 155",
+                "over 1,330",
+                "over 100"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s2_q8",
+              "text": "According to Genesis 1:28, Brother Zach considered scientific research an act of obedience to God's command to:",
+              "options": [
+                "seek first the kingdom",
+                "be fruitful and multiply",
+                "love your neighbour",
+                "subdue the earth"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s2_q9",
+              "text": "The introduction says Brother Zach had read over how many Christian books?",
+              "options": [
+                "over 50,000",
+                "over 100",
+                "over 150",
+                "over 1,330"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s2_q10",
+              "text": "Brother Zach authored over how many books to advance the Gospel of Christ?",
+              "options": [
+                "16 million",
+                "over 100",
+                "over 150",
+                "over 1,330"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s2_q11",
+              "text": "The introduction states how many of Brother Zach's books are currently in circulation?",
+              "options": [
+                "one million",
+                "fifty thousand",
+                "sixteen million",
+                "four million"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s2_q12",
+              "text": "Brother Zach's four million books in circulation are found in how many languages?",
+              "options": [
+                "seven languages",
+                "eleven languages",
+                "fifty languages",
+                "seventeen languages"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "ztf_l2_s3_q1",
+              "text": "The introduction says how many gospel tracts written by Brother Zach are in circulation?",
+              "options": [
+                "eighteen thousand",
+                "four million",
+                "sixteen million",
+                "fifty thousand"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s3_q2",
+              "text": "Brother Zach's sixteen million gospel tracts are in circulation in how many languages?",
+              "options": [
+                "eleven languages",
+                "seventeen languages",
+                "fifty nations",
+                "seven languages"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s3_q3",
+              "text": "The introduction states Brother Zach had over how many recorded answers to prayer?",
+              "options": [
+                "over 18,000",
+                "over 1,330",
+                "over 10,000",
+                "over 50,000"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s3_q4",
+              "text": "According to the introduction, Brother Zach and his team carried out over how many Prayer Crusades?",
+              "options": [
+                "57",
+                "100",
+                "80",
+                "250"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s3_q5",
+              "text": "The introduction defines a Prayer Crusade as a period of how long, with at least eight hours of prayer daily?",
+              "options": [
+                "eighty hours",
+                "forty days and nights",
+                "twenty-one days",
+                "twenty-four hours"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s3_q6",
+              "text": "The introduction states Brother Zach and his team carried out over how many prayer sieges?",
+              "options": [
+                "250",
+                "57",
+                "100",
+                "80"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s3_q7",
+              "text": "A prayer siege is described as near non-stop praying over a period ranging from:",
+              "options": [
+                "5 to 47 kilometres",
+                "24 to 120 hours",
+                "40 days and nights",
+                "3 to 21 days"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s3_q8",
+              "text": "Brother Zach carried out over how many prayer walks in towns and cities around the world?",
+              "options": [
+                "700",
+                "80",
+                "100",
+                "57"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s3_q9",
+              "text": "Brother Zach's prayer walks ranged between which two distances?",
+              "options": [
+                "twenty and one hundred kilometres",
+                "one and ten kilometres",
+                "three and forty days",
+                "five and forty-seven kilometres"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s3_q10",
+              "text": "The introduction states Brother Zach carried out over how many fasts?",
+              "options": [
+                "over 50,000",
+                "over 60",
+                "over 100",
+                "over 250"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s3_q11",
+              "text": "Brother Zach's fasts, drinking only water or water and vitamins, ranged from:",
+              "options": [
+                "one day to a week",
+                "one to six weeks",
+                "fifty-two to eighty days",
+                "three days to forty days"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s3_q12",
+              "text": "Brother Zach was given a fasting body and asked to carry out supra-long fasts of between:",
+              "options": [
+                "52 and 80 days",
+                "24 and 120 hours",
+                "5 and 47 kilometres",
+                "3 and 40 days"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "ztf_l2_s4_q1",
+              "text": "Brother Zach and his wife grew to investing what percentage of their income into the Gospel?",
+              "options": [
+                "50%",
+                "15%",
+                "99%",
+                "92.5%"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s4_q2",
+              "text": "The introduction states Brother Zach and his wife hoped one day to invest what percentage of their income into the Gospel?",
+              "options": [
+                "92.5%",
+                "50%",
+                "100%",
+                "99%"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s4_q3",
+              "text": "Brother Zach's daily 15 minutes to 6 hours alone with God is referred to in the introduction as:",
+              "options": [
+                "Prayer Crusades",
+                "Daily Dynamic Encounters with God",
+                "Retreats For Spiritual Progress",
+                "Prayer Sieges"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s4_q4",
+              "text": "Brother Zach is said to have over how many recorded Daily Dynamic Encounters with God?",
+              "options": [
+                "over 50,000",
+                "over 60",
+                "over 18,000",
+                "over 10,000"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s4_q5",
+              "text": "The introduction refers to Brother Zach's periods of withdrawal, lasting 3 to 21 days, as:",
+              "options": [
+                "Retreats For Spiritual Progress",
+                "Missionary Journeys",
+                "Prayer Crusades",
+                "Daily Dynamic Encounters with God"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s4_q6",
+              "text": "Brother Zach went on over how many missionary journeys within Cameroon, ranging from one day to three weeks?",
+              "options": [
+                "over 60",
+                "over 700",
+                "over 500",
+                "over 10,000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s4_q7",
+              "text": "Brother Zach went on over how many missionary journeys, ranging from two days to six weeks, to over 70 nations?",
+              "options": [
+                "over 500",
+                "over 700",
+                "over 50",
+                "over 10,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s4_q8",
+              "text": "Brother Zach is the founding team-leader of which evangelism and church-planting movement?",
+              "options": [
+                "Retreats For Spiritual Progress",
+                "Basel Mission",
+                "Daily Dynamic Encounters with God",
+                "Christian Missionary Fellowship International"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s4_q9",
+              "text": "Brother Zach and his team have seen over how many recorded miracles of healing?",
+              "options": [
+                "over 50,000",
+                "over 1,330",
+                "over 700",
+                "over 10,000"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s4_q10",
+              "text": "Brother Zach was married to a woman named:",
+              "options": [
+                "Prisca",
+                "Darling ZT",
+                "Prisca Zei Fomum's mother",
+                "Musi"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s4_q11",
+              "text": "Brother Zach and Prisca had how many children involved with them in the Gospel?",
+              "options": [
+                "eight",
+                "two",
+                "seven",
+                "five"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s4_q12",
+              "text": "Prisca Zei Fomum is described in the introduction as a national and international minister specialising in:",
+              "options": [
+                "a prayer-siege leader",
+                "a Bible school teacher",
+                "a chemistry professor",
+                "a minister to children"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "ztf_l2_s5_q1",
+              "text": "In the story 'A Model Father', Brother Zach's father served the church as:",
+              "options": [
+                "a coffee farmer",
+                "a chemistry professor",
+                "a schoolteacher",
+                "a pastor in the Presbyterian Church"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s5_q2",
+              "text": "According to 'A Model Father', Brother Zach's father encouraged generosity in his churches by doing what with his communion card?",
+              "options": [
+                "circulated his communion card",
+                "refused to give",
+                "hid his giving",
+                "borrowed money from members"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s5_q3",
+              "text": "According to 'My Father Was A Preacher', the father practiced his sermons at a valley near:",
+              "options": [
+                "a big stone at the top of a hill",
+                "his own bedroom",
+                "the church pulpit",
+                "a river bank"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s5_q4",
+              "text": "In 'My Father Was A Preacher', the father thundered out his sermon rehearsal during which hours?",
+              "options": [
+                "6 a.m. to 8 a.m.",
+                "12 p.m. to 2 p.m.",
+                "8 p.m. to 10 p.m.",
+                "4 p.m. to 6 p.m."
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s5_q5",
+              "text": "According to 'Pastor's Son', Brother Zach's father went to Bible school in which town?",
+              "options": [
+                "Ngie",
+                "Njikwa",
+                "Nyasoso",
+                "Bambili"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s5_q6",
+              "text": "According to 'Pastor's Son', the church went 'off the rails' after bringing in whom?",
+              "options": [
+                "two missionaries from Sierra Leone",
+                "two pastors from Uganda",
+                "two evangelists from Britain",
+                "two liberal theologians from Belgium"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s5_q7",
+              "text": "According to 'A Careful Child', the young boy kept and reused one pencil for how long?",
+              "options": [
+                "two years, between ages eight and ten",
+                "one year, between ages three and four",
+                "ten years, between ages one and eleven",
+                "four years, between the ages of six and ten"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s5_q8",
+              "text": "According to 'Son Of A Missionary', the missionaries sent the father to which place, said to have cannibals?",
+              "options": [
+                "Nyasoso",
+                "Njikwa in the Batibo division",
+                "Ngie",
+                "Wumnembug"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s5_q9",
+              "text": "According to 'Son Of A Missionary', young Zacharias was born on the mission field at which station?",
+              "options": [
+                "Mbengwi",
+                "Ngie",
+                "Wumnembug",
+                "Njikwa"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s5_q10",
+              "text": "According to 'Son Of A Missionary', the tract his father gave him at Ngie, which he read and believed, was called:",
+              "options": [
+                "someone died for you",
+                "darling ZT",
+                "food is finished",
+                "remembered of the Lord"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s5_q11",
+              "text": "According to 'First Salary', the boy worked on land belonging to what kind of farmer?",
+              "options": [
+                "a missionary",
+                "a pastor",
+                "a coffee farmer",
+                "a schoolteacher"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s5_q12",
+              "text": "According to 'First Salary', the coffee farmer paid the boy how much after two months?",
+              "options": [
+                "four thousand francs",
+                "six pence",
+                "one shilling",
+                "two shillings"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": [
+            {
+              "id": "ztf_l2_s6_q1",
+              "text": "According to 'First Salary', the boy's age when he cleared the coffee farmer's land was:",
+              "options": [
+                "not yet nine",
+                "thirteen",
+                "seven",
+                "exactly ten"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s6_q2",
+              "text": "According to 'When I Fell In Love', the narrator says he was how old when this happened?",
+              "options": [
+                "six years old",
+                "ten years old",
+                "eight years old",
+                "eleven years old"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s6_q3",
+              "text": "According to 'When I Fell In Love', from age ten the boy began to do what for his father?",
+              "options": [
+                "wrote his father's sermons",
+                "built his father's house",
+                "cooked all his father's meals",
+                "washed and ironed his father's clothes"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s6_q4",
+              "text": "According to 'When I Fell In Love', one of the two reasons given for the boy being beaten was:",
+              "options": [
+                "stealing sugar cane",
+                "telling his elder sister to 'Shut up'",
+                "losing his father's cutlass",
+                "changing his name"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s6_q5",
+              "text": "According to 'Welcome Gifts', when he ran out of gift ideas, the boy gave his father a gift by doing what?",
+              "options": [
+                "memorized the whole of Matthew chapter 5",
+                "wrote a letter of apology",
+                "bought kernels at the market",
+                "sang a welcome song"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s6_q6",
+              "text": "According to 'Welcome Gifts', the father had how many churches under his supervision?",
+              "options": [
+                "one hundred churches",
+                "fifty churches",
+                "eighty churches",
+                "eighteen churches"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s6_q7",
+              "text": "According to 'Hands Full Of Blisters', the narrator attended which named school?",
+              "options": [
+                "a Bible school in Nyasoso",
+                "University of Yaounde 1",
+                "Fourah Bay College",
+                "CPC (Cameroon Protestant College) Bali"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s6_q8",
+              "text": "According to 'Hands Full Of Blisters', the boy worked hard during holidays mainly to:",
+              "options": [
+                "build a new house",
+                "plant new crops",
+                "get firewood for his mother",
+                "repair the church roof"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s6_q9",
+              "text": "According to 'A Hardworking Child', Saturday farm work began by what time?",
+              "options": [
+                "noon",
+                "3.30 a.m.",
+                "8 a.m.",
+                "6 a.m."
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s6_q10",
+              "text": "According to 'Water For My Father', he woke up at what time each morning for this task?",
+              "options": [
+                "midnight",
+                "3.30 every morning",
+                "6 a.m. every morning",
+                "5 p.m. every evening"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s6_q11",
+              "text": "According to 'My Father's Friend', the official Empire Day celebration grounds were how far from the village?",
+              "options": [
+                "eleven kilometres",
+                "eighteen kilometres",
+                "five kilometres",
+                "forty-seven kilometres"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s6_q12",
+              "text": "According to 'My Father's Friend', the father gave his son how much for the six-day trip?",
+              "options": [
+                "six pence",
+                "twenty francs",
+                "one shilling",
+                "two shillings"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "questions": [
+            {
+              "id": "ztf_l2_s7_q1",
+              "text": "According to 'My Father's Friend', Zacharias's elder sister received how much for the trip?",
+              "options": [
+                "two shillings",
+                "four thousand francs",
+                "six pence",
+                "one shilling"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s7_q2",
+              "text": "According to 'My Father's Friend', the boy returned the money because:",
+              "options": [
+                "he spent it all on groundnuts",
+                "he had lost it on the way",
+                "he gave it to a friend",
+                "he had not spent it, having eaten at his godmother's"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s7_q3",
+              "text": "According to 'My Father's Friend', the father declared his son his friend when the boy was how old?",
+              "options": [
+                "thirteen",
+                "nine",
+                "eleven",
+                "eight"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s7_q4",
+              "text": "According to 'Groundnuts Seller', the boy sold groundnuts for his mother from what age to what age?",
+              "options": [
+                "age six to fourteen",
+                "age eight to sixteen",
+                "age three to ten",
+                "age ten to eighteen"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s7_q5",
+              "text": "According to 'Groundnuts Seller', regarding the groundnuts he sold, the narrator states that:",
+              "options": [
+                "he never ate a single grain of what he sold",
+                "he sold them at double price",
+                "he gave them away for free",
+                "he ate some groundnuts himself"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s7_q6",
+              "text": "According to 'The Name Zacharias', the father explained the boy's name means:",
+              "options": [
+                "ZT means 'servant of God'",
+                "Roy means 'favoured of God'",
+                "Fomum means 'blessed by God'",
+                "Zacharias means 'remembered of the Lord'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s7_q7",
+              "text": "According to 'The Name Zacharias', the secondary-school boy wanted to change his name to:",
+              "options": [
+                "Darling",
+                "Roy",
+                "ZT",
+                "Fomum"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s7_q8",
+              "text": "According to 'First Tergal Trousers', he worked two hundred hours in whose garden?",
+              "options": [
+                "a fishing pond",
+                "a coffee farm",
+                "his father's church",
+                "Rev. Gordon's garden"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s7_q9",
+              "text": "According to 'First Tergal Trousers', his hourly pay for the garden work was:",
+              "options": [
+                "fifty francs per hour",
+                "twenty francs per hour",
+                "four thousand francs per hour",
+                "two shillings per hour"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s7_q10",
+              "text": "According to 'First Tergal Trousers', the pair of tergal trousers cost how much in 1962?",
+              "options": [
+                "twenty francs",
+                "four thousand francs",
+                "two hundred francs",
+                "fifty francs"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s7_q11",
+              "text": "According to 'First Tergal Trousers', the boy worked a total of how many hours for the money?",
+              "options": [
+                "fifty hours",
+                "four hundred hours",
+                "two hundred hours",
+                "one hundred hours"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s7_q12",
+              "text": "According to 'Lying Silence', the narrator was about how old at the time of this story?",
+              "options": [
+                "seven or eight years old",
+                "thirteen years old",
+                "eleven or twelve years old",
+                "five years old"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "questions": [
+            {
+              "id": "ztf_l2_s8_q1",
+              "text": "According to 'Lying Silence', the bold, courageous boy who organised the singing distraction was named:",
+              "options": [
+                "Thaddeus",
+                "Pastor Fai",
+                "Musi",
+                "Godfred Osimensa"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s8_q2",
+              "text": "According to 'Lying Silence', the sugar cane belonged to the narrator's father's best friend, named:",
+              "options": [
+                "Thaddeus",
+                "Pastor Fai",
+                "Rev. Gordon",
+                "Professor Landor"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s8_q3",
+              "text": "According to 'Lying Silence', out of seven or eight children, how many refused to take the oath of silence?",
+              "options": [
+                "two of them, out of seven or eight children",
+                "just Zacharias alone",
+                "all of the children",
+                "none of the children"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s8_q4",
+              "text": "According to 'Abundance Of Food', which specific phrase was never allowed to be said at home?",
+              "options": [
+                "'I am hungry'",
+                "'The pot is empty'",
+                "'There is no more meat'",
+                "'Food is finished'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s8_q5",
+              "text": "According to 'Miraculously Healed At Twelve', his mother treated his illness by giving him:",
+              "options": [
+                "traditional herbs",
+                "only prayer and fasting",
+                "a visit to the hospital",
+                "penicillin mixed with a bit of oil"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s8_q6",
+              "text": "According to 'Miraculously Healed At Twelve', the narrator states he was around what age during this illness?",
+              "options": [
+                "eleven or twelve",
+                "thirteen",
+                "twenty-eight",
+                "seven or eight"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s8_q7",
+              "text": "According to 'Father's Cook', the boy was how old when his mother went to the village and he took over cooking?",
+              "options": [
+                "twelve",
+                "thirteen",
+                "eleven",
+                "fourteen"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s8_q8",
+              "text": "According to 'Father's Cook', half a kilo of meat was bought for how much?",
+              "options": [
+                "six pence",
+                "four thousand francs",
+                "fifty francs",
+                "twenty francs"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s8_q9",
+              "text": "According to 'No Difference', the elder sister left the household to marry at what age?",
+              "options": [
+                "eleven",
+                "sixteen",
+                "twenty-eight",
+                "fourteen"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s8_q10",
+              "text": "According to 'No Difference', to make sure there was 'no difference', Zacharias did which of his sister's chores?",
+              "options": [
+                "farming groundnuts only",
+                "cooking rice and beans",
+                "pounding 'achu' and making 'gari'",
+                "washing clothes only"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s8_q11",
+              "text": "According to 'A Big Heart', the incident with the corridor conversation took place in which town?",
+              "options": [
+                "Njikwa",
+                "Bambili, North West Cameroon",
+                "Ngie",
+                "Nyasoso"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s8_q12",
+              "text": "According to 'A Big Heart', when asked how big his heart was, Zacharias answered he could love how many women?",
+              "options": [
+                "fifty",
+                "one hundred",
+                "one thousand",
+                "five hundred"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "questions": [
+            {
+              "id": "ztf_l2_s9_q1",
+              "text": "According to 'A Big Heart', the exchange with the two girls is dated to:",
+              "options": [
+                "October 2002",
+                "December 1964",
+                "September 1999",
+                "1962"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s9_q2",
+              "text": "According to 'Giving To Parents', after one term at CPC, Zacharias was awarded what?",
+              "options": [
+                "a scholarship",
+                "a set of trousers",
+                "a new bicycle",
+                "a Bible"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s9_q3",
+              "text": "According to 'Giving To Parents', when the school returned the money his father had paid, Zacharias:",
+              "options": [
+                "donated the money to the church",
+                "gave the money to his sister",
+                "kept the money for himself",
+                "took the returned money back to his father"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s9_q4",
+              "text": "According to 'Discipled In Harsh Discipline', the father told Zacharias he would do what for a month?",
+              "options": [
+                "clean the church every morning",
+                "walk eighteen kilometres daily",
+                "sleep on the mat the whole month",
+                "give up his meals"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s9_q5",
+              "text": "According to 'Lasting Relationships', the family left Wumnembug when the narrator was how old?",
+              "options": [
+                "eleven years old",
+                "thirteen years old",
+                "eight years old",
+                "five years old"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s9_q6",
+              "text": "According to 'Lasting Relationships', the childhood friend he last saw in 1951 and later helped was named:",
+              "options": [
+                "Musi",
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Thaddeus"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s9_q7",
+              "text": "According to 'Lasting Relationships', upon meeting Musi again, Zacharias gave him:",
+              "options": [
+                "a Bible and hymn book",
+                "half of the money he had, and a specially cooked dish",
+                "a new pair of trousers",
+                "his father's old cutlass"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s9_q8",
+              "text": "According to 'Lasting Relationships', the person who helped him through doubts about evolution and the Bible in 1966 was:",
+              "options": [
+                "Theodore Wanneh Andoseh",
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Musi"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s9_q9",
+              "text": "According to 'Lasting Relationships', the professor who finished supervising his thesis in 1973 was named:",
+              "options": [
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Rev. Gordon",
+                "Pastor Fai"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s9_q10",
+              "text": "According to 'Darling ZT', his father's letters to him began with the words:",
+              "options": [
+                "'My Friend'",
+                "'Remembered of the Lord'",
+                "'Pastor's Son'",
+                "'Darling ZT'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s9_q11",
+              "text": "According to this story, rather than leaving him property, his father told Zacharias:",
+              "options": [
+                "'I give you my blessing'",
+                "'I give you Jesus for your wealth'",
+                "'I give you my land'",
+                "'I give you my name'"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s9_q12",
+              "text": "According to 'Where Is ZT?', the final words spoken by his father in this life were:",
+              "options": [
+                "'Take care of your mother'",
+                "'Where is ZT'",
+                "'I am proud of you'",
+                "'Keep the faith'"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "questions": [
+            {
+              "id": "ztf_l2_s10_q1",
+              "text": "According to 'In My Father's Presence', the narrator had become a university lecturer and was how old when his father died?",
+              "options": [
+                "thirteen years old",
+                "twenty-eight years old",
+                "thirty years old",
+                "twenty-one years old"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s10_q2",
+              "text": "According to 'A Seal Of Faithfulness', he came home at twenty-eight after how many years abroad, as a lecturer where?",
+              "options": [
+                "five years abroad, at Durham",
+                "three years abroad, at Fourah Bay",
+                "seven years abroad, at Makerere",
+                "ten years abroad, in Sierra Leone"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s10_q3",
+              "text": "According to 'A Seal Of Faithfulness', while his mother was in hospital in Yaounde, what happened?",
+              "options": [
+                "his mother recovered fully",
+                "his mother moved abroad",
+                "his mother remarried",
+                "his mother also died in his hands"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s10_q4",
+              "text": "According to 'Just To Please', not knowing what meal would satisfy her husband, his mother prepared:",
+              "options": [
+                "food from the market only",
+                "a single elaborate feast",
+                "no food at all, only prayer",
+                "three different types of food"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s10_q5",
+              "text": "According to 'Just To Please', to say 'welcome to the king', the children were asked to do what along both sides of the road?",
+              "options": [
+                "lined palm branches along the road",
+                "planted new flowers in the yard",
+                "painted the house walls",
+                "hung new curtains in the house"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s10_q6",
+              "text": "According to 'The Treason Of Treasons', the narrator was how old during this painful family event?",
+              "options": [
+                "eleven",
+                "thirteen",
+                "sixteen",
+                "twenty-eight"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s10_q7",
+              "text": "According to 'The Treason Of Treasons', although the event happened when he was thirteen, he only forgave his mother in:",
+              "options": [
+                "1969",
+                "1966",
+                "1971",
+                "1978"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s10_q8",
+              "text": "According to 'The Canadian Scholarship', the Canadian scholarship offer came in which year?",
+              "options": [
+                "1966",
+                "1973",
+                "1978",
+                "1969"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s10_q9",
+              "text": "According to 'The Canadian Scholarship', the week-long medical examination for the scholarship took place in:",
+              "options": [
+                "Yaounde",
+                "Buea",
+                "Bamenda",
+                "Douala"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s10_q10",
+              "text": "According to 'The Canadian Scholarship', having missed the Canadian opportunity, he went the next month to:",
+              "options": [
+                "Great Britain",
+                "Uganda",
+                "Cameroon",
+                "Sierra Leone"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s10_q11",
+              "text": "According to 'The Canadian Scholarship', which delayed results led him to miss the consulate's deadline?",
+              "options": [
+                "the London GCE results",
+                "his birth certificate",
+                "the medical exam results",
+                "his father's approval letter"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s10_q12",
+              "text": "According to 'Serving My Parents', the Lord Jesus spent how many years in service to His parents?",
+              "options": [
+                "seven years",
+                "eighteen years",
+                "thirteen years",
+                "twenty-eight years"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "questions": [
+            {
+              "id": "ztf_l2_s11_q1",
+              "text": "According to 'Serving My Parents' and 'A Seal Of Faithfulness', a child's attitude to his parents is described as:",
+              "options": [
+                "of no real importance",
+                "only relevant to pastors",
+                "a prophecy of his life",
+                "a private family matter"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s11_q2",
+              "text": "According to the story simply titled 'My Father', the father is summed up in three words as:",
+              "options": [
+                "gentle, quiet and shy",
+                "strict, distant and silent",
+                "holy, consecrated and radical",
+                "wealthy, famous and busy"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s11_q3",
+              "text": "According to the reflection at the end of 'Lying Silence', what does staying silent about wrongdoing make someone?",
+              "options": [
+                "the one who keeps silent is a companion of the wicked",
+                "honesty always hurts",
+                "children should never speak up",
+                "silence is always golden"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s11_q4",
+              "text": "According to a footnote in the childhood chapter, CPC stands for:",
+              "options": [
+                "Church Prayer Crusade",
+                "College of Presbyterians",
+                "Christian Missionary Fellowship",
+                "Cameroon Protestant College"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s11_q5",
+              "text": "The footnote in the childhood chapter explains that a student's 'big' was:",
+              "options": [
+                "a church pastor",
+                "a senior student in boarding school charged to take care of a younger student",
+                "a school headmaster",
+                "a farm supervisor"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s11_q6",
+              "text": "The footnotes describe 'achu' and 'gari', mentioned in 'No Difference', as:",
+              "options": [
+                "kinds of gospel tracts",
+                "types of prayer meetings",
+                "local dishes eaten by some tribes of Cameroon",
+                "Presbyterian church offices"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s11_q7",
+              "text": "The footnote describing Godfred Osimensa, who made the Bible alive to Zacharias, identifies him as:",
+              "options": [
+                "a Ghanaian preacher and Bible teacher",
+                "a Cameroonian pastor",
+                "a British university professor",
+                "a childhood friend from Wumnembug"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s11_q8",
+              "text": "The footnote explaining the word 'tergal', used in 'First Tergal Trousers', describes them as:",
+              "options": [
+                "a kind of prayer meeting",
+                "a school uniform",
+                "fashionable trousers of the time",
+                "a type of local food"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s11_q9",
+              "text": "The occasion and date recorded at the end of 'A Model Father' are:",
+              "options": [
+                "Ivorian Convention, 17th September, 1999",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Tuesday Teaching, Yaounde, 17th December, 1996",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s11_q10",
+              "text": "The occasion and date recorded at the end of 'Paganism In The Village' are:",
+              "options": [
+                "Special Night, Yaounde, 11th January, 2002",
+                "120-hour Prayer Siege, Yaounde, 14th October, 2004",
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s11_q11",
+              "text": "The location and date recorded at the end of 'My Father Was A Preacher' are:",
+              "options": [
+                "Yaounde, 12th September, 2002",
+                "Yaounde, 11th February, 2006",
+                "Yaounde, 13th February, 2006",
+                "Yaounde, 7th October, 2004"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s11_q12",
+              "text": "The occasion and date recorded at the end of 'Pastor's Son' are:",
+              "options": [
+                "Leadership Course, Yaounde, 22-24 March, 1996",
+                "Sharing Informally, Yaounde, 7th October, 2004",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 12th January, 2009"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "questions": [
+            {
+              "id": "ztf_l2_s12_q1",
+              "text": "The occasion and date recorded at the end of 'A Careful Child' are:",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Yaounde, 12th September, 2002",
+                "Morning Prayer, Yaounde, 4th November, 1999"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s12_q2",
+              "text": "The location and date recorded at the end of 'Son Of A Missionary' are:",
+              "options": [
+                "Yaounde, 5th June, 2008",
+                "Yaounde, 18th October, 2008",
+                "Yaounde, 21st August, 2003",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s12_q3",
+              "text": "The occasion and date recorded at the end of 'First Salary' are:",
+              "options": [
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s12_q4",
+              "text": "The occasion and date recorded at the end of 'When I Fell In Love' are:",
+              "options": [
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Yaounde, 6th November, 2004"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s12_q5",
+              "text": "The occasion and date recorded at the end of 'Welcome Gifts' are:",
+              "options": [
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Yaounde, 13th October, 1996",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s12_q6",
+              "text": "The occasion and date recorded at the end of 'Hands Full Of Blisters' are:",
+              "options": [
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s12_q7",
+              "text": "The location and date recorded at the end of 'A Hardworking Child' are:",
+              "options": [
+                "Yaounde, 12th September, 2002",
+                "Yaounde, 7th October, 2002",
+                "Yaounde, 13th February, 2006",
+                "Yaounde, 11th February, 2006"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l2_s12_q8",
+              "text": "The occasion and date recorded at the end of 'Water For My Father' are:",
+              "options": [
+                "40-Day Prayer Crusade, Day 2, Yaounde, 18th June, 2000",
+                "40-Day Prayer Crusade, Day 10, Yaounde, 27th June, 2000",
+                "83rd Prayer Siege",
+                "52 Day Prayer Crusade, Yaounde, 19th July, 2000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l2_s12_q9",
+              "text": "The occasion and date recorded at the end of 'My Father's Friend' are:",
+              "options": [
+                "Special Prayer, Yaounde, 21st August, 2003",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s12_q10",
+              "text": "The occasion and date recorded at the end of 'You Will Be Sent Away' are:",
+              "options": [
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Prayer Night, Yaounde, 10th January, 2009"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l2_s12_q11",
+              "text": "The occasion and date recorded at the end of the first version of 'The Name Zacharias' are:",
+              "options": [
+                "Yaounde, 28th October, 2000",
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Prayer Night, Yaounde, 12th January, 2009"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l2_s12_q12",
+              "text": "The occasion and date recorded at the end of 'First Tergal Trousers' are:",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "77th Prayer Siege, Yaounde, 18th October, 2008",
+                "Monday World Conquest Prayer Meeting, Yaounde, 13th October, 1996",
+                "Prayer Night, Yaounde, 4th November, 1999"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "index": 3,
-      "stages": []
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "ztf_l3_s1_q1",
+              "text": "According to the preface, the title given to this collection of brief testimonies is:",
+              "options": [
+                "My Father's Friend",
+                "Darling ZT",
+                "From His Lips",
+                "The Childhood Years"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s1_q2",
+              "text": "The name signed at the end of the preface, as the writer of that section, is:",
+              "options": [
+                "Prisca Fomum",
+                "Godfred Osimensa",
+                "Zacharias Tanee Fomum",
+                "Theodore Wanneh Andoseh"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s1_q3",
+              "text": "The preface names a Bible king whose openness in the Psalms helped believers know God — who is he?",
+              "options": [
+                "Professor Landor",
+                "King David",
+                "The apostle Paul",
+                "Pastor Fai"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s1_q4",
+              "text": "The preface references Luke 4:1-13, noting the Lord Jesus fasted in the desert for a period of:",
+              "options": [
+                "forty days",
+                "four days",
+                "fourteen days",
+                "forty years"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s1_q5",
+              "text": "Among the several dates listed for Brother Zach's life, the date of his natural birth is:",
+              "options": [
+                "14th March, 2009",
+                "20th June, 1945",
+                "13th June, 1956",
+                "1st October, 1966"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s1_q6",
+              "text": "Distinguishing it from his physical birthday, the date of his spiritual (Holy Spirit) birth was:",
+              "options": [
+                "1st October, 1966",
+                "20th June, 1945",
+                "24th October, 1970",
+                "13th June, 1956"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s1_q7",
+              "text": "The specific date on which he committed himself entirely to the Lord Jesus' service was:",
+              "options": [
+                "1st October, 1966",
+                "24th October, 1970",
+                "20th June, 1945",
+                "13th June, 1956"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s1_q8",
+              "text": "The exact date given for his being filled with the Holy Spirit is:",
+              "options": [
+                "24th October, 1970",
+                "13th June, 1956",
+                "14th March, 2009",
+                "1st October, 1966"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s1_q9",
+              "text": "The introduction states Brother Zach went to be with the Lord on:",
+              "options": [
+                "12th March, 2009",
+                "20th June, 1945",
+                "14th March, 2009",
+                "24th October, 1970"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s1_q10",
+              "text": "The introduction gives his age at death as:",
+              "options": [
+                "64",
+                "44",
+                "74",
+                "54"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s1_q11",
+              "text": "The institution, part of the University of Sierra Leone, where Brother Zach earned his first-class BSc was:",
+              "options": [
+                "University of Durham",
+                "University of Yaounde 1",
+                "University of Makerere",
+                "Fourah Bay College"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s1_q12",
+              "text": "The introduction dates Brother Zach's BSc graduation to:",
+              "options": [
+                "October 1973",
+                "October 2005",
+                "October 1969",
+                "October 1966"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "ztf_l3_s2_q1",
+              "text": "The university, located in Kampala, that awarded Brother Zach his doctorate was:",
+              "options": [
+                "Fourah Bay College",
+                "University of Yaounde 1",
+                "University of Makerere, Kampala, Uganda",
+                "University of Durham"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s2_q2",
+              "text": "According to the introduction, the PhD award date was:",
+              "options": [
+                "October 1973",
+                "October 1970",
+                "October 1969",
+                "October 2005"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s2_q3",
+              "text": "The Great Britain university that awarded Brother Zach the D.Sc. (Doctor of Science) degree was:",
+              "options": [
+                "University of Makerere",
+                "University of Durham",
+                "University of Yaounde 1",
+                "Fourah Bay College"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s2_q4",
+              "text": "The introduction dates the D.Sc. award to:",
+              "options": [
+                "October 2005",
+                "October 1973",
+                "March 2009",
+                "October 1969"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s2_q5",
+              "text": "The Cameroonian university where Brother Zach held his professorship was:",
+              "options": [
+                "Fourah Bay College",
+                "University of Yaounde 1",
+                "University of Makerere",
+                "University of Durham"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s2_q6",
+              "text": "The approximate number of higher-degree theses Brother Zach guided as supervisor or co-supervisor was:",
+              "options": [
+                "50",
+                "155",
+                "1,330",
+                "100"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s2_q7",
+              "text": "The number of co-authored scientific articles attributed to Brother Zach in the introduction is:",
+              "options": [
+                "over 1,330",
+                "over 50",
+                "over 100",
+                "over 155"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s2_q8",
+              "text": "The specific phrase from Genesis 1:28 that Brother Zach linked to scientific research is:",
+              "options": [
+                "subdue the earth",
+                "be fruitful and multiply",
+                "love your neighbour",
+                "seek first the kingdom"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s2_q9",
+              "text": "The number of Christian-faith books Brother Zach is said to have read is:",
+              "options": [
+                "over 100",
+                "over 150",
+                "over 1,330",
+                "over 50,000"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s2_q10",
+              "text": "The count given for the number of books Brother Zach personally authored is:",
+              "options": [
+                "over 100",
+                "16 million",
+                "over 150",
+                "over 1,330"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s2_q11",
+              "text": "The number of Brother Zach's books said to be in circulation worldwide is:",
+              "options": [
+                "fifty thousand",
+                "four million",
+                "one million",
+                "sixteen million"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s2_q12",
+              "text": "The number of languages into which Brother Zach's books have been translated is:",
+              "options": [
+                "eleven languages",
+                "fifty languages",
+                "seventeen languages",
+                "seven languages"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "ztf_l3_s3_q1",
+              "text": "The stated number of gospel tracts by Brother Zach currently in circulation is:",
+              "options": [
+                "four million",
+                "sixteen million",
+                "fifty thousand",
+                "eighteen thousand"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s3_q2",
+              "text": "The number of languages his gospel tracts have been translated into is:",
+              "options": [
+                "seven languages",
+                "seventeen languages",
+                "fifty nations",
+                "eleven languages"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s3_q3",
+              "text": "The figure given for Brother Zach's recorded answers to prayer is:",
+              "options": [
+                "over 10,000",
+                "over 50,000",
+                "over 1,330",
+                "over 18,000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s3_q4",
+              "text": "The number of Prayer Crusades attributed to Brother Zach and his team is over:",
+              "options": [
+                "250",
+                "100",
+                "80",
+                "57"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s3_q5",
+              "text": "A single Prayer Crusade, per the introduction's definition, spans a period of:",
+              "options": [
+                "eighty hours",
+                "forty days and nights",
+                "twenty-one days",
+                "twenty-four hours"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s3_q6",
+              "text": "The number of prayer sieges attributed to Brother Zach and his team is over:",
+              "options": [
+                "100",
+                "250",
+                "57",
+                "80"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s3_q7",
+              "text": "The range of hours given for the duration of a single prayer siege is:",
+              "options": [
+                "40 days and nights",
+                "5 to 47 kilometres",
+                "24 to 120 hours",
+                "3 to 21 days"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s3_q8",
+              "text": "The number of prayer walks credited to Brother Zach in the introduction is over:",
+              "options": [
+                "100",
+                "57",
+                "80",
+                "700"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s3_q9",
+              "text": "The introduction gives the length of his prayer walks as ranging between:",
+              "options": [
+                "three and forty days",
+                "twenty and one hundred kilometres",
+                "five and forty-seven kilometres",
+                "one and ten kilometres"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s3_q10",
+              "text": "The number of fasts attributed to Brother Zach in the introduction is over:",
+              "options": [
+                "over 60",
+                "over 250",
+                "over 100",
+                "over 50,000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s3_q11",
+              "text": "According to the introduction, the typical duration range of his fasts was:",
+              "options": [
+                "one to six weeks",
+                "fifty-two to eighty days",
+                "one day to a week",
+                "three days to forty days"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s3_q12",
+              "text": "The specific day-range given for the supra-long fasts he was called to in the introduction is:",
+              "options": [
+                "52 and 80 days",
+                "3 and 40 days",
+                "5 and 47 kilometres",
+                "24 and 120 hours"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "ztf_l3_s4_q1",
+              "text": "The precise percentage of income the couple had grown to investing into the Gospel, per the introduction, is:",
+              "options": [
+                "92.5%",
+                "15%",
+                "99%",
+                "50%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s4_q2",
+              "text": "The future goal percentage mentioned for their Gospel investment, beyond the current 92.5%, was:",
+              "options": [
+                "100%",
+                "99%",
+                "50%",
+                "92.5%"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s4_q3",
+              "text": "The introduction's specific term (abbreviated DDEWG) for his daily time with God, reading and praying His Word, is:",
+              "options": [
+                "Prayer Sieges",
+                "Prayer Crusades",
+                "Daily Dynamic Encounters with God",
+                "Retreats For Spiritual Progress"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q4",
+              "text": "The number of recorded DDEWG sessions given in the introduction is over:",
+              "options": [
+                "over 10,000",
+                "over 18,000",
+                "over 60",
+                "over 50,000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s4_q5",
+              "text": "The specific term used for his extended solitary seeking of God, distinct from his daily encounters, is:",
+              "options": [
+                "Missionary Journeys",
+                "Daily Dynamic Encounters with God",
+                "Retreats For Spiritual Progress",
+                "Prayer Crusades"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q6",
+              "text": "The number of in-country (Cameroon) missionary journeys credited to Brother Zach is over:",
+              "options": [
+                "over 500",
+                "over 10,000",
+                "over 700",
+                "over 60"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q7",
+              "text": "The number of international missionary journeys, reaching over 70 nations, credited to Brother Zach is over:",
+              "options": [
+                "over 10,000",
+                "over 700",
+                "over 50",
+                "over 500"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s4_q8",
+              "text": "The organisation, active in over 50 nations, that Brother Zach founded and led as team-leader is called:",
+              "options": [
+                "Retreats For Spiritual Progress",
+                "Daily Dynamic Encounters with God",
+                "Basel Mission",
+                "Christian Missionary Fellowship International"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s4_q9",
+              "text": "The number of recorded healing miracles credited to Brother Zach and his team in the introduction is over:",
+              "options": [
+                "over 700",
+                "over 50,000",
+                "over 10,000",
+                "over 1,330"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q10",
+              "text": "The name given in the introduction for Brother Zach's wife is:",
+              "options": [
+                "Darling ZT",
+                "Prisca Zei Fomum's mother",
+                "Prisca",
+                "Musi"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q11",
+              "text": "According to the introduction, the number of children in the Fomum family was:",
+              "options": [
+                "two",
+                "eight",
+                "seven",
+                "five"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s4_q12",
+              "text": "The specific ministry focus attributed to Prisca Zei Fomum in the introduction is:",
+              "options": [
+                "a prayer-siege leader",
+                "a minister to children",
+                "a Bible school teacher",
+                "a chemistry professor"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "ztf_l3_s5_q1",
+              "text": "The precise role held by Brother Zach's father, as stated in 'A Model Father', was:",
+              "options": [
+                "a schoolteacher",
+                "a chemistry professor",
+                "a coffee farmer",
+                "a pastor in the Presbyterian Church"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s5_q2",
+              "text": "The specific practice of Brother Zach's father, meant to model generosity to his congregation, was that he:",
+              "options": [
+                "circulated his communion card",
+                "hid his giving",
+                "refused to give",
+                "borrowed money from members"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s5_q3",
+              "text": "The specific location described for the father's sermon practice, from 4 p.m. to 6 p.m., was:",
+              "options": [
+                "his own bedroom",
+                "the church pulpit",
+                "a river bank",
+                "a big stone at the top of a hill"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s5_q4",
+              "text": "The exact time window given for the father's sermon practice at the hillside stone was:",
+              "options": [
+                "8 p.m. to 10 p.m.",
+                "12 p.m. to 2 p.m.",
+                "4 p.m. to 6 p.m.",
+                "6 a.m. to 8 a.m."
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s5_q5",
+              "text": "The town in which the Presbyterian Bible school mentioned in 'Pastor's Son' was located is:",
+              "options": [
+                "Njikwa",
+                "Ngie",
+                "Nyasoso",
+                "Bambili"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s5_q6",
+              "text": "The specific pair of people described in 'Pastor's Son' as having steered the church off track were:",
+              "options": [
+                "two pastors from Uganda",
+                "two liberal theologians from Belgium",
+                "two missionaries from Sierra Leone",
+                "two evangelists from Britain"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s5_q7",
+              "text": "The precise duration and age range given in 'A Careful Child' for using a single pencil is:",
+              "options": [
+                "ten years, between ages one and eleven",
+                "two years, between ages eight and ten",
+                "four years, between the ages of six and ten",
+                "one year, between ages three and four"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s5_q8",
+              "text": "The specific location, described as having cannibals at the time, to which the Basel Mission sent the father was:",
+              "options": [
+                "Njikwa in the Batibo division",
+                "Ngie",
+                "Wumnembug",
+                "Nyasoso"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s5_q9",
+              "text": "The mission station where the narrator states he was born, being his father's second posting, was:",
+              "options": [
+                "Wumnembug",
+                "Mbengwi",
+                "Ngie",
+                "Njikwa"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s5_q10",
+              "text": "The exact title of the tract that led the young boy to believe, as named in 'Son Of A Missionary', was:",
+              "options": [
+                "remembered of the Lord",
+                "food is finished",
+                "darling ZT",
+                "someone died for you"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s5_q11",
+              "text": "The occupation of the man whose farmland the boy cleared for pay, per 'First Salary', was:",
+              "options": [
+                "a coffee farmer",
+                "a pastor",
+                "a schoolteacher",
+                "a missionary"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s5_q12",
+              "text": "The exact sum the boy received for two months of farm labour, per 'First Salary', was:",
+              "options": [
+                "one shilling",
+                "four thousand francs",
+                "six pence",
+                "two shillings"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": [
+            {
+              "id": "ztf_l3_s6_q1",
+              "text": "The precise age stated in 'First Salary' for the boy at the time of this first paid work was:",
+              "options": [
+                "exactly ten",
+                "not yet nine",
+                "thirteen",
+                "seven"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s6_q2",
+              "text": "The specific age given in 'When I Fell In Love' for this turning point is:",
+              "options": [
+                "six years old",
+                "eleven years old",
+                "ten years old",
+                "eight years old"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s6_q3",
+              "text": "The specific chore that Zacharias began performing for his father at age ten, per this story, was:",
+              "options": [
+                "washed and ironed his father's clothes",
+                "cooked all his father's meals",
+                "built his father's house",
+                "wrote his father's sermons"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s6_q4",
+              "text": "Among the reasons for punishment listed in 'When I Fell In Love', one specific incident involved:",
+              "options": [
+                "telling his elder sister to 'Shut up'",
+                "stealing sugar cane",
+                "losing his father's cutlass",
+                "changing his name"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s6_q5",
+              "text": "The specific act described in 'Welcome Gifts', substituting for a physical gift, was that the boy:",
+              "options": [
+                "wrote a letter of apology",
+                "bought kernels at the market",
+                "memorized the whole of Matthew chapter 5",
+                "sang a welcome song"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s6_q6",
+              "text": "The number of churches under the father's supervision, as stated in 'Welcome Gifts', was:",
+              "options": [
+                "eighty churches",
+                "one hundred churches",
+                "fifty churches",
+                "eighteen churches"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s6_q7",
+              "text": "The full name of the school mentioned at the start of 'Hands Full Of Blisters' is:",
+              "options": [
+                "University of Yaounde 1",
+                "a Bible school in Nyasoso",
+                "Fourah Bay College",
+                "CPC (Cameroon Protestant College) Bali"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s6_q8",
+              "text": "The specific task in 'Hands Full Of Blisters' responsible for the boy's blistered hands was to:",
+              "options": [
+                "get firewood for his mother",
+                "build a new house",
+                "plant new crops",
+                "repair the church roof"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s6_q9",
+              "text": "The Saturday starting time for farm work, as given in 'A Hardworking Child', was:",
+              "options": [
+                "8 a.m.",
+                "noon",
+                "6 a.m.",
+                "3.30 a.m."
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s6_q10",
+              "text": "The precise wake-up time stated in 'Water For My Father' for heating bathwater was:",
+              "options": [
+                "5 p.m. every evening",
+                "3.30 every morning",
+                "midnight",
+                "6 a.m. every morning"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s6_q11",
+              "text": "The exact distance to the Empire Day celebration site, as given in 'My Father's Friend', was:",
+              "options": [
+                "forty-seven kilometres",
+                "eleven kilometres",
+                "five kilometres",
+                "eighteen kilometres"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s6_q12",
+              "text": "The specific amount the father gave Zacharias for the Empire Day trip, per this story, was:",
+              "options": [
+                "one shilling",
+                "two shillings",
+                "six pence",
+                "twenty francs"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "questions": [
+            {
+              "id": "ztf_l3_s7_q1",
+              "text": "The amount given to the elder sister for the Empire Day trip, as stated in 'My Father's Friend', was:",
+              "options": [
+                "six pence",
+                "two shillings",
+                "four thousand francs",
+                "one shilling"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s7_q2",
+              "text": "The reason Zacharias gave for returning the six pence unspent, per 'My Father's Friend', was that:",
+              "options": [
+                "he gave it to a friend",
+                "he had lost it on the way",
+                "he had not spent it, having eaten at his godmother's",
+                "he spent it all on groundnuts"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q3",
+              "text": "The exact age at which Zacharias became his father's friend, per this story, was:",
+              "options": [
+                "thirteen",
+                "nine",
+                "eleven",
+                "eight"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q4",
+              "text": "The exact age range during which Zacharias sold groundnuts for his mother, per this story, was:",
+              "options": [
+                "age eight to sixteen",
+                "age ten to eighteen",
+                "age six to fourteen",
+                "age three to ten"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q5",
+              "text": "The specific claim of faithfulness Zacharias makes in 'Groundnuts Seller' about the goods he sold is that:",
+              "options": [
+                "he sold them at double price",
+                "he ate some groundnuts himself",
+                "he gave them away for free",
+                "he never ate a single grain of what he sold"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s7_q6",
+              "text": "The meaning of the name 'Zacharias', as given by the father in this story, is:",
+              "options": [
+                "Fomum means 'blessed by God'",
+                "Roy means 'favoured of God'",
+                "Zacharias means 'remembered of the Lord'",
+                "ZT means 'servant of God'"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q7",
+              "text": "The alternative 'show name' that young Zacharias requested from his father, per this story, was:",
+              "options": [
+                "ZT",
+                "Darling",
+                "Roy",
+                "Fomum"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q8",
+              "text": "The specific garden in which Zacharias worked two hundred hours, per 'First Tergal Trousers', belonged to:",
+              "options": [
+                "a fishing pond",
+                "a coffee farm",
+                "Rev. Gordon's garden",
+                "his father's church"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s7_q9",
+              "text": "The exact hourly wage stated in 'First Tergal Trousers' was:",
+              "options": [
+                "fifty francs per hour",
+                "two shillings per hour",
+                "four thousand francs per hour",
+                "twenty francs per hour"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s7_q10",
+              "text": "The price of the tergal trousers in 1962, as stated in this story, was:",
+              "options": [
+                "four thousand francs",
+                "twenty francs",
+                "fifty francs",
+                "two hundred francs"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s7_q11",
+              "text": "The total number of work hours mentioned in 'First Tergal Trousers' for earning the trousers was:",
+              "options": [
+                "fifty hours",
+                "two hundred hours",
+                "four hundred hours",
+                "one hundred hours"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s7_q12",
+              "text": "The approximate age given in 'Lying Silence' for the narrator during the sugar cane incident is:",
+              "options": [
+                "thirteen years old",
+                "five years old",
+                "seven or eight years old",
+                "eleven or twelve years old"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "questions": [
+            {
+              "id": "ztf_l3_s8_q1",
+              "text": "The name of the ringleader in the sugar cane theft described in 'Lying Silence' was:",
+              "options": [
+                "Thaddeus",
+                "Godfred Osimensa",
+                "Pastor Fai",
+                "Musi"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s8_q2",
+              "text": "The owner of the sugar cane field in 'Lying Silence', described as the father's best friend, was:",
+              "options": [
+                "Thaddeus",
+                "Rev. Gordon",
+                "Professor Landor",
+                "Pastor Fai"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s8_q3",
+              "text": "The number of children who refused to swear silence, out of the total group, per 'Lying Silence', was:",
+              "options": [
+                "just Zacharias alone",
+                "none of the children",
+                "two of them, out of seven or eight children",
+                "all of the children"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s8_q4",
+              "text": "The exact forbidden phrase named in 'Abundance Of Food' was:",
+              "options": [
+                "'There is no more meat'",
+                "'I am hungry'",
+                "'Food is finished'",
+                "'The pot is empty'"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s8_q5",
+              "text": "The specific remedy his mother administered in 'Miraculously Healed At Twelve', licked by the boy, was:",
+              "options": [
+                "penicillin mixed with a bit of oil",
+                "only prayer and fasting",
+                "traditional herbs",
+                "a visit to the hospital"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s8_q6",
+              "text": "The approximate age given in 'Miraculously Healed At Twelve' for the boy at the time of his healing is:",
+              "options": [
+                "thirteen",
+                "eleven or twelve",
+                "seven or eight",
+                "twenty-eight"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s8_q7",
+              "text": "The exact age given in 'Father's Cook' for the boy while cooking for his father was:",
+              "options": [
+                "thirteen",
+                "twelve",
+                "eleven",
+                "fourteen"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s8_q8",
+              "text": "The price paid for half a kilo of meat, as stated in 'Father's Cook', was:",
+              "options": [
+                "fifty francs",
+                "twenty francs",
+                "four thousand francs",
+                "six pence"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s8_q9",
+              "text": "The exact age at which the elder sister married, per 'No Difference', was:",
+              "options": [
+                "twenty-eight",
+                "eleven",
+                "sixteen",
+                "fourteen"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s8_q10",
+              "text": "The specific local dishes mentioned in 'No Difference' that Zacharias took over preparing were:",
+              "options": [
+                "washing clothes only",
+                "pounding 'achu' and making 'gari'",
+                "cooking rice and beans",
+                "farming groundnuts only"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s8_q11",
+              "text": "The location of the science laboratory corridor scene described in 'A Big Heart' was:",
+              "options": [
+                "Bambili, North West Cameroon",
+                "Njikwa",
+                "Nyasoso",
+                "Ngie"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s8_q12",
+              "text": "The exact number Zacharias gave as his answer in 'A Big Heart' was:",
+              "options": [
+                "five hundred",
+                "one thousand",
+                "fifty",
+                "one hundred"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "questions": [
+            {
+              "id": "ztf_l3_s9_q1",
+              "text": "The date given for the original 'A Big Heart' incident, before the later retelling, was:",
+              "options": [
+                "September 1999",
+                "October 2002",
+                "1962",
+                "December 1964"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q2",
+              "text": "The specific award received at CPC that is central to the story 'Giving To Parents' is:",
+              "options": [
+                "a scholarship",
+                "a Bible",
+                "a new bicycle",
+                "a set of trousers"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s9_q3",
+              "text": "The action Zacharias took with the returned scholarship money, described in 'Giving To Parents', was that he:",
+              "options": [
+                "gave the money to his sister",
+                "donated the money to the church",
+                "kept the money for himself",
+                "took the returned money back to his father"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q4",
+              "text": "The specific harsh discipline described in this story, despite countless beds being available at home, was that Zacharias would:",
+              "options": [
+                "clean the church every morning",
+                "walk eighteen kilometres daily",
+                "give up his meals",
+                "sleep on the mat the whole month"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s9_q5",
+              "text": "The age given in 'Lasting Relationships' for when the family departed Wumnembug was:",
+              "options": [
+                "thirteen years old",
+                "eight years old",
+                "eleven years old",
+                "five years old"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q6",
+              "text": "The name of the friend from Wumnembug reunited with in 'Lasting Relationships' was:",
+              "options": [
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Thaddeus",
+                "Musi"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q7",
+              "text": "The gifts Zacharias gave to his impoverished friend Musi, as described in 'Lasting Relationships', were:",
+              "options": [
+                "his father's old cutlass",
+                "a Bible and hymn book",
+                "half of the money he had, and a specially cooked dish",
+                "a new pair of trousers"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s9_q8",
+              "text": "The name of the individual described in 'Lasting Relationships' as having made the Bible alive to the narrator is:",
+              "options": [
+                "Musi",
+                "Theodore Wanneh Andoseh",
+                "Professor Landor",
+                "Godfred Osimensa"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q9",
+              "text": "The supervisor mentioned in 'Lasting Relationships' who took him to the bank to open an account was:",
+              "options": [
+                "Rev. Gordon",
+                "Professor Landor",
+                "Godfred Osimensa",
+                "Pastor Fai"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s9_q10",
+              "text": "The exact salutation his father used in letters, which puzzled his classmates, was:",
+              "options": [
+                "'My Friend'",
+                "'Pastor's Son'",
+                "'Darling ZT'",
+                "'Remembered of the Lord'"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s9_q11",
+              "text": "The exact statement his father made in 1971, in place of an inheritance of land, was:",
+              "options": [
+                "'I give you my name'",
+                "'I give you my land'",
+                "'I give you Jesus for your wealth'",
+                "'I give you my blessing'"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s9_q12",
+              "text": "The last words attributed to the father in 'Where Is ZT?', as he awaited his son's return from Uganda, were:",
+              "options": [
+                "'Take care of your mother'",
+                "'Where is ZT'",
+                "'I am proud of you'",
+                "'Keep the faith'"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "questions": [
+            {
+              "id": "ztf_l3_s10_q1",
+              "text": "The age given in 'In My Father's Presence' for Zacharias at the time of his father's death was:",
+              "options": [
+                "twenty-eight years old",
+                "twenty-one years old",
+                "thirteen years old",
+                "thirty years old"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s10_q2",
+              "text": "The specific detail given in 'A Seal Of Faithfulness' about his time abroad before his father's death is:",
+              "options": [
+                "seven years abroad, at Makerere",
+                "ten years abroad, in Sierra Leone",
+                "three years abroad, at Fourah Bay",
+                "five years abroad, at Durham"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s10_q3",
+              "text": "The additional loss described in 'A Seal Of Faithfulness', alongside his father's passing, was that:",
+              "options": [
+                "his mother also died in his hands",
+                "his mother moved abroad",
+                "his mother remarried",
+                "his mother recovered fully"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s10_q4",
+              "text": "The number and description of dishes his mother prepared upon her husband's return, per 'Just To Please', was:",
+              "options": [
+                "a single elaborate feast",
+                "no food at all, only prayer",
+                "food from the market only",
+                "three different types of food"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s10_q5",
+              "text": "The specific act performed by the children along the road in 'Just To Please', symbolising a royal welcome, was that they:",
+              "options": [
+                "painted the house walls",
+                "hung new curtains in the house",
+                "lined palm branches along the road",
+                "planted new flowers in the yard"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s10_q6",
+              "text": "The precise age given in 'The Treason Of Treasons' for the narrator at the time of this event was:",
+              "options": [
+                "twenty-eight",
+                "thirteen",
+                "eleven",
+                "sixteen"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s10_q7",
+              "text": "The year in which the narrator states he finally forgave his mother, per 'The Treason Of Treasons', is:",
+              "options": [
+                "1966",
+                "1971",
+                "1978",
+                "1969"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s10_q8",
+              "text": "The year in which the Canadian scholarship was offered, as stated in this story, was:",
+              "options": [
+                "1978",
+                "1966",
+                "1969",
+                "1973"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s10_q9",
+              "text": "The town where the detailed medical exam for the Canadian scholarship occurred, per this story, was:",
+              "options": [
+                "Buea",
+                "Douala",
+                "Yaounde",
+                "Bamenda"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s10_q10",
+              "text": "The country to which Zacharias travelled the month after missing his scholarship deadline, as told in this story, was:",
+              "options": [
+                "Sierra Leone",
+                "Great Britain",
+                "Uganda",
+                "Cameroon"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s10_q11",
+              "text": "The specific examination results whose delay caused Zacharias to miss the scholarship deadline, per this story, were:",
+              "options": [
+                "the medical exam results",
+                "the London GCE results",
+                "his father's approval letter",
+                "his birth certificate"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s10_q12",
+              "text": "The number of years the story 'Serving My Parents' attributes to the Lord Jesus's service to His parents is:",
+              "options": [
+                "thirteen years",
+                "eighteen years",
+                "twenty-eight years",
+                "seven years"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "questions": [
+            {
+              "id": "ztf_l3_s11_q1",
+              "text": "The phrase used twice in the text to describe what a child's attitude to his parents reveals about his life is:",
+              "options": [
+                "a private family matter",
+                "of no real importance",
+                "a prophecy of his life",
+                "only relevant to pastors"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s11_q2",
+              "text": "The three descriptive words given for the father in the brief testimony titled 'My Father' are:",
+              "options": [
+                "strict, distant and silent",
+                "wealthy, famous and busy",
+                "gentle, quiet and shy",
+                "holy, consecrated and radical"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s11_q3",
+              "text": "The specific lesson stated at the close of 'Lying Silence' regarding silence about the theft is:",
+              "options": [
+                "the one who keeps silent is a companion of the wicked",
+                "silence is always golden",
+                "children should never speak up",
+                "honesty always hurts"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s11_q4",
+              "text": "The full name behind the abbreviation CPC, as given in the text's footnotes, is:",
+              "options": [
+                "Christian Missionary Fellowship",
+                "College of Presbyterians",
+                "Church Prayer Crusade",
+                "Cameroon Protestant College"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s11_q5",
+              "text": "As explained in a footnote, the word 'big', used when Zacharias asked someone to inspect his new trousers, refers to:",
+              "options": [
+                "a church pastor",
+                "a farm supervisor",
+                "a senior student in boarding school charged to take care of a younger student",
+                "a school headmaster"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s11_q6",
+              "text": "As clarified in the footnotes, 'achu' and 'gari' are best described as:",
+              "options": [
+                "local dishes eaten by some tribes of Cameroon",
+                "kinds of gospel tracts",
+                "types of prayer meetings",
+                "Presbyterian church offices"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s11_q7",
+              "text": "As clarified by the footnote, Godfred Osimensa's background and role were:",
+              "options": [
+                "a Cameroonian pastor",
+                "a British university professor",
+                "a childhood friend from Wumnembug",
+                "a Ghanaian preacher and Bible teacher"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s11_q8",
+              "text": "As given in the footnotes, the term 'tergal' refers to trousers that were:",
+              "options": [
+                "a school uniform",
+                "fashionable trousers of the time",
+                "a kind of prayer meeting",
+                "a type of local food"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s11_q9",
+              "text": "According to the text, the specific occasion and date attached to 'A Model Father' is:",
+              "options": [
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Ivorian Convention, 17th September, 1999",
+                "Tuesday Teaching, Yaounde, 17th December, 1996",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s11_q10",
+              "text": "According to the text, the specific occasion attached to 'Paganism In The Village' is:",
+              "options": [
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "120-hour Prayer Siege, Yaounde, 14th October, 2004",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000",
+                "Special Night, Yaounde, 11th January, 2002"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s11_q11",
+              "text": "According to the text, the specific date attached to 'My Father Was A Preacher' is:",
+              "options": [
+                "Yaounde, 7th October, 2004",
+                "Yaounde, 11th February, 2006",
+                "Yaounde, 13th February, 2006",
+                "Yaounde, 12th September, 2002"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s11_q12",
+              "text": "According to the text, the specific occasion attached to 'Pastor's Son' is:",
+              "options": [
+                "Sharing Informally, Yaounde, 7th October, 2004",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Leadership Course, Yaounde, 22-24 March, 1996"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "questions": [
+            {
+              "id": "ztf_l3_s12_q1",
+              "text": "According to the text, the specific occasion attached to 'A Careful Child' is:",
+              "options": [
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Yaounde, 12th September, 2002",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Morning Prayer, Yaounde, 4th November, 1999"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s12_q2",
+              "text": "According to the text, the specific date attached to 'Son Of A Missionary' is:",
+              "options": [
+                "Ivorian Convention, 17th September, 1999",
+                "Yaounde, 18th October, 2008",
+                "Yaounde, 5th June, 2008",
+                "Yaounde, 21st August, 2003"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s12_q3",
+              "text": "According to the text, the specific occasion attached to 'First Salary' is:",
+              "options": [
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Special Night, Yaounde, 11th January, 2002",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Ivorian Convention, 17th September, 1999"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s12_q4",
+              "text": "According to the text, the specific occasion attached to 'When I Fell In Love' is:",
+              "options": [
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Yaounde, 6th November, 2004"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s12_q5",
+              "text": "According to the text, the specific occasion attached to 'Welcome Gifts' is:",
+              "options": [
+                "Special Night, Yaounde, 11th January, 2002",
+                "Yaounde, 13th October, 1996",
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s12_q6",
+              "text": "According to the text, the specific occasion attached to 'Hands Full Of Blisters' is:",
+              "options": [
+                "Tuesday Prayer Night, Yaounde, 11th February, 1996",
+                "Morning Prayer, Yaounde, 4th November, 1999",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "40-Day Prayer Crusade, Yaounde, 27th June, 2000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "ztf_l3_s12_q7",
+              "text": "According to the text, the specific date attached to 'A Hardworking Child' is:",
+              "options": [
+                "Yaounde, 13th February, 2006",
+                "Yaounde, 11th February, 2006",
+                "Yaounde, 7th October, 2002",
+                "Yaounde, 12th September, 2002"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s12_q8",
+              "text": "According to the text, the specific occasion attached to 'Water For My Father' is:",
+              "options": [
+                "40-Day Prayer Crusade, Day 10, Yaounde, 27th June, 2000",
+                "40-Day Prayer Crusade, Day 2, Yaounde, 18th June, 2000",
+                "52 Day Prayer Crusade, Yaounde, 19th July, 2000",
+                "83rd Prayer Siege"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "ztf_l3_s12_q9",
+              "text": "According to the text, the specific occasion attached to 'My Father's Friend' is:",
+              "options": [
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "Special Prayer, Yaounde, 21st August, 2003",
+                "Ivorian Convention, 17th September, 1999",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s12_q10",
+              "text": "According to the text, the specific date attached to 'You Will Be Sent Away' is:",
+              "options": [
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Special Night, Yaounde, 11th January, 2002",
+                "Prayer Night, Yaounde, 5th January, 2009"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "id": "ztf_l3_s12_q11",
+              "text": "According to the text, the date attached to the first telling of 'The Name Zacharias' is:",
+              "options": [
+                "Prayer Night, Yaounde, 5th January, 2009",
+                "Prayer Night, Yaounde, 10th January, 2009",
+                "Prayer Night, Yaounde, 12th January, 2009",
+                "Yaounde, 28th October, 2000"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "ztf_l3_s12_q12",
+              "text": "According to the text, the specific occasion attached to 'First Tergal Trousers' is:",
+              "options": [
+                "77th Prayer Siege, Yaounde, 18th October, 2008",
+                "Prayer Night, Yaounde, 4th November, 1999",
+                "World Conquest Prayer Night, Yaounde, 8th November, 1999",
+                "Monday World Conquest Prayer Meeting, Yaounde, 13th October, 1996"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }

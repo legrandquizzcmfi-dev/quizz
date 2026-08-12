@@ -20,7 +20,7 @@ lib/
 assets/data/
   theme_1.json               Le Camp des Agneaux — Niveau 1 rempli (contenu d'exemple)
   theme_2.json               Le Message des 3B — structure vide, en attente de contenu
-  theme_3.json                Instant ZTF — structure vide, en attente de contenu
+  theme_3.json                Instant ZTF — 432 questions réelles (3 niveaux x 12 étapes x 12 questions)
 ```
 
 ## Contenu des questions
@@ -58,11 +58,21 @@ charges), au format :
 - Un niveau/une étape sans `questions` s'affiche comme "Bientôt disponible"
   dans l'app plutôt que de bloquer.
 
-**Contenu actuel** : seul `theme_1.json` (niveau 1, 12 étapes) contient des
-questions, générées automatiquement à titre d'exemple pour valider le format
-(énoncés génériques de culture générale — couleurs, formes, animaux, calcul).
-Elles sont à remplacer par le vrai contenu EFDET (Camp des Agneaux, Message
-des 3B, Instant ZTF), qui reste une dépendance critique du planning (§10).
+**Contenu actuel** :
+- `theme_1.json` (Le Camp des Agneaux) : seul le niveau 1 (12 étapes) contient
+  des questions, générées automatiquement à titre d'exemple pour valider le
+  format (énoncés génériques de culture générale — couleurs, formes, animaux,
+  calcul). À remplacer par le vrai contenu EFDET.
+- `theme_2.json` (Le Message des 3B) : structure vide, en attente de contenu.
+- `theme_3.json` (Instant ZTF) : **432 questions réelles**, fournies par
+  l'utilisateur (quiz à choix multiples sur "Childhood Years" / "From His
+  Lips" du Pr Zacharias Tanee Fomum). Les 3 niveaux de difficulté du document
+  source (facile / moyen / difficile) sont mappés sur les 3 niveaux de l'app ;
+  chaque niveau est découpé en 12 étapes de 12 questions dans l'ordre du
+  document, avec les bonnes réponses reprises du tableau de correction fourni.
+
+Le contenu du Camp des Agneaux et du Message des 3B reste une dépendance
+critique du planning (§10) tant qu'EFDET ne l'a pas fourni.
 
 ## Logique de déblocage
 

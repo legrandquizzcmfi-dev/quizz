@@ -9,12 +9,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   testWidgets('Home screen shows the 3 theme tabs', (WidgetTester tester) async {
     SharedPreferences.setMockInitialValues({});
-    final themes = await ContentRepository().loadThemes();
-    final progress = await ProgressService.create();
+    final themes = await tester.runAsync(() => ContentRepository().loadThemes());
+    final progress = await tester.runAsync(() => ProgressService.create());
 
     await tester.pumpWidget(AppData(
-      themes: themes,
-      progressService: progress,
+      themes: themes!,
+      progressService: progress!,
       child: const LeGrandQuizApp(),
     ));
     await tester.pumpAndSettle();
