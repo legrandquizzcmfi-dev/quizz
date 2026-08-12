@@ -19,7 +19,7 @@ lib/
 
 assets/data/
   theme_1.json               Le Camp des Agneaux — Niveau 1 rempli (contenu d'exemple)
-  theme_2.json               Le Message des 3B — structure vide, en attente de contenu
+  theme_2.json               Le Message des 3B — 120 questions réelles (niveaux 1-2, étapes 1-5)
   theme_3.json                Instant ZTF — 432 questions réelles (3 niveaux x 12 étapes x 12 questions)
 ```
 
@@ -63,7 +63,18 @@ charges), au format :
   des questions, générées automatiquement à titre d'exemple pour valider le
   format (énoncés génériques de culture générale — couleurs, formes, animaux,
   calcul). À remplacer par le vrai contenu EFDET.
-- `theme_2.json` (Le Message des 3B) : structure vide, en attente de contenu.
+- `theme_2.json` (Le Message des 3B) : **120 questions réelles** (version
+  française), fournies par l'utilisateur (QCM sur les messages de Beijing,
+  Bertoua et Brazzaville). Le document source ne contient que 2 niveaux de
+  difficulté (facile 3-5 ans, plus difficile 6-8 ans, 60 questions chacun) ;
+  ils remplissent les étapes 1 à 5 des niveaux 1 et 2, les étapes 6 à 12 et le
+  niveau 3 restent "Bientôt disponible" en attendant le reste du contenu. Les
+  questions du document n'ont que 3 propositions (A/B/C) au lieu de 4, et la
+  bonne réponse y était systématiquement en position A : les options ont donc
+  été mélangées (mêmes énoncés et réponses, ordre randomisé) pour que le quiz
+  reste réellement discriminant plutôt que "toujours répondre A". La version
+  anglaise du même document n'a pas été intégrée, l'app n'étant pas encore
+  localisée.
 - `theme_3.json` (Instant ZTF) : **432 questions réelles**, fournies par
   l'utilisateur (quiz à choix multiples sur "Childhood Years" / "From His
   Lips" du Pr Zacharias Tanee Fomum). Les 3 niveaux de difficulté du document
@@ -71,8 +82,8 @@ charges), au format :
   chaque niveau est découpé en 12 étapes de 12 questions dans l'ordre du
   document, avec les bonnes réponses reprises du tableau de correction fourni.
 
-Le contenu du Camp des Agneaux et du Message des 3B reste une dépendance
-critique du planning (§10) tant qu'EFDET ne l'a pas fourni.
+Le reste du contenu du Camp des Agneaux et du Message des 3B reste une
+dépendance critique du planning (§10) tant qu'EFDET ne l'a pas fourni.
 
 ## Logique de déblocage
 

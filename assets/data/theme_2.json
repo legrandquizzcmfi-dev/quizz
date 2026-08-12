@@ -4,11 +4,1319 @@
   "levels": [
     {
       "index": 1,
-      "stages": []
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "m3b_l1_s1_q1",
+              "text": "Quel est le thème général des 3B Messages ?",
+              "options": [
+                "Les vacances",
+                "Le réveil spirituel",
+                "Le sport"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q2",
+              "text": "Combien de messages composent les « 3B » ?",
+              "options": [
+                "3",
+                "2",
+                "5"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q3",
+              "text": "Quels sont les trois messages ?",
+              "options": [
+                "Douala, Yaoundé et Lagos",
+                "Paris, Rome et Londres",
+                "Beijing, Bertoua et Brazzaville"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s1_q4",
+              "text": "Dans quelle ville le message de Beijing a-t-il été reçu ?",
+              "options": [
+                "Beijing",
+                "Douala",
+                "Paris"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q5",
+              "text": "Quel livre est présenté comme guide pour les pèlerins mûrs ?",
+              "options": [
+                "Un livre scolaire",
+                "La Bible",
+                "Un journal"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q6",
+              "text": "Quels sont les trois guides mentionnés dans le message de Beijing ?",
+              "options": [
+                "La Bible, la Croix et le Saint-Esprit",
+                "Le sport, l'école et le jeu",
+                "La maison, la rue et l'école"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q7",
+              "text": "Qui est mentionné comme ayant reçu le message de Beijing ?",
+              "options": [
+                "Zacharias Tanee Fomum",
+                "Noé",
+                "Moïse"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q8",
+              "text": "Que devons-nous faire envers Dieu ?",
+              "options": [
+                "L'oublier",
+                "Lui obéir",
+                "Lui désobéir"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q9",
+              "text": "Que devons-nous aimer ?",
+              "options": [
+                "Le Seigneur Jésus",
+                "Seulement l'argent",
+                "Seulement nos jouets"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q10",
+              "text": "Le message de Bertoua parle particulièrement de :",
+              "options": [
+                "Football",
+                "Retour au premier amour",
+                "Jeux vidéo"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q11",
+              "text": "Pour qui devons-nous avoir notre premier amour ?",
+              "options": [
+                "Pour nos jouets",
+                "Pour le Seigneur Jésus-Christ",
+                "Pour l'argent"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q12",
+              "text": "Que faut-il abandonner ?",
+              "options": [
+                "Le péché",
+                "La prière",
+                "La Bible"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "m3b_l1_s2_q1",
+              "text": "Que devons-nous lire ?",
+              "options": [
+                "Seulement des bandes dessinées",
+                "La Bible",
+                "Rien"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q2",
+              "text": "Que devons-nous faire avec les autres enfants ?",
+              "options": [
+                "Les détester",
+                "Prier avec eux",
+                "Les combattre"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q3",
+              "text": "La prière est-elle importante dans les 3B Messages ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q4",
+              "text": "Qui peut prier selon le message de Brazzaville ?",
+              "options": [
+                "Les enfants",
+                "Personne",
+                "Seulement les adultes"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q5",
+              "text": "Les enfants doivent-ils prier sérieusement ?",
+              "options": [
+                "Seulement pendant les vacances",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q6",
+              "text": "La prière peut-elle être faite en groupe ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q7",
+              "text": "La prière peut-elle être faite à deux ?",
+              "options": [
+                "Oui",
+                "Seulement le dimanche",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q8",
+              "text": "Que devons-nous faire lorsque nous avons péché ?",
+              "options": [
+                "Confesser notre péché à Dieu",
+                "Accuser quelqu'un d'autre",
+                "Le cacher"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q9",
+              "text": "Le message parle-t-il du jeûne ?",
+              "options": [
+                "Jamais",
+                "Non",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s2_q10",
+              "text": "Le jeûne est-il associé à la prière ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q11",
+              "text": "Que signifie revenir au premier amour ?",
+              "options": [
+                "Aimer l'argent",
+                "Revenir à un amour profond pour Jésus",
+                "Aimer davantage les jouets"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q12",
+              "text": "Un disciple doit-il être fidèle à Jésus ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "m3b_l1_s3_q1",
+              "text": "Devons-nous faire la volonté de Dieu ?",
+              "options": [
+                "Non",
+                "Seulement parfois",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q2",
+              "text": "Devons-nous servir le Seigneur ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q3",
+              "text": "Que devons-nous faire avec la Parole de Dieu ?",
+              "options": [
+                "La cacher",
+                "La jeter",
+                "La lire et la croire"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q4",
+              "text": "Devons-nous mettre la Parole de Dieu en pratique ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s3_q5",
+              "text": "Le réveil concerne-t-il seulement les adultes ?",
+              "options": [
+                "Non, les enfants aussi prient",
+                "Oui",
+                "Seulement les grands-parents"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s3_q6",
+              "text": "Quel est l'un des buts du réveil ?",
+              "options": [
+                "Jouer toute la journée",
+                "Amener les personnes à Jésus",
+                "Acheter des jouets"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q7",
+              "text": "Que signifie évangéliser ?",
+              "options": [
+                "Dormir",
+                "Annoncer le message de Jésus",
+                "Jouer"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q8",
+              "text": "Le message parle-t-il de faire des disciples ?",
+              "options": [
+                "Jamais",
+                "Non",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q9",
+              "text": "Qui devons-nous servir ?",
+              "options": [
+                "Personne",
+                "Le Seigneur Jésus",
+                "Seulement nous-mêmes"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q10",
+              "text": "La Bible est-elle importante pour le croyant ?",
+              "options": [
+                "Jamais",
+                "Non",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q11",
+              "text": "Le Saint-Esprit est-il mentionné dans le message de Beijing ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q12",
+              "text": "La Croix est-elle mentionnée ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "m3b_l1_s4_q1",
+              "text": "Quel message parle du retour au premier amour ?",
+              "options": [
+                "Bertoua",
+                "Beijing seulement",
+                "Aucun"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s4_q2",
+              "text": "Quel message porte le nom d'une ville du Cameroun ?",
+              "options": [
+                "Bertoua",
+                "Brazzaville",
+                "Beijing"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s4_q3",
+              "text": "Quel message porte le nom d'une ville du Congo ?",
+              "options": [
+                "Bertoua",
+                "Beijing",
+                "Brazzaville"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q4",
+              "text": "Quel message porte le nom d'une ville de Chine ?",
+              "options": [
+                "Yaoundé",
+                "Beijing",
+                "Bertoua"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q5",
+              "text": "Dieu veut-il que ses enfants reviennent à lui ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q6",
+              "text": "Que doivent faire les enfants selon le message de Brazzaville ?",
+              "options": [
+                "Ne jamais prier",
+                "Dormir pendant la prière",
+                "Prier sérieusement"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q7",
+              "text": "Peut-on prier en petit groupe ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q8",
+              "text": "Peut-on prier en grand groupe ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q9",
+              "text": "Le message parle-t-il de la confession ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q10",
+              "text": "Le message parle-t-il de la proclamation ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q11",
+              "text": "Dieu veut-il que ses enfants l'aiment ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q12",
+              "text": "Dieu veut-il que ses enfants le servent ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "m3b_l1_s5_q1",
+              "text": "Que devons-nous faire de la paresse ?",
+              "options": [
+                "La rejeter",
+                "L'aimer",
+                "La rechercher"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q2",
+              "text": "Que devons-nous faire du mensonge ?",
+              "options": [
+                "Le rejeter",
+                "Le pratiquer",
+                "L'aimer"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q3",
+              "text": "Que devons-nous faire de la cupidité ?",
+              "options": [
+                "La rejeter",
+                "L'aimer",
+                "La chercher"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q4",
+              "text": "Que devons-nous faire de l'égoïsme ?",
+              "options": [
+                "Le développer",
+                "L'enseigner",
+                "Le rejeter"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q5",
+              "text": "Que devons-nous rechercher ?",
+              "options": [
+                "La volonté de Dieu",
+                "La paresse",
+                "La désobéissance"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q6",
+              "text": "Que devons-nous faire chaque jour ?",
+              "options": [
+                "Refuser de prier",
+                "Chercher Dieu",
+                "Oublier Dieu"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q7",
+              "text": "Le croyant peut-il prier seul ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q8",
+              "text": "Le croyant peut-il lire la Bible seul ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q9",
+              "text": "Devons-nous aimer la Parole de Dieu ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q10",
+              "text": "Devons-nous croire la Parole de Dieu ?",
+              "options": [
+                "Seulement parfois",
+                "Non",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q11",
+              "text": "Devons-nous mettre la Parole en pratique avec joie ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q12",
+              "text": "Quel mot revient fortement dans les 3B Messages ?",
+              "options": [
+                "Réveil",
+                "Vacances",
+                "Football"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": []
+        },
+        {
+          "index": 7,
+          "questions": []
+        },
+        {
+          "index": 8,
+          "questions": []
+        },
+        {
+          "index": 9,
+          "questions": []
+        },
+        {
+          "index": 10,
+          "questions": []
+        },
+        {
+          "index": 11,
+          "questions": []
+        },
+        {
+          "index": 12,
+          "questions": []
+        }
+      ]
     },
     {
       "index": 2,
-      "stages": []
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "m3b_l2_s1_q1",
+              "text": "Pourquoi le message de Beijing parle-t-il de maturité ?",
+              "options": [
+                "Pour apprendre à jouer",
+                "Parce que le croyant est appelé à progresser spirituellement",
+                "Pour devenir riche"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q2",
+              "text": "Quels sont les trois guides du pèlerin mûr ?",
+              "options": [
+                "Bible, Croix et Saint-Esprit",
+                "Argent, école et sport",
+                "Maison, nourriture et vêtements"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s1_q3",
+              "text": "Quel était le choix présenté dans l'épreuve de Zacharias Tanee Fomum ?",
+              "options": [
+                "Refuser d'aller à Beijing",
+                "Obéir à Dieu malgré le coût de l'épreuve",
+                "Abandonner la foi"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q4",
+              "text": "Qu'a choisi Zacharias Tanee Fomum ?",
+              "options": [
+                "Son confort",
+                "Son argent",
+                "La volonté de Dieu au-dessus de tout"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q5",
+              "text": "Quelle qualité ressort fortement de l'épreuve de Beijing ?",
+              "options": [
+                "La paresse",
+                "La désobéissance",
+                "L'obéissance"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q6",
+              "text": "Que signifie être un disciple de Jésus ?",
+              "options": [
+                "Refuser de lui obéir",
+                "L'oublier",
+                "Être fidèle à Jésus et le suivre"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q7",
+              "text": "Quel est le premier élément du chemin du réveil dans Bertoua ?",
+              "options": [
+                "Le divertissement",
+                "Le retour au premier amour",
+                "La recherche de l'argent"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q8",
+              "text": "Le retour au premier amour implique-t-il de se détourner du péché ?",
+              "options": [
+                "Seulement parfois",
+                "Non",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q9",
+              "text": "Le message de Bertoua demande-t-il de se libérer de l'amour du monde ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q10",
+              "text": "Le message de Bertoua parle-t-il de liberté vis-à-vis du mensonge ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q11",
+              "text": "Le message demande-t-il d'abandonner la paresse ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q12",
+              "text": "Le message demande-t-il d'abandonner la cupidité ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "m3b_l2_s2_q1",
+              "text": "Le retour au premier amour comprend-il la lecture de la Bible ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q2",
+              "text": "Comprend-il aussi la prière avec d'autres personnes ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q3",
+              "text": "Comprend-il le fait de gagner des âmes ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s2_q4",
+              "text": "Comprend-il la formation de disciples ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q5",
+              "text": "Le croyant doit-il être fidèle à une église locale ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q6",
+              "text": "Le croyant doit-il servir dans le domaine de l'appel de Dieu ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q7",
+              "text": "Pour qui devons-nous faire toutes choses ?",
+              "options": [
+                "Pour recevoir des applaudissements",
+                "Pour devenir célèbre",
+                "Pour la gloire exclusive du Seigneur Jésus"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q8",
+              "text": "Selon Bertoua, le réveil est-il lié à la prière et au jeûne ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q9",
+              "text": "Le message de Bertoua parle-t-il d'évangélisation ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q10",
+              "text": "Le message parle-t-il de gagner des âmes ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q11",
+              "text": "Le message parle-t-il de planter des églises ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s2_q12",
+              "text": "Le message de Brazzaville demande-t-il de terminer un jeûne de 52 jours ?",
+              "options": [
+                "Oui, dans le texte du message de Brazzaville",
+                "Il parle de 2 jours",
+                "Non"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "m3b_l2_s3_q1",
+              "text": "Après ce jeûne, le message parle-t-il de « ciel sur la terre » ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q2",
+              "text": "Pour qui le message mentionne-t-il la prière ?",
+              "options": [
+                "Seulement pour les pasteurs",
+                "Pour les enfants et plusieurs générations",
+                "Seulement pour les grands-parents"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q3",
+              "text": "Les enfants sont-ils inclus dans la prière du réveil ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q4",
+              "text": "La prière peut-elle être faite en couple ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q5",
+              "text": "La prière peut-elle être faite en petits groupes ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q6",
+              "text": "La prière peut-elle être faite en grandes assemblées ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q7",
+              "text": "Quel type de prière est mentionné après la prière de confession ?",
+              "options": [
+                "La prière de sommeil",
+                "La prière de jeu",
+                "La prière de proclamation"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q8",
+              "text": "Selon Brazzaville, que feront les enfants ?",
+              "options": [
+                "Ils prieront avec sérieux",
+                "Ils dormiront pendant la prière",
+                "Ils abandonneront la prière"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q9",
+              "text": "Que doivent faire les enfants avec la Parole ?",
+              "options": [
+                "La cacher",
+                "L'aimer, la lire et la croire",
+                "La jeter"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q10",
+              "text": "Que doivent-ils faire après avoir cru la Parole ?",
+              "options": [
+                "La cacher",
+                "L'oublier",
+                "La mettre en pratique avec joie"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q11",
+              "text": "Le message parle-t-il de livres et de tracts de réveil ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q12",
+              "text": "Que doivent faire les enfants qui ont péché ?",
+              "options": [
+                "Mentir",
+                "Le cacher",
+                "Confesser sincèrement leur péché à Dieu"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "m3b_l2_s4_q1",
+              "text": "Que signifie « repentance » dans le contexte donné ?",
+              "options": [
+                "Continuer volontairement dans le péché",
+                "Se détourner sincèrement du péché",
+                "Cacher le péché"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q2",
+              "text": "Quel est le but de l'évangélisation ?",
+              "options": [
+                "Organiser des jeux",
+                "Faire du commerce",
+                "Gagner des personnes à Christ"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q3",
+              "text": "Le message de Beijing parle-t-il de gagner des disciples ?",
+              "options": [
+                "Oui",
+                "Non",
+                "Jamais"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q4",
+              "text": "Le message parle-t-il de missionnaires ?",
+              "options": [
+                "Non",
+                "Oui",
+                "Jamais"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q5",
+              "text": "Le message de Beijing parle-t-il de missionnaires internationaux ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q6",
+              "text": "Par quoi le message associe-t-il la plantation d'églises ?",
+              "options": [
+                "Les vacances",
+                "Le sport",
+                "La prière et le jeûne"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q7",
+              "text": "Combien d'heures de prière sont mentionnées chaque semaine pour certains travailleurs de la plantation d'églises ?",
+              "options": [
+                "50 heures",
+                "5 heures",
+                "2 heures"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q8",
+              "text": "Quelle durée de jeûne mensuel est mentionnée pour certaines personnes ?",
+              "options": [
+                "1 heure",
+                "7 jours",
+                "30 minutes"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q9",
+              "text": "Quel est le rôle mentionné pour un directeur de prière ?",
+              "options": [
+                "Organiser les jeux",
+                "Vendre des jouets",
+                "Aider à organiser systématiquement la force de prière"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q10",
+              "text": "Quel autre responsable est mentionné ?",
+              "options": [
+                "Le directeur des vacances",
+                "Le directeur du jeûne",
+                "Le directeur du football"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q11",
+              "text": "Les 3B Messages veulent-ils voir le réveil ?",
+              "options": [
+                "Non",
+                "Jamais",
+                "Oui"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q12",
+              "text": "Le réveil doit-il toucher seulement une personne ?",
+              "options": [
+                "Seulement les enfants",
+                "Oui",
+                "Non, il doit s'étendre largement"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "m3b_l2_s5_q1",
+              "text": "Le réveil est-il associé à la prière ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q2",
+              "text": "Le réveil est-il associé à l'évangélisation ?",
+              "options": [
+                "Jamais",
+                "Oui",
+                "Non"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q3",
+              "text": "Le réveil est-il associé à la formation de disciples ?",
+              "options": [
+                "Oui",
+                "Jamais",
+                "Non"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q4",
+              "text": "Que veut dire « vivre les 3B Messages » ?",
+              "options": [
+                "Les mettre en pratique dans la formation des disciples",
+                "Les oublier",
+                "Seulement les mémoriser"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q5",
+              "text": "Selon le document, quel est le but global poursuivi ?",
+              "options": [
+                "Le réveil de tous dans CMFI",
+                "Les compétitions sportives",
+                "Les vacances"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q6",
+              "text": "Quel sentiment doit remplacer l'amour du monde ?",
+              "options": [
+                "La colère",
+                "La jalousie",
+                "L'amour pour le Seigneur Jésus"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q7",
+              "text": "Que doit faire un enfant qui aime Jésus ?",
+              "options": [
+                "L'oublier",
+                "Lui désobéir",
+                "Le chercher, l'aimer et le servir"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q8",
+              "text": "Quelle attitude le message demande-t-il envers la Parole ?",
+              "options": [
+                "La croire et la pratiquer",
+                "La cacher",
+                "La rejeter"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q9",
+              "text": "Quel est un bon exemple de retour au premier amour ?",
+              "options": [
+                "Mentir et être paresseux",
+                "Prier, lire la Bible et servir Jésus",
+                "Aimer seulement l'argent"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q10",
+              "text": "Pourquoi prie-t-on dans la perspective du réveil ?",
+              "options": [
+                "Pour jouer",
+                "Pour rechercher Dieu et participer à son œuvre",
+                "Pour dormir"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q11",
+              "text": "Quel mot décrit le mieux l'esprit des 3B Messages ?",
+              "options": [
+                "Désobéissance",
+                "Paresse",
+                "Réveil"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q12",
+              "text": "Quelle réponse résume le mieux les 3B Messages ?",
+              "options": [
+                "Refuser de servir Dieu",
+                "Aimer seulement les choses du monde",
+                "Aimer Jésus, lui obéir, prier, lire sa Parole et participer au réveil"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": []
+        },
+        {
+          "index": 7,
+          "questions": []
+        },
+        {
+          "index": 8,
+          "questions": []
+        },
+        {
+          "index": 9,
+          "questions": []
+        },
+        {
+          "index": 10,
+          "questions": []
+        },
+        {
+          "index": 11,
+          "questions": []
+        },
+        {
+          "index": 12,
+          "questions": []
+        }
+      ]
     },
     {
       "index": 3,
