@@ -9,136 +9,124 @@
           "index": 1,
           "questions": [
             {
-              "id": "placeholder_count_1_1_1",
-              "text": "Combien font 1 + 1 ?",
+              "id": "born_l1_s1_q1",
+              "text": "Quels sont les deux sortes de naissance présentées dans la leçon ?",
               "options": [
-                "3",
-                "1",
-                "4",
-                "2"
+                "Naissance scolaire et naissance à l'église",
+                "Naissance naturelle et naissance spirituelle",
+                "Naissance animale et naissance végétale"
               ],
-              "correctIndex": 3
+              "correctIndex": 1
             },
             {
-              "id": "placeholder_color_1_1",
-              "text": "De quelle couleur est l'herbe ?",
+              "id": "born_l1_s1_q2",
+              "text": "Selon Jean 1:12, que peuvent devenir ceux qui reçoivent Jésus ?",
               "options": [
-                "Noir",
-                "Rose",
-                "Vert",
-                "Bleu"
+                "Anges",
+                "Rois de la terre",
+                "Enfants de Dieu"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_1_2",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
+              "id": "born_l1_s1_q3",
+              "text": "Comment la première naissance est-elle appelée dans la leçon ?",
               "options": [
-                "Le lapin",
-                "La tortue",
-                "L'oiseau",
-                "Le poisson"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_1_3",
-              "text": "Quelle saison vient après l'hiver ?",
-              "options": [
-                "L'été",
-                "L'automne",
-                "Le printemps",
-                "La nuit"
+                "Naissance spirituelle",
+                "Nouvelle naissance",
+                "Naissance naturelle"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_count_1_1_2",
-              "text": "Combien font 1 + 2 ?",
+              "id": "born_l1_s1_q4",
+              "text": "Qui nous donne la naissance naturelle ?",
               "options": [
-                "2",
-                "4",
-                "5",
-                "3"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_1_5",
-              "text": "De quelle couleur est la neige ?",
-              "options": [
-                "Noir",
-                "Vert",
-                "Rouge",
-                "Blanc"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_1_6",
-              "text": "Quel animal dit « miaou » ?",
-              "options": [
-                "La vache",
-                "Le chien",
-                "Le chat",
-                "Le canard"
+                "Nos enseignants",
+                "Nos amis",
+                "Nos parents"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_general_1_7",
-              "text": "Quel repas prend-on le matin ?",
+              "id": "born_l1_s1_q5",
+              "text": "Comment la deuxième naissance est-elle appelée ?",
               "options": [
-                "Le déjeuner",
-                "Le goûter",
-                "Le petit-déjeuner",
-                "Le dîner"
+                "Naissance naturelle",
+                "Naissance spirituelle",
+                "Naissance scolaire"
               ],
-              "correctIndex": 2
+              "correctIndex": 1
             },
             {
-              "id": "placeholder_count_1_1_3",
-              "text": "Combien font 1 + 3 ?",
+              "id": "born_l1_s1_q6",
+              "text": "Que se passe-t-il lorsqu'un enfant entend parler de Jésus et croit en lui ?",
               "options": [
-                "4",
-                "5",
-                "3",
-                "6"
+                "L'enfant peut inviter Jésus dans son cœur",
+                "L'enfant devient un animal",
+                "L'enfant arrête de grandir"
               ],
               "correctIndex": 0
             },
             {
-              "id": "placeholder_color_1_9",
-              "text": "De quelle couleur est une fraise ?",
+              "id": "born_l1_s1_q7",
+              "text": "Que dit la leçon lorsqu'on demande sincèrement à Jésus de venir dans notre cœur ?",
               "options": [
-                "Bleu",
-                "Blanc",
-                "Rouge",
-                "Jaune"
+                "Nous devenons physiquement plus petits",
+                "Nous n'avons plus jamais besoin de prier",
+                "Nous recevons la puissance de devenir un enfant de Dieu"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_1_10",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
+              "id": "born_l1_s1_q8",
+              "text": "Quel est un autre nom donné à la deuxième naissance ?",
               "options": [
-                "L'aigle",
-                "Le poisson",
-                "Le serpent",
-                "Le mouton"
+                "Naître à l'école",
+                "Naître à la maison",
+                "Naître de nouveau"
               ],
-              "correctIndex": 3
+              "correctIndex": 2
             },
             {
-              "id": "placeholder_general_1_11",
-              "text": "Combien de roues a un vélo ?",
+              "id": "born_l1_s1_q9",
+              "text": "Combien de naissances une personne peut-elle recevoir selon la leçon ?",
               "options": [
-                "1",
-                "4",
-                "3",
-                "2"
+                "Cent",
+                "Aucune",
+                "Deux"
               ],
-              "correctIndex": 3
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s1_q10",
+              "text": "À quoi la première naissance est-elle liée ?",
+              "options": [
+                "Une télévision",
+                "Nos parents",
+                "Un jouet"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q11",
+              "text": "À quoi la deuxième naissance est-elle liée ?",
+              "options": [
+                "Le Saint-Esprit",
+                "Un ballon de football",
+                "Une salle de classe"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s1_q12",
+              "text": "Qu'est-ce que l'orateur a dit s'être passé le 17 septembre 1962 ?",
+              "options": [
+                "Sa remise de diplôme",
+                "Sa deuxième naissance",
+                "Sa première naissance"
+              ],
+              "correctIndex": 2
             }
           ]
         },
@@ -146,136 +134,124 @@
           "index": 2,
           "questions": [
             {
-              "id": "placeholder_count_2_2_2",
-              "text": "Combien font 2 + 2 ?",
+              "id": "born_l1_s2_q1",
+              "text": "Quelle date l'orateur a-t-il donnée pour sa deuxième naissance ?",
               "options": [
-                "6",
-                "3",
-                "4",
-                "5"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_2_2",
-              "text": "De quelle couleur est une banane mûre ?",
-              "options": [
-                "Bleu",
-                "Gris",
-                "Violet",
-                "Jaune"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_2_3",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
-              "options": [
-                "La girafe",
-                "Le zèbre",
-                "Le singe",
-                "Le lion"
+                "7 juillet 1978",
+                "17 septembre 1962",
+                "25 décembre 2000"
               ],
               "correctIndex": 0
             },
             {
-              "id": "placeholder_general_2_4",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
+              "id": "born_l1_s2_q2",
+              "text": "Quel âge l'orateur a-t-il dit avoir lors de sa deuxième naissance ?",
               "options": [
-                "Chanter",
-                "Se laver les mains",
-                "Sauter",
-                "Fermer les yeux"
+                "5",
+                "25",
+                "15"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q3",
+              "text": "Qu'est-ce que l'orateur a demandé à Jésus de lui donner ?",
+              "options": [
+                "La puissance pour ne plus pécher",
+                "Un nouveau jouet",
+                "Une nouvelle maison"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q4",
+              "text": "Par qui Jésus vient-il dans le cœur, selon la leçon ?",
+              "options": [
+                "La puissance du Saint-Esprit",
+                "La puissance de l'argent",
+                "La puissance des muscles"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q5",
+              "text": "Que devient une personne après avoir reçu Jésus et la puissance de Dieu dans son cœur ?",
+              "options": [
+                "Un oiseau",
+                "Un enseignant",
+                "Un enfant de Dieu"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q6",
+              "text": "Selon Jean 3:5, de quoi une personne doit-elle naître ?",
+              "options": [
+                "Les parents et les enseignants",
+                "L'eau et l'Esprit",
+                "La nourriture et l'eau"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_count_2_2_3",
-              "text": "Combien font 2 + 3 ?",
+              "id": "born_l1_s2_q7",
+              "text": "Que dit Jésus qu'une personne ne peut pas voir sans être née de nouveau ?",
               "options": [
-                "4",
-                "7",
-                "6",
-                "5"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_2_6",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Vert",
-                "Marron",
-                "Bleu",
-                "Rouge"
+                "Un terrain de football",
+                "Une salle de classe",
+                "Le royaume de Dieu"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_2_7",
-              "text": "Quel animal dit « ouaf » ?",
+              "id": "born_l1_s2_q8",
+              "text": "Qu'est-ce qui naît d'un être humain ?",
               "options": [
-                "Le cheval",
-                "Le mouton",
-                "Le chat",
-                "Le chien"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_2_8",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "5",
-                "4",
-                "6",
-                "10"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_count_2_2_4",
-              "text": "Combien font 2 + 4 ?",
-              "options": [
-                "6",
-                "7",
-                "8",
-                "5"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_2_10",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
-              "options": [
-                "Vert",
-                "Rose",
-                "Orange",
-                "Rouge"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_2_11",
-              "text": "Quel animal vole et fait du miel ?",
-              "options": [
-                "La fourmi",
-                "La coccinelle",
-                "Le papillon",
-                "L'abeille"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_2_12",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
-              "options": [
-                "6",
-                "8",
-                "7",
-                "5"
+                "Un arbre",
+                "Un ange",
+                "Un être humain"
               ],
               "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q9",
+              "text": "Que fait de quelqu'un le fait de naître de l'Esprit ?",
+              "options": [
+                "Un enfant de Dieu",
+                "Une machine",
+                "Une plante"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q10",
+              "text": "Quelle est la nature d'une personne après la première naissance ?",
+              "options": [
+                "La nature végétale",
+                "La nature animale",
+                "La nature humaine"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q11",
+              "text": "Quelle nature la leçon associe-t-elle à la deuxième naissance ?",
+              "options": [
+                "La nature d'un poisson",
+                "La nature de Dieu",
+                "La nature d'une voiture"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s2_q12",
+              "text": "Que signifie « naître de nouveau » dans la leçon ?",
+              "options": [
+                "Naître deux fois physiquement",
+                "Naître une deuxième fois d'une manière spirituelle",
+                "Retourner dans le ventre de sa mère"
+              ],
+              "correctIndex": 1
             }
           ]
         },
@@ -283,136 +259,124 @@
           "index": 3,
           "questions": [
             {
-              "id": "placeholder_count_3_3_3",
-              "text": "Combien font 3 + 3 ?",
+              "id": "born_l1_s3_q1",
+              "text": "Que doit faire une personne au lieu d'essayer de retourner dans le ventre de sa mère ?",
               "options": [
-                "7",
-                "6",
-                "5",
-                "8"
+                "Laisser Jésus entrer dans le cœur",
+                "Aller dormir",
+                "Arrêter de parler"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q2",
+              "text": "Que dit la leçon que nous pouvons voir chez quelqu'un qui a la nature de Dieu ?",
+              "options": [
+                "La manière dont la personne vit",
+                "La couleur des chaussures de la personne",
+                "La taille de la personne"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q3",
+              "text": "Quelle matière est mentionnée pour expliquer les organismes vivants ?",
+              "options": [
+                "La géographie",
+                "La biologie",
+                "L'histoire"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_color_3_3",
-              "text": "De quelle couleur est une fraise ?",
+              "id": "born_l1_s3_q4",
+              "text": "Combien de caractéristiques des organismes vivants sont citées ?",
               "options": [
-                "Jaune",
-                "Blanc",
-                "Rouge",
-                "Bleu"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_3_4",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
-              "options": [
-                "Le serpent",
-                "L'aigle",
-                "Le poisson",
-                "Le mouton"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_3_5",
-              "text": "Combien de roues a un vélo ?",
-              "options": [
-                "3",
-                "1",
-                "2",
-                "4"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_count_3_3_4",
-              "text": "Combien font 3 + 4 ?",
-              "options": [
-                "9",
-                "6",
-                "7",
-                "8"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_3_7",
-              "text": "De quelle couleur est l'herbe ?",
-              "options": [
-                "Vert",
-                "Bleu",
-                "Rose",
-                "Noir"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_3_8",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
-              "options": [
-                "L'oiseau",
-                "Le poisson",
-                "La tortue",
-                "Le lapin"
+                "Deux",
+                "Huit",
+                "Vingt"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_general_3_9",
-              "text": "Quelle saison vient après l'hiver ?",
+              "id": "born_l1_s3_q5",
+              "text": "Quelle est la première caractéristique des organismes vivants citée ?",
               "options": [
-                "Le printemps",
-                "La nuit",
-                "L'automne",
-                "L'été"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_count_3_3_5",
-              "text": "Combien font 3 + 5 ?",
-              "options": [
-                "8",
-                "7",
-                "9",
-                "10"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_3_11",
-              "text": "De quelle couleur est la neige ?",
-              "options": [
-                "Noir",
-                "Vert",
-                "Blanc",
-                "Rouge"
+                "Courir",
+                "Chanter",
+                "La respiration"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_3_12",
-              "text": "Quel animal dit « miaou » ?",
+              "id": "born_l1_s3_q6",
+              "text": "Quelle est la deuxième caractéristique citée ?",
               "options": [
-                "Le chien",
-                "La vache",
-                "Le chat",
-                "Le canard"
+                "Dormir",
+                "L'excrétion",
+                "Lire"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s3_q7",
+              "text": "Quelle est la troisième caractéristique citée ?",
+              "options": [
+                "Voler",
+                "Peindre",
+                "La croissance"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_general_3_13",
-              "text": "Quel repas prend-on le matin ?",
+              "id": "born_l1_s3_q8",
+              "text": "Quelle est la quatrième caractéristique citée ?",
               "options": [
-                "Le déjeuner",
-                "Le dîner",
-                "Le goûter",
-                "Le petit-déjeuner"
+                "Le mouvement",
+                "Cuisiner",
+                "Écrire"
               ],
-              "correctIndex": 3
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q9",
+              "text": "Quelle est la cinquième caractéristique citée ?",
+              "options": [
+                "La reproduction",
+                "Nager",
+                "Danser"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q10",
+              "text": "Quelle caractéristique signifie être capable de réagir à quelque chose ?",
+              "options": [
+                "La nutrition",
+                "La croissance",
+                "La sensibilité / la réactivité"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q11",
+              "text": "Qu'arrive-t-il finalement à tout organisme vivant ?",
+              "options": [
+                "Il devient un jouet",
+                "Il meurt",
+                "Il devient un bâtiment"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s3_q12",
+              "text": "Quelle caractéristique signifie prendre ce dont le corps a besoin pour vivre ?",
+              "options": [
+                "La nutrition",
+                "Le mouvement",
+                "L'excrétion"
+              ],
+              "correctIndex": 0
             }
           ]
         },
@@ -420,136 +384,124 @@
           "index": 4,
           "questions": [
             {
-              "id": "placeholder_count_4_4_4",
-              "text": "Combien font 4 + 4 ?",
+              "id": "born_l1_s4_q1",
+              "text": "Qu'est-ce que les plantes absorbent du sol ?",
               "options": [
-                "7",
-                "8",
-                "9",
-                "10"
+                "Des chaussures",
+                "Des nutriments",
+                "Des livres"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_color_4_4",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
+              "id": "born_l1_s4_q2",
+              "text": "Que font les personnes comme signe de leur respiration spirituelle ?",
               "options": [
-                "Vert",
-                "Orange",
-                "Rouge",
-                "Rose"
+                "Courir",
+                "Prier",
+                "Manger des bonbons"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s4_q3",
+              "text": "À quoi la leçon compare-t-elle la prière ?",
+              "options": [
+                "Dormir",
+                "La respiration",
+                "Marcher"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s4_q4",
+              "text": "De quoi une personne qui vit spirituellement doit-elle se nourrir ?",
+              "options": [
+                "La télévision",
+                "La saleté",
+                "La Parole de Dieu"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q5",
+              "text": "Que signifie l'« excrétion » spirituelle dans la leçon ?",
+              "options": [
+                "Abandonner le péché et les choses du monde",
+                "Devenir plus grand",
+                "Manger davantage"
               ],
               "correctIndex": 0
             },
             {
-              "id": "placeholder_animal_4_5",
-              "text": "Quel animal vole et fait du miel ?",
+              "id": "born_l1_s4_q6",
+              "text": "À quoi la croissance spirituelle doit-elle conduire ?",
               "options": [
-                "La fourmi",
-                "L'abeille",
-                "La coccinelle",
-                "Le papillon"
+                "Oublier Dieu",
+                "La maturité et la connaissance de Dieu",
+                "Arrêter de prier"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_general_4_6",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
+              "id": "born_l1_s4_q7",
+              "text": "Dans quelle direction une personne qui vit spirituellement doit-elle avancer ?",
               "options": [
-                "8",
-                "5",
-                "6",
-                "7"
+                "Vers Dieu et le ciel",
+                "Loin de Dieu",
+                "Vers une salle de classe"
               ],
-              "correctIndex": 3
+              "correctIndex": 0
             },
             {
-              "id": "placeholder_count_4_4_5",
-              "text": "Combien font 4 + 5 ?",
+              "id": "born_l1_s4_q8",
+              "text": "Qu'est-ce que la sensibilité spirituelle aide une personne à reconnaître ?",
               "options": [
-                "11",
-                "8",
-                "9",
-                "10"
+                "Seulement les couleurs",
+                "Seulement les nombres",
+                "Le bien et le mal"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_color_4_8",
-              "text": "De quelle couleur est une banane mûre ?",
+              "id": "born_l1_s4_q9",
+              "text": "Comment la leçon appelle-t-elle la capacité à reconnaître le bien et le mal ?",
               "options": [
-                "Bleu",
-                "Violet",
-                "Jaune",
-                "Gris"
+                "La reproduction",
+                "La nutrition",
+                "Le discernement"
               ],
               "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_4_9",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
+              "id": "born_l1_s4_q10",
+              "text": "Que peuvent faire les personnes qui vivent spirituellement pour les autres ?",
               "options": [
-                "Le singe",
-                "Le zèbre",
-                "Le lion",
-                "La girafe"
+                "Gagner des âmes et aider les autres à croire",
+                "Construire des avions",
+                "Faire dormir tout le monde"
               ],
-              "correctIndex": 3
+              "correctIndex": 0
             },
             {
-              "id": "placeholder_general_4_10",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
+              "id": "born_l1_s4_q11",
+              "text": "Quel genre de vie est la nouvelle vie spirituelle ?",
               "options": [
-                "Chanter",
-                "Se laver les mains",
-                "Sauter",
-                "Fermer les yeux"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_count_4_4_6",
-              "text": "Combien font 4 + 6 ?",
-              "options": [
-                "9",
-                "10",
-                "12",
-                "11"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_4_12",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Rouge",
-                "Bleu",
-                "Marron",
-                "Vert"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_4_13",
-              "text": "Quel animal dit « ouaf » ?",
-              "options": [
-                "Le cheval",
-                "Le chat",
-                "Le mouton",
-                "Le chien"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_4_14",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "4",
-                "6",
-                "5",
-                "10"
+                "Une vie d'un seul jour",
+                "Des vacances scolaires",
+                "La vie éternelle"
               ],
               "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q12",
+              "text": "Pourquoi la nouvelle vie est-elle décrite comme incapable de mourir ?",
+              "options": [
+                "Parce que Jésus ne peut pas mourir",
+                "Parce que les gens ne vieillissent jamais",
+                "Parce que les corps ne changent jamais"
+              ],
+              "correctIndex": 0
             }
           ]
         },
@@ -557,134 +509,122 @@
           "index": 5,
           "questions": [
             {
-              "id": "placeholder_count_5_5_5",
-              "text": "Combien font 5 + 5 ?",
+              "id": "born_l1_s5_q1",
+              "text": "Que révèlent les désirs d'un être vivant ?",
               "options": [
-                "12",
-                "10",
-                "9",
-                "11"
+                "Sa date de naissance",
+                "Sa taille",
+                "Sa nature"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q2",
+              "text": "Que possèdent les poissons selon l'exemple ?",
+              "options": [
+                "Des désirs de poisson",
+                "Des désirs humains",
+                "Des désirs d'oiseau"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q3",
+              "text": "Que possèdent les oiseaux selon l'exemple ?",
+              "options": [
+                "Des désirs de chat",
+                "Des désirs de poisson",
+                "Des désirs d'oiseau"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q4",
+              "text": "Qu'aiment les enfants de Dieu ?",
+              "options": [
+                "La saleté et le péché",
+                "Seulement les jouets",
+                "Dieu et les choses de Dieu"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q5",
+              "text": "Quels nouveaux désirs peuvent venir avec la nouvelle vie spirituelle ?",
+              "options": [
+                "L'amour pour Dieu et sa Parole",
+                "Le désir de faire le mal",
+                "Le désir d'éviter la prière"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q6",
+              "text": "Quel désir la nouvelle vie spirituelle peut-elle créer ?",
+              "options": [
+                "Ce qui est bien",
+                "Ce qui est mal",
+                "Rien"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q7",
+              "text": "Quel est le nom du prédicateur mentionné par l'orateur lorsqu'il était à l'école ?",
+              "options": [
+                "Stephen Olford",
+                "Nicodème",
+                "Moïse"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q8",
+              "text": "Quel animal est utilisé pour représenter l'amour de la saleté ?",
+              "options": [
+                "Un oiseau",
+                "Un cochon",
+                "Un chat"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_color_5_5",
-              "text": "De quelle couleur est la neige ?",
+              "id": "born_l1_s5_q9",
+              "text": "Quel animal est utilisé pour représenter l'amour de la propreté ?",
               "options": [
-                "Noir",
-                "Rouge",
-                "Vert",
-                "Blanc"
+                "Un poisson",
+                "Un cochon",
+                "Un chat domestique"
               ],
-              "correctIndex": 3
+              "correctIndex": 2
             },
             {
-              "id": "placeholder_animal_5_6",
-              "text": "Quel animal dit « miaou » ?",
+              "id": "born_l1_s5_q10",
+              "text": "Qu'est-ce que le cochon de l'exemple aime naturellement ?",
               "options": [
-                "Le canard",
-                "Le chien",
-                "La vache",
-                "Le chat"
+                "Les endroits propres",
+                "Des livres",
+                "La saleté"
               ],
-              "correctIndex": 3
+              "correctIndex": 2
             },
             {
-              "id": "placeholder_general_5_7",
-              "text": "Quel repas prend-on le matin ?",
+              "id": "born_l1_s5_q11",
+              "text": "Qu'est-ce que le chat de l'exemple aime naturellement ?",
               "options": [
-                "Le déjeuner",
-                "Le goûter",
-                "Le dîner",
-                "Le petit-déjeuner"
+                "La boue",
+                "Le bruit",
+                "Être propre"
               ],
-              "correctIndex": 3
+              "correctIndex": 2
             },
             {
-              "id": "placeholder_count_5_5_6",
-              "text": "Combien font 5 + 6 ?",
+              "id": "born_l1_s5_q12",
+              "text": "Si le cochon est lavé, à quoi retourne-t-il finalement ?",
               "options": [
-                "11",
-                "13",
-                "12",
-                "10"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_5_9",
-              "text": "De quelle couleur est une fraise ?",
-              "options": [
-                "Rouge",
-                "Bleu",
-                "Blanc",
-                "Jaune"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_5_10",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
-              "options": [
-                "Le serpent",
-                "Le mouton",
-                "L'aigle",
-                "Le poisson"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_5_11",
-              "text": "Combien de roues a un vélo ?",
-              "options": [
-                "2",
-                "1",
-                "3",
-                "4"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_count_5_5_7",
-              "text": "Combien font 5 + 7 ?",
-              "options": [
-                "12",
-                "11",
-                "13",
-                "14"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_5_13",
-              "text": "De quelle couleur est l'herbe ?",
-              "options": [
-                "Bleu",
-                "Rose",
-                "Noir",
-                "Vert"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_5_14",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
-              "options": [
-                "L'oiseau",
-                "La tortue",
-                "Le lapin",
-                "Le poisson"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_5_15",
-              "text": "Quelle saison vient après l'hiver ?",
-              "options": [
-                "La nuit",
-                "Le printemps",
-                "L'automne",
-                "L'été"
+                "La salle de classe",
+                "La boue",
+                "Le ciel"
               ],
               "correctIndex": 1
             }
@@ -694,960 +634,90 @@
           "index": 6,
           "questions": [
             {
-              "id": "placeholder_count_6_6_6",
-              "text": "Combien font 6 + 6 ?",
+              "id": "born_l1_s6_q1",
+              "text": "Si un chat se salit, que fait-il ?",
               "options": [
-                "11",
-                "13",
-                "14",
-                "12"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_6_6",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Marron",
-                "Rouge",
-                "Bleu",
-                "Vert"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_6_7",
-              "text": "Quel animal dit « ouaf » ?",
-              "options": [
-                "Le chat",
-                "Le cheval",
-                "Le chien",
-                "Le mouton"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_general_6_8",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "5",
-                "4",
-                "10",
-                "6"
+                "Il se nettoie",
+                "Il reste sale pour toujours",
+                "Il devient un cochon"
               ],
               "correctIndex": 0
             },
             {
-              "id": "placeholder_count_6_6_7",
-              "text": "Combien font 6 + 7 ?",
+              "id": "born_l1_s6_q2",
+              "text": "Qu'illustre l'histoire du cochon et du chat ?",
               "options": [
-                "15",
-                "13",
-                "14",
-                "12"
+                "Un changement de taille",
+                "Un changement de nature",
+                "Un changement d'école"
               ],
               "correctIndex": 1
             },
             {
-              "id": "placeholder_color_6_10",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
+              "id": "born_l1_s6_q3",
+              "text": "Que change la nouvelle naissance selon la leçon ?",
               "options": [
-                "Orange",
-                "Rouge",
-                "Vert",
-                "Rose"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_6_11",
-              "text": "Quel animal vole et fait du miel ?",
-              "options": [
-                "La fourmi",
-                "Le papillon",
-                "L'abeille",
-                "La coccinelle"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_general_6_12",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
-              "options": [
-                "8",
-                "5",
-                "6",
-                "7"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_count_6_6_8",
-              "text": "Combien font 6 + 8 ?",
-              "options": [
-                "14",
-                "16",
-                "13",
-                "15"
+                "La nature d'une personne",
+                "Les parents d'une personne",
+                "L'anniversaire d'une personne"
               ],
               "correctIndex": 0
             },
             {
-              "id": "placeholder_color_6_14",
-              "text": "De quelle couleur est une banane mûre ?",
+              "id": "born_l1_s6_q4",
+              "text": "Que donne Jésus à une personne après la deuxième naissance ?",
               "options": [
-                "Violet",
-                "Jaune",
-                "Bleu",
-                "Gris"
+                "La puissance de commencer à plaire à Dieu",
+                "Un nouvel animal",
+                "Une nouvelle salle de classe"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s6_q5",
+              "text": "Que doit faire un enfant après avoir commis un péché, selon l'exemple du chat dans la leçon ?",
+              "options": [
+                "Confesser rapidement le péché",
+                "Le cacher pour toujours",
+                "Faire comme si cela ne s'était pas produit"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s6_q6",
+              "text": "Qu'est-ce que l'orateur a répété à la fin ?",
+              "options": [
+                "Une naissance : ange ; deux naissances : animal",
+                "Une naissance : créature de Dieu ; deux naissances : enfant de Dieu",
+                "Une naissance : enseignant ; deux naissances : élève"
               ],
               "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_6_15",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
-              "options": [
-                "Le lion",
-                "Le zèbre",
-                "Le singe",
-                "La girafe"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_6_16",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
-              "options": [
-                "Fermer les yeux",
-                "Chanter",
-                "Se laver les mains",
-                "Sauter"
-              ],
-              "correctIndex": 2
             }
           ]
         },
         {
           "index": 7,
-          "questions": [
-            {
-              "id": "placeholder_count_7_7_7",
-              "text": "Combien font 7 + 7 ?",
-              "options": [
-                "15",
-                "16",
-                "14",
-                "13"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_7_7",
-              "text": "De quelle couleur est l'herbe ?",
-              "options": [
-                "Rose",
-                "Vert",
-                "Noir",
-                "Bleu"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_7_8",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
-              "options": [
-                "La tortue",
-                "Le poisson",
-                "Le lapin",
-                "L'oiseau"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_7_9",
-              "text": "Quelle saison vient après l'hiver ?",
-              "options": [
-                "L'automne",
-                "La nuit",
-                "L'été",
-                "Le printemps"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_count_7_7_8",
-              "text": "Combien font 7 + 8 ?",
-              "options": [
-                "14",
-                "17",
-                "16",
-                "15"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_7_11",
-              "text": "De quelle couleur est la neige ?",
-              "options": [
-                "Noir",
-                "Rouge",
-                "Vert",
-                "Blanc"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_7_12",
-              "text": "Quel animal dit « miaou » ?",
-              "options": [
-                "Le chat",
-                "La vache",
-                "Le chien",
-                "Le canard"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_7_13",
-              "text": "Quel repas prend-on le matin ?",
-              "options": [
-                "Le dîner",
-                "Le petit-déjeuner",
-                "Le goûter",
-                "Le déjeuner"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_count_7_7_9",
-              "text": "Combien font 7 + 9 ?",
-              "options": [
-                "17",
-                "16",
-                "18",
-                "15"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_7_15",
-              "text": "De quelle couleur est une fraise ?",
-              "options": [
-                "Rouge",
-                "Bleu",
-                "Jaune",
-                "Blanc"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_7_16",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
-              "options": [
-                "Le mouton",
-                "Le serpent",
-                "Le poisson",
-                "L'aigle"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_7_17",
-              "text": "Combien de roues a un vélo ?",
-              "options": [
-                "4",
-                "1",
-                "2",
-                "3"
-              ],
-              "correctIndex": 2
-            }
-          ]
+          "questions": []
         },
         {
           "index": 8,
-          "questions": [
-            {
-              "id": "placeholder_count_8_8_8",
-              "text": "Combien font 8 + 8 ?",
-              "options": [
-                "18",
-                "17",
-                "16",
-                "15"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_8_8",
-              "text": "De quelle couleur est une banane mûre ?",
-              "options": [
-                "Violet",
-                "Gris",
-                "Jaune",
-                "Bleu"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_8_9",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
-              "options": [
-                "Le zèbre",
-                "La girafe",
-                "Le lion",
-                "Le singe"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_8_10",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
-              "options": [
-                "Fermer les yeux",
-                "Chanter",
-                "Sauter",
-                "Se laver les mains"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_count_8_8_9",
-              "text": "Combien font 8 + 9 ?",
-              "options": [
-                "19",
-                "18",
-                "17",
-                "16"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_8_12",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Rouge",
-                "Bleu",
-                "Marron",
-                "Vert"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_8_13",
-              "text": "Quel animal dit « ouaf » ?",
-              "options": [
-                "Le cheval",
-                "Le chien",
-                "Le mouton",
-                "Le chat"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_8_14",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "10",
-                "6",
-                "4",
-                "5"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_count_8_8_10",
-              "text": "Combien font 8 + 10 ?",
-              "options": [
-                "20",
-                "17",
-                "18",
-                "19"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_8_16",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
-              "options": [
-                "Vert",
-                "Orange",
-                "Rose",
-                "Rouge"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_8_17",
-              "text": "Quel animal vole et fait du miel ?",
-              "options": [
-                "L'abeille",
-                "La coccinelle",
-                "Le papillon",
-                "La fourmi"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_8_18",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
-              "options": [
-                "6",
-                "7",
-                "5",
-                "8"
-              ],
-              "correctIndex": 1
-            }
-          ]
+          "questions": []
         },
         {
           "index": 9,
-          "questions": [
-            {
-              "id": "placeholder_count_9_9_9",
-              "text": "Combien font 9 + 9 ?",
-              "options": [
-                "19",
-                "20",
-                "17",
-                "18"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_9_9",
-              "text": "De quelle couleur est une fraise ?",
-              "options": [
-                "Jaune",
-                "Blanc",
-                "Bleu",
-                "Rouge"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_9_10",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
-              "options": [
-                "Le serpent",
-                "Le poisson",
-                "Le mouton",
-                "L'aigle"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_general_9_11",
-              "text": "Combien de roues a un vélo ?",
-              "options": [
-                "4",
-                "3",
-                "1",
-                "2"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_count_9_9_10",
-              "text": "Combien font 9 + 10 ?",
-              "options": [
-                "21",
-                "18",
-                "19",
-                "20"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_9_13",
-              "text": "De quelle couleur est l'herbe ?",
-              "options": [
-                "Bleu",
-                "Vert",
-                "Noir",
-                "Rose"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_9_14",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
-              "options": [
-                "Le lapin",
-                "Le poisson",
-                "La tortue",
-                "L'oiseau"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_9_15",
-              "text": "Quelle saison vient après l'hiver ?",
-              "options": [
-                "L'automne",
-                "Le printemps",
-                "La nuit",
-                "L'été"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_count_9_9_11",
-              "text": "Combien font 9 + 11 ?",
-              "options": [
-                "19",
-                "22",
-                "21",
-                "20"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_9_17",
-              "text": "De quelle couleur est la neige ?",
-              "options": [
-                "Vert",
-                "Blanc",
-                "Noir",
-                "Rouge"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_animal_9_18",
-              "text": "Quel animal dit « miaou » ?",
-              "options": [
-                "Le canard",
-                "Le chien",
-                "Le chat",
-                "La vache"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_general_9_19",
-              "text": "Quel repas prend-on le matin ?",
-              "options": [
-                "Le dîner",
-                "Le petit-déjeuner",
-                "Le déjeuner",
-                "Le goûter"
-              ],
-              "correctIndex": 1
-            }
-          ]
+          "questions": []
         },
         {
           "index": 10,
-          "questions": [
-            {
-              "id": "placeholder_count_10_10_10",
-              "text": "Combien font 10 + 10 ?",
-              "options": [
-                "22",
-                "19",
-                "21",
-                "20"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_color_10_10",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
-              "options": [
-                "Rouge",
-                "Rose",
-                "Vert",
-                "Orange"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_10_11",
-              "text": "Quel animal vole et fait du miel ?",
-              "options": [
-                "La coccinelle",
-                "La fourmi",
-                "L'abeille",
-                "Le papillon"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_general_10_12",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
-              "options": [
-                "7",
-                "8",
-                "6",
-                "5"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_count_10_10_11",
-              "text": "Combien font 10 + 11 ?",
-              "options": [
-                "20",
-                "21",
-                "22",
-                "23"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_10_14",
-              "text": "De quelle couleur est une banane mûre ?",
-              "options": [
-                "Violet",
-                "Bleu",
-                "Gris",
-                "Jaune"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_10_15",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
-              "options": [
-                "Le lion",
-                "Le singe",
-                "Le zèbre",
-                "La girafe"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_10_16",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
-              "options": [
-                "Fermer les yeux",
-                "Sauter",
-                "Se laver les mains",
-                "Chanter"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_count_10_10_12",
-              "text": "Combien font 10 + 12 ?",
-              "options": [
-                "24",
-                "22",
-                "21",
-                "23"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_10_18",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Vert",
-                "Marron",
-                "Bleu",
-                "Rouge"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_10_19",
-              "text": "Quel animal dit « ouaf » ?",
-              "options": [
-                "Le cheval",
-                "Le mouton",
-                "Le chat",
-                "Le chien"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_10_20",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "10",
-                "6",
-                "5",
-                "4"
-              ],
-              "correctIndex": 2
-            }
-          ]
+          "questions": []
         },
         {
           "index": 11,
-          "questions": [
-            {
-              "id": "placeholder_count_11_11_11",
-              "text": "Combien font 11 + 11 ?",
-              "options": [
-                "23",
-                "22",
-                "24",
-                "21"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_11_11",
-              "text": "De quelle couleur est la neige ?",
-              "options": [
-                "Blanc",
-                "Vert",
-                "Rouge",
-                "Noir"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_animal_11_12",
-              "text": "Quel animal dit « miaou » ?",
-              "options": [
-                "Le chien",
-                "Le chat",
-                "La vache",
-                "Le canard"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_11_13",
-              "text": "Quel repas prend-on le matin ?",
-              "options": [
-                "Le déjeuner",
-                "Le goûter",
-                "Le petit-déjeuner",
-                "Le dîner"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_count_11_11_12",
-              "text": "Combien font 11 + 12 ?",
-              "options": [
-                "24",
-                "22",
-                "23",
-                "25"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_color_11_15",
-              "text": "De quelle couleur est une fraise ?",
-              "options": [
-                "Bleu",
-                "Blanc",
-                "Rouge",
-                "Jaune"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_11_16",
-              "text": "Quel animal saute et vit en troupeau dans les champs ?",
-              "options": [
-                "Le serpent",
-                "Le mouton",
-                "Le poisson",
-                "L'aigle"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_general_11_17",
-              "text": "Combien de roues a un vélo ?",
-              "options": [
-                "1",
-                "4",
-                "2",
-                "3"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_count_11_11_13",
-              "text": "Combien font 11 + 13 ?",
-              "options": [
-                "24",
-                "25",
-                "23",
-                "26"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_11_19",
-              "text": "De quelle couleur est l'herbe ?",
-              "options": [
-                "Noir",
-                "Rose",
-                "Bleu",
-                "Vert"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_11_20",
-              "text": "Quel animal vit dans l'eau et a des nageoires ?",
-              "options": [
-                "Le poisson",
-                "Le lapin",
-                "L'oiseau",
-                "La tortue"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_11_21",
-              "text": "Quelle saison vient après l'hiver ?",
-              "options": [
-                "L'automne",
-                "L'été",
-                "La nuit",
-                "Le printemps"
-              ],
-              "correctIndex": 3
-            }
-          ]
+          "questions": []
         },
         {
           "index": 12,
-          "questions": [
-            {
-              "id": "placeholder_count_12_12_12",
-              "text": "Combien font 12 + 12 ?",
-              "options": [
-                "24",
-                "26",
-                "25",
-                "23"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_12_12",
-              "text": "De quelle couleur est le ciel par une belle journée ensoleillée ?",
-              "options": [
-                "Rouge",
-                "Vert",
-                "Marron",
-                "Bleu"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_12_13",
-              "text": "Quel animal dit « ouaf » ?",
-              "options": [
-                "Le chien",
-                "Le chat",
-                "Le cheval",
-                "Le mouton"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_12_14",
-              "text": "Combien de doigts a-t-on à une main ?",
-              "options": [
-                "4",
-                "5",
-                "6",
-                "10"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_count_12_12_13",
-              "text": "Combien font 12 + 13 ?",
-              "options": [
-                "24",
-                "25",
-                "26",
-                "27"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_color_12_16",
-              "text": "En mélangeant du bleu et du jaune, quelle couleur obtient-on ?",
-              "options": [
-                "Rose",
-                "Rouge",
-                "Vert",
-                "Orange"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "id": "placeholder_animal_12_17",
-              "text": "Quel animal vole et fait du miel ?",
-              "options": [
-                "La fourmi",
-                "La coccinelle",
-                "Le papillon",
-                "L'abeille"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_general_12_18",
-              "text": "Combien de jours y a-t-il dans une semaine ?",
-              "options": [
-                "8",
-                "7",
-                "5",
-                "6"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "id": "placeholder_count_12_12_14",
-              "text": "Combien font 12 + 14 ?",
-              "options": [
-                "26",
-                "25",
-                "28",
-                "27"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_color_12_20",
-              "text": "De quelle couleur est une banane mûre ?",
-              "options": [
-                "Gris",
-                "Violet",
-                "Bleu",
-                "Jaune"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "id": "placeholder_animal_12_21",
-              "text": "Quel animal a un long cou pour manger les feuilles des arbres ?",
-              "options": [
-                "La girafe",
-                "Le zèbre",
-                "Le singe",
-                "Le lion"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "id": "placeholder_general_12_22",
-              "text": "Que faut-il faire avant de manger, pour être propre ?",
-              "options": [
-                "Se laver les mains",
-                "Chanter",
-                "Fermer les yeux",
-                "Sauter"
-              ],
-              "correctIndex": 0
-            }
-          ]
+          "questions": []
         }
       ]
     },

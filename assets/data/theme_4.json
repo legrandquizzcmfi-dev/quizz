@@ -1,0 +1,603 @@
+{
+  "themeId": "vie_maman_emily",
+  "title": "La Vie de Maman Emily Tendo",
+  "levels": [
+    {
+      "index": 1,
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "emily_l1_s1_q1",
+              "text": "Comment s'appelle Maman Emily ?",
+              "options": ["Marie Claire Tendo", "Emily Akwong Tendo", "Rose Akwong Tendo"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s1_q2",
+              "text": "Quel jour Maman Emily est-elle née ?",
+              "options": ["Le 21 juin 1950", "Le 25 décembre 1960", "Le 1er janvier 1955"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s1_q3",
+              "text": "Dans quelle ville Maman Emily est-elle née ?",
+              "options": ["Douala", "Yaoundé", "Kumbo"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s1_q4",
+              "text": "Dans quel hôpital Maman Emily est-elle née ?",
+              "options": ["L'hôpital général de Douala", "L'hôpital catholique de Kumbo", "L'hôpital protestant"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s1_q5",
+              "text": "Comment s'appelait le papa de Maman Emily ?",
+              "options": ["Samuel Yason Tendo", "Zacharias Tanee", "Joseph Ndinteh"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s1_q6",
+              "text": "Comment s'appelait la maman de Maman Emily ?",
+              "options": ["Marie Atami", "Sarah Akwong", "Elisabeth Atami Tendo"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s1_q7",
+              "text": "Combien d'enfants y avait-il dans la famille de Maman Emily ?",
+              "options": ["11 enfants", "3 enfants", "5 enfants"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s1_q8",
+              "text": "Quelle position Maman Emily occupait-elle parmi ses frères et sœurs ?",
+              "options": ["Elle était l'aînée (1ère)", "Elle était la 3ème enfant", "Elle était la plus jeune"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s1_q9",
+              "text": "Dans quel pays se trouve Kumbo, la ville de naissance de Maman Emily ?",
+              "options": ["Au Gabon", "En France", "Au Cameroun"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s1_q10",
+              "text": "Dans quelle région du Cameroun est située la ville de Kumbo ?",
+              "options": ["La région du Nord-Ouest", "La région du Littoral", "La région du Sud"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s1_q11",
+              "text": "Comment s'appelait le grand-père de Maman Emily ?",
+              "options": ["Paul Tibi", "Petro Nya-me", "Ebeny Mbah"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s1_q12",
+              "text": "Que faisait le grand-père de Maman Emily dans son champ ?",
+              "options": ["Il dormait sous un arbre", "Il jouait au ballon", "Il chantait des cantiques pour Dieu"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "emily_l1_s2_q1",
+              "text": "Comment s'appelait le petit frère adopté dans la famille de Maman Emily ?",
+              "options": ["Paul Tibi", "Fidelis", "Kenneth"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s2_q2",
+              "text": "Comment était l'ambiance dans la maison de Maman Emily ?",
+              "options": ["Pleine de dispute", "Pleine de prière et de chansons pour Dieu", "Triste et silencieuse"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s2_q3",
+              "text": "En quelle année Maman Emily est-elle née ?",
+              "options": ["1980", "2000", "1950"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s2_q4",
+              "text": "De quel instrument de musique le papa de Maman Emily jouait-il le matin ?",
+              "options": ["De l'accordéon", "De la guitare", "Du piano"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s2_q5",
+              "text": "Pourquoi le papa jouait-il de l'accordéon le matin ?",
+              "options": ["Pour réveiller les voisins", "Pour appeler toute la famille au culte du matin", "Pour faire danser le chat"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s2_q6",
+              "text": "Qu'est-ce que le papa tenait aussi en main pour encourager les retardataires au culte ?",
+              "options": ["Un bonbon", "Un jouet", "Un petit fouet / baguette"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s2_q7",
+              "text": "Chez qui la maman de Maman Emily (Elisabeth) avait-elle grandi ?",
+              "options": ["Chez des missionnaires suisses (Mission Basel)", "Chez des voisins", "Dans une école de cirque"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s2_q8",
+              "text": "En quelles langues la maman de Maman Emily chantait-elle de beaux cantiques ?",
+              "options": ["En anglais et en espagnol", "En Baliqui et en Douala", "En chinois et en italien"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s2_q9",
+              "text": "Que faisaient les enfants à la maison le soir ?",
+              "options": ["Ils regardaient la télévision", "Ils jouaient aux jeux vidéo", "Ils apprenaient à chanter, prier et lire la Bible"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s2_q10",
+              "text": "Dans quelle école primaire Maman Emily a-t-elle commencé ses études ?",
+              "options": ["Basel Mission Primary School Mbi", "École publique de Yaoundé", "École de la gare"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s2_q11",
+              "text": "Quel jour de la semaine y avait-il un moment spécial de chant à l'école primaire ?",
+              "options": ["Le lundi matin", "Le vendredi après-midi", "Le mercredi midi"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s2_q12",
+              "text": "Maman Emily aimait-elle chanter quand elle était petite ?",
+              "options": ["Non, elle était trop timide", "Elle préférait crier", "Oui, elle aimait beaucoup chanter pour Dieu"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "emily_l1_s3_q1",
+              "text": "Quel bel exemple la famille de Maman Emily donnait-elle chaque matin ?",
+              "options": ["Prier et chanter ensemble en famille", "Se disputer pour le petit déjeuner", "Partir sans rien dire"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s3_q2",
+              "text": "Dans quelle école secondaire pour filles Maman Emily a-t-elle étudié à Bamenda ?",
+              "options": ["St. Joseph School", "Holy Rosary School", "École des reines"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s3_q3",
+              "text": "Dans quel lycée prestigieux Maman Emily a-t-elle continué ses études au Cameroun ?",
+              "options": ["Lycée de Douala", "Collège de Bafoussam", "CCAST Bambili"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s3_q4",
+              "text": "Dans quel pays d'Afrique Maman Emily est-elle allée étudier à Fourah Bay College ?",
+              "options": ["En Sierra Leone", "Au Nigeria", "Au Sénégal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s3_q5",
+              "text": "Quelle matière scientifique Maman Emily a-t-elle étudiée à l'université ?",
+              "options": ["La géographie", "La chimie", "L'histoire"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s3_q6",
+              "text": "Dans quel grand pays d'Amérique Maman Emily est-elle allée faire son Master ?",
+              "options": ["Au Canada", "Au Brésil", "Aux États-Unis (Nouveau-Mexique)"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s3_q7",
+              "text": "Quel diplôme supérieur Maman Emily a-t-elle obtenu aux États-Unis ?",
+              "options": ["Un Master en Chimie", "Un diplôme de dessin", "Un certificat de sport"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s3_q8",
+              "text": "Quel métier Maman Emily a-t-elle exercé pendant de nombreuses années ?",
+              "options": ["Médecin vétérinaire", "Enseignante de chimie", "Pilote d'avion"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s3_q9",
+              "text": "Maman Emily a aussi travaillé comme Inspectrice de Pédagogie de 1986 à 2010 dans quel ministère ?",
+              "options": ["Le Ministère des Sports", "Le Ministère de la Cuisine", "Le Ministère de l'Éducation Nationale"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s3_q10",
+              "text": "Comment Maman Emily était-elle dans son travail d'enseignante ?",
+              "options": ["Sérieuse, ponctuelle et très appliquée", "Paresseuse et souvent en retard", "Toujours fâchée"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s3_q11",
+              "text": "Comment Maman Emily expliquait-elle la chimie à ses élèves ?",
+              "options": ["Elle donnait seulement des punitions", "Avec clarté, patience et gentillesse", "Elle ne parlait jamais"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s3_q12",
+              "text": "Combien d'années Maman Emily a-t-elle servi au Ministère de l'Éducation Nationale ?",
+              "options": ["2 ans", "50 ans", "24 ans (de 1986 à 2010)"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "emily_l1_s4_q1",
+              "text": "Quelle était la matière préférée de Maman Emily à l'école et à l'université ?",
+              "options": ["La chimie", "Le football", "La peinture"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s4_q2",
+              "text": "Pourquoi les élèves aimaient-ils Maman Emily ?",
+              "options": ["Parce qu'elle leur donnait des bonbons", "Parce qu'elle était douce, patiente et expliquait très bien", "Parce qu'il n'y avait pas de cours"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s4_q3",
+              "text": "En quelle année Maman Emily s'est-elle mariée aux États-Unis ?",
+              "options": ["En 2000", "En 1990", "En 1975"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s4_q4",
+              "text": "Comment s'appelait son mari ?",
+              "options": ["Joseph Dinde (Ndinteh Tontoh)", "Zacharias Fomum", "Samuel Tendo"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s4_q5",
+              "text": "Comment s'appelle le fils unique de Maman Emily ?",
+              "options": ["Paul Tibi", "Derek Tontoh Ndinteh (Watchman)", "Emmanuel Tendo"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s4_q6",
+              "text": "Où est né son fils Derek ?",
+              "options": ["À Yaoundé", "À Kumbo", "Au Nouveau-Mexique (États-Unis)"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s4_q7",
+              "text": "Comment Maman Emily appelait-elle affectueusement son fils Derek ?",
+              "options": ["Watchman (le veilleur)", "Petit prince", "Champion"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s4_q8",
+              "text": "Combien de petits-enfants Maman Emily a-t-elle eus grâce à son fils Derek ?",
+              "options": ["Aucun petit-enfant", "2 petits-enfants (Joseph et Emily)", "10 petits-enfants"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s4_q9",
+              "text": "Comment Maman Emily s'occupait-elle de son fils ?",
+              "options": ["En le laissant tout seul", "En lui criant dessus", "Avec beaucoup d'amour, de prières et de bons conseils"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s4_q10",
+              "text": "En quelle année Maman Emily a-t-elle rencontré le Frère Zacharias Tanee Fomum ?",
+              "options": ["En 1978", "En 2010", "En 1960"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s4_q11",
+              "text": "Où a eu lieu la première réunion de maison du ministère à Yaoundé le 15 octobre 1978 ?",
+              "options": ["Dans un grand stade", "Chez Maman Emily à Mvog Mbi", "À la gare de train"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s4_q12",
+              "text": "Qu'a-t-on fait de très spécial lors de cette réunion du 15 octobre 1978 chez Maman Emily ?",
+              "options": ["Une fête d'anniversaire", "Un match de football", "Le premier rompage de pain (la Sainte-Cène)"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "emily_l1_s5_q1",
+              "text": "Quel était le premier rôle de confiance confié à Maman Emily dans l'église ?",
+              "options": ["Première trésorière de l'assemblée", "Chauffeur du bus", "Jardinier"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s5_q2",
+              "text": "Où Maman Emily gardait-elle au début l'argent de l'église avec grand soin ?",
+              "options": ["Sous son lit", "Dans son grand sac à main, puis sur un compte postal", "Dans une boîte jetée dehors"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s5_q3",
+              "text": "Comment s'appelait le premier groupe de chant formé par Maman Emily et ses amies ?",
+              "options": ["Les Petits Anges", "Les Chanteurs du Dimanche", "His Ambassadors (Les Ambassadeurs)"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s5_q4",
+              "text": "Quel autre nom a pris le groupe de chant plus tard ?",
+              "options": ["Les Semeurs", "Les Voitures rapides", "Les Étoiles du ciel"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s5_q5",
+              "text": "Comment s'appelait la cassette de cantiques produite par Maman Emily et son groupe ?",
+              "options": ["La Chanson joyeuse", "Voice of Love (La Voix de l'Amour)", "Le Chant des oiseaux"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s5_q6",
+              "text": "Maman Emily aimait-elle chanter pour louer Dieu ?",
+              "options": ["Non, elle préférait siffler", "Elle n'aimait pas la musique", "Oui, elle chantait de tout son cœur"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s5_q7",
+              "text": "Qui a fondé le ministère CMCI avec Maman Emily et d'autres croyants ?",
+              "options": ["Le Frère Zacharias Tanee Fomum (Frère Zach)", "Un président de la république", "Un commerçant"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s5_q8",
+              "text": "Quelle était la place de la prière dans la maison de Maman Emily à Yaoundé ?",
+              "options": ["On y priait une fois par an", "Sa maison était une maison de prière ouverte à tous", "La prière y était interdite"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s5_q9",
+              "text": "Quel accueil Maman Emily réservait-elle aux visiteurs qui venaient chez elle ?",
+              "options": ["Elle fermait la porte à clé", "Elle leur demandait de partir", "Un accueil très chaleureux comme dans un grand hôtel (le 'Hilton')"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s5_q10",
+              "text": "Pourquoi les gens aimaient-ils aller chez Maman Emily ?",
+              "options": ["Pour recevoir de l'amour, des prières et être réconfortés", "Pour regarder la télé", "Pour acheter des jouets"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s5_q11",
+              "text": "Combien d'années Maman Emily a-t-elle prié fidèlement pour le Frère Zach ?",
+              "options": ["Pendant 1 jour", "Pendant 33 ans", "Pendant 1 mois"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s5_q12",
+              "text": "Combien d'heures par jour Maman Emily pouvait-elle passer à prier Dieu ?",
+              "options": ["5 minutes seulement", "30 secondes", "Entre 10 heures et 16 heures par jour"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": [
+            {
+              "id": "emily_l1_s6_q1",
+              "text": "Maman Emily participait-elle aux chaînes de prière de nuit ?",
+              "options": ["Oui, elle priait souvent la nuit avec passion", "Non, elle dormait toujours très tôt", "Elle préférait écouter la radio"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s6_q2",
+              "text": "Comment s'appelait le groupe de sœurs de prière très engagées formé en 2002 ?",
+              "options": ["Les Reines de la Prière", "Senior Girls (Les Sœurs Aînées)", "Les Petites Filles"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s6_q3",
+              "text": "Quel grand événement a eu lieu à Lagos en 2002 où les Senior Girls ont prié 16 heures par jour ?",
+              "options": ["Un grand concert de rock", "Une foire commerciale", "La Convention d'Effusion du Saint-Esprit"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s6_q4",
+              "text": "Par combien de jours de jeûne Maman Emily a-t-elle commencé au début ?",
+              "options": ["3 jours de jeûne", "100 jours", "1 heure"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s6_q5",
+              "text": "Combien de jeûnes de 40 jours Maman Emily a-t-elle accomplis dans sa vie ?",
+              "options": ["Seulement 1 jeûne", "Plus de 60 jeûnes de 40 jours", "Aucun jeûne"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s6_q6",
+              "text": "Pourquoi Maman Emily jeûnait-elle ?",
+              "options": ["Pour faire un régime", "Pour rigoler", "Pour se rapprocher de Dieu et prier intensément"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s6_q7",
+              "text": "Quelle était la force de Maman Emily pendant ses longs jeûnes ?",
+              "options": ["La grâce et la présence de Dieu", "Elle mangeait des bonbons en cachette", "Elle buvait beaucoup de sodas"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s6_q8",
+              "text": "Maman Emily se plaignait-elle quand elle priait beaucoup ?",
+              "options": ["Oui, elle pleurait tout le temps", "Non, elle le faisait avec une grande joie", "Elle se fâchait avec tout le monde"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s6_q9",
+              "text": "Quand Maman Emily priait pour les gens, que se passait-il ?",
+              "options": ["Rien ne se passait", "Les gens s'endormaient", "Dieu exauçait ses prières et bénissait les gens"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s6_q10",
+              "text": "À quel moment de la journée Maman Emily aimait-elle commencer sa prière ?",
+              "options": ["Très tôt le matin", "Juste avant de dormir seulement", "À minuit uniquement"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s6_q11",
+              "text": "Maman Emily utilisait-elle des listes de prière pour ne rien oublier ?",
+              "options": ["Non, elle oubliait tout", "Oui, elle notait soigneusement tous les sujets de prière", "Elle jetait tous les papiers"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s6_q12",
+              "text": "Quel était le secret de Maman Emily dans la prière ?",
+              "options": ["Ses grands cris", "Sa force physique", "Son amour profond pour Jésus et son obéissance"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "questions": [
+            {
+              "id": "emily_l1_s7_q1",
+              "text": "Que signifie le sigle UMPJ ?",
+              "options": ["Université Mondiale de la Prière et du Jeûne", "Union Merveilleuse des Petits Joueurs", "Unité Militaire pour les Jeunes"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s7_q2",
+              "text": "Quel rôle important Maman Emily occupait-elle à l'UMPJ ?",
+              "options": ["Gardienne du portail", "Vice-Chancelière de l'UMPJ", "Chauffeur de car"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s7_q3",
+              "text": "Dans quelle localité près de Bertoua se trouve le siège principal de l'UMPJ ?",
+              "options": ["Douala", "Kribi", "Koumé"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s7_q4",
+              "text": "À quelle distance de Koumé se situe le site de Ndoumbi ?",
+              "options": ["À environ 7 kilomètres", "À 100 kilomètres", "À 1 kilomètre"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s7_q5",
+              "text": "Existe-t-il une session spéciale UMPJ pour les enfants ?",
+              "options": ["Non, les enfants ne prient pas", "Oui, l'UMPJ Enfants existe pour apprendre aux enfants à prier", "Non, c'est interdit"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s7_q6",
+              "text": "Quels autres groupes de personnes sont formés à l'UMPJ ?",
+              "options": ["Seulement les pilotes d'avion", "Seulement les cuisiniers", "Les jeunes, les chantres (chanteurs) et les missionnaires"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s7_q7",
+              "text": "Que font les étudiants à l'UMPJ pendant leur séjour ?",
+              "options": ["Ils prient, jeûnent, étudient la Bible et cherchent Dieu", "Ils font du shopping", "Ils regardent la télévision"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s7_q8",
+              "text": "Maman Emily encourageait-elle les enfants à lire la Bible ?",
+              "options": ["Non, elle disait que c'était trop difficile", "Oui, elle voulait que chaque enfant connaisse la Parole de Dieu", "Elle cachait les Bibles"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s7_q9",
+              "text": "Avec qui Maman Emily a-t-elle coécrit le livre « La Centralité de la Prière » ?",
+              "options": ["Un voisin inconnu", "Un camarade de classe", "Le Professeur Zacharias Tanee Fomum"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s7_q10",
+              "text": "Où l'équipe de relecture des livres se réunissait-elle parfois au bord de la mer ?",
+              "options": ["À Limbe", "À Paris", "À Garoua"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s7_q11",
+              "text": "Quelle grande qualité caractérisait Maman Emily dans tout ce qu'elle faisait ?",
+              "options": ["Le désordre et le retard", "La ponctualité, l'ordre et la discipline", "La paresse"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s7_q12",
+              "text": "Comment Maman Emily traitait-elle les responsables et pasteurs de l'église ?",
+              "options": ["En les ignorant", "En se moquant d'eux", "Avec grand respect, obéissance et soumission"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "questions": [
+            {
+              "id": "emily_l1_s8_q1",
+              "text": "Quelle attitude Maman Emily avait-elle face à l'argent de l'église ?",
+              "options": ["Une honnêteté parfaite et une grande transparence", "Elle dépensait tout pour elle", "Elle le perdait souvent"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s8_q2",
+              "text": "Quand quelqu'un avait un problème, que conseillait souvent Maman Emily ?",
+              "options": ["D'abandonner tout de suite", "De prier et de lire des livres spirituels de la parole de Dieu", "D'acheter un jouet neuf"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s8_q3",
+              "text": "Quelle date marque le départ auprès du Seigneur (décès) de Maman Emily Tendo ?",
+              "options": ["Le 1er janvier 2000", "Le 25 décembre 2015", "Le 1er mars 2021"],
+              "correctIndex": 2
+            },
+            {
+              "id": "emily_l1_s8_q4",
+              "text": "Quel exemple précieux Maman Emily laisse-t-elle à tous les enfants ?",
+              "options": ["L'exemple d'une vie consacrée à Jésus, pleine d'amour et de prière", "Une collection de téléphones", "Un grand magasin de jouets"],
+              "correctIndex": 0
+            },
+            {
+              "id": "emily_l1_s8_q5",
+              "text": "Comment pouvons-nous ressembler à Maman Emily aujourd'hui ?",
+              "options": ["En ne voulant pas prier", "En aimant Jésus, en priant chaque jour et en obéissant", "En refusant d'écouter les parents"],
+              "correctIndex": 1
+            },
+            {
+              "id": "emily_l1_s8_q6",
+              "text": "Quel qualificatif décrit le mieux la vie de Maman Emily Tendo ?",
+              "options": ["Une dame fâchée", "Une personne timide", "Une servante de Dieu fidèle, humble et remplie de joie"],
+              "correctIndex": 2
+            }
+          ]
+        },
+        { "index": 9, "questions": [] },
+        { "index": 10, "questions": [] },
+        { "index": 11, "questions": [] },
+        { "index": 12, "questions": [] }
+      ]
+    },
+    {
+      "index": 2,
+      "stages": []
+    },
+    {
+      "index": 3,
+      "stages": []
+    }
+  ]
+}

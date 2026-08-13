@@ -26,6 +26,11 @@ class ContentRepository {
       color: Color(0xFFFF9800),
       icon: Icons.bolt_rounded,
     ),
+    (
+      asset: 'assets/data/theme_4.json',
+      color: Color(0xFF8E24AA),
+      icon: Icons.volunteer_activism_rounded,
+    ),
   ];
 
   Future<List<QuizTheme>> loadThemes() async {
