@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:le_grand_quiz/app.dart';
@@ -27,6 +28,11 @@ void main() {
       audio: audio!,
       child: const LeGrandQuizApp(),
     ));
+    await tester.pumpAndSettle();
+
+    // L'application démarre sur l'écran d'accueil illustré : on tape sur le
+    // bouton « Commencer » pour atteindre l'écran des thèmes.
+    await tester.tap(find.byKey(const Key('start_button')));
     await tester.pumpAndSettle();
 
     expect(find.text('Le Camp des Agneaux'), findsWidgets);

@@ -60,4 +60,6 @@ class AppStrings {
     if (_isEn) return muted ? 'Unmute sound' : 'Mute sound';
     return muted ? 'Réactiver le son' : 'Couper le son';
   }
+
+  String get start => _isEn ? 'Start' : 'Commencer';
 }

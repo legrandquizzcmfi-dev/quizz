@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'app_data.dart';
-import 'screens/home_screen.dart';
+import 'screens/start_screen.dart';
 
 /// Thème visuel : lisible, couleurs franches, gros textes et boutons,
 /// adapté à un public dès 3 ans et aux différentes tailles d'écran (§9).
@@ -41,7 +41,7 @@ class LeGrandQuizApp extends StatelessWidget {
           foregroundColor: Colors.white,
         ),
       ),
-      home: const HomeScreen(),
+      home: const StartScreen(),
     );
   }
 }
