@@ -16,8 +16,25 @@ class LeGrandQuizApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorSchemeSeed: const Color(0xFF6A4C93),
+        fontFamily: 'Montserrat',
         textTheme: const TextTheme(
-          headlineSmall: TextStyle(fontWeight: FontWeight.bold),
+          headlineSmall: TextStyle(
+            fontFamily: 'Montserrat',
+            fontWeight: FontWeight.bold,
+          ),
+          bodyMedium: TextStyle(fontFamily: 'Montserrat'),
+          bodySmall: TextStyle(fontFamily: 'Montserrat'),
+          displayLarge: TextStyle(fontFamily: 'Montserrat'),
+          displayMedium: TextStyle(fontFamily: 'Montserrat'),
+          displaySmall: TextStyle(fontFamily: 'Montserrat'),
+          headlineLarge: TextStyle(fontFamily: 'Montserrat'),
+          headlineMedium: TextStyle(fontFamily: 'Montserrat'),
+          labelLarge: TextStyle(fontFamily: 'Montserrat'),
+          labelMedium: TextStyle(fontFamily: 'Montserrat'),
+          labelSmall: TextStyle(fontFamily: 'Montserrat'),
+          titleLarge: TextStyle(fontFamily: 'Montserrat'),
+          titleMedium: TextStyle(fontFamily: 'Montserrat'),
+          titleSmall: TextStyle(fontFamily: 'Montserrat'),
         ),
         appBarTheme: const AppBarTheme(
           centerTitle: true,

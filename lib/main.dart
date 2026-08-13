@@ -38,7 +38,20 @@ class _AppLoader extends StatelessWidget {
           return const MaterialApp(
             debugShowCheckedModeBanner: false,
             home: Scaffold(
-              body: Center(child: CircularProgressIndicator()),
+              body: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Image(
+                      image: AssetImage('assets/icon/icon.png'),
+                      width: 160,
+                      height: 160,
+                    ),
+                    SizedBox(height: 24),
+                    CircularProgressIndicator(),
+                  ],
+                ),
+              ),
             ),
           );
         }
