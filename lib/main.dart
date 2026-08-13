@@ -4,6 +4,7 @@ import 'app.dart';
 import 'app_data.dart';
 import 'data/content_repository.dart';
 import 'models/quiz_theme.dart';
+import 'services/audio_service.dart';
 import 'services/progress_service.dart';
 
 Future<void> main() async {
@@ -11,20 +12,21 @@ Future<void> main() async {
   runApp(const _AppLoader());
 }
 
-/// Charge le contenu JSON (dans chaque langue disponible) et la progression
-/// sauvegardée avant d'afficher l'application (fonctionnement autonome,
-/// sans réseau, §7).
+/// Charge le contenu JSON (dans chaque langue disponible), la progression
+/// sauvegardée et le service audio avant d'afficher l'application
+/// (fonctionnement autonome, sans réseau, §7).
 class _AppLoader extends StatelessWidget {
   const _AppLoader();
 
-  Future<(Map<String, List<QuizTheme>>, ProgressService)> _load() async {
+  Future<(Map<String, List<QuizTheme>>, ProgressService, AudioService)> _load() async {
     final repository = ContentRepository();
     final themesByLanguage = <String, List<QuizTheme>>{
       for (final language in ProgressService.supportedLanguages)
         language: await repository.loadThemes(languageCode: language),
     };
     final progress = await ProgressService.create();
-    return (themesByLanguage, progress);
+    final audio = await AudioService.create();
+    return (themesByLanguage, progress, audio);
   }
 
   @override
@@ -40,10 +42,12 @@ class _AppLoader extends StatelessWidget {
             ),
           );
         }
-        final (themesByLanguage, progress) = snapshot.data!;
+        final (themesByLanguage, progress, audio) = snapshot.data!;
+        audio.startBackgroundMusic();
         return AppData(
           themesByLanguage: themesByLanguage,
-          progressService: progress,
+          progress: progress,
+          audio: audio,
           child: const LeGrandQuizApp(),
         );
       },

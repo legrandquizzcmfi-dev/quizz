@@ -36,13 +36,17 @@ class _ResultScreenState extends State<ResultScreen> {
     _passed = widget.score >= (total * ProgressService.passRatio).ceil();
 
     // Sauvegarde locale, sans compte ni réseau (§8).
-    AppData.of(context).progress.recordStageResult(
+    final appData = AppData.of(context);
+    appData.progress.recordStageResult(
           themeId: widget.theme.id,
           levelIndex: widget.level.index,
           stageIndex: widget.stage.index,
           score: widget.score,
           totalQuestions: total,
         );
+    if (_passed) {
+      appData.audio.playVictory();
+    }
   }
 
   QuizStage? get _nextStage {

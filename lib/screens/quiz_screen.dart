@@ -34,12 +34,15 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _selectOption(int index) {
     if (_answered) return;
+    final correct = _questions[_questionIndex].isCorrect(index);
     setState(() {
       _selectedIndex = index;
-      if (_questions[_questionIndex].isCorrect(index)) {
+      if (correct) {
         _score++;
       }
     });
+    final audio = AppData.of(context).audio;
+    correct ? audio.playCorrect() : audio.playWrong();
   }
 
   void _next() {

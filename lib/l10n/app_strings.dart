@@ -55,4 +55,9 @@ class AppStrings {
   String get backToStages => _isEn ? 'Back to stages' : 'Retour aux étapes';
 
   String get soon => _isEn ? 'Soon' : 'Bientôt';
+
+  String soundTooltip(bool muted) {
+    if (_isEn) return muted ? 'Unmute sound' : 'Mute sound';
+    return muted ? 'Réactiver le son' : 'Couper le son';
+  }
 }

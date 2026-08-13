@@ -38,6 +38,9 @@ dependencies:
   # Local, offline progress storage (§8 du cahier des charges).
   shared_preferences: ^2.3.3
 
+  # Musique de fond et effets sonores (bonne/mauvaise réponse, victoire).
+  audioplayers: ^6.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,8 +64,10 @@ flutter:
   uses-material-design: true
 
   # Contenu des questions : un fichier JSON par thème, embarqué en asset (§6, §8).
+  # Sons du jeu (musique de fond, effets sonores), générés localement.
   assets:
     - assets/data/
+    - assets/audio/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

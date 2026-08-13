@@ -4,6 +4,7 @@ import 'package:le_grand_quiz/app.dart';
 import 'package:le_grand_quiz/app_data.dart';
 import 'package:le_grand_quiz/data/content_repository.dart';
 import 'package:le_grand_quiz/models/quiz_theme.dart';
+import 'package:le_grand_quiz/services/audio_service.dart';
 import 'package:le_grand_quiz/services/progress_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -18,10 +19,12 @@ void main() {
       ))!;
     }
     final progress = await tester.runAsync(() => ProgressService.create());
+    final audio = await tester.runAsync(() => AudioService.create());
 
     await tester.pumpWidget(AppData(
       themesByLanguage: themesByLanguage,
-      progressService: progress!,
+      progress: progress!,
+      audio: audio!,
       child: const LeGrandQuizApp(),
     ));
     await tester.pumpAndSettle();

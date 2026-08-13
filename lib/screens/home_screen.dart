@@ -4,6 +4,7 @@ import '../app_data.dart';
 import '../models/quiz_level.dart';
 import '../models/quiz_theme.dart';
 import '../widgets/language_selector.dart';
+import '../widgets/mute_button.dart';
 import '../widgets/progress_tile.dart';
 import 'stages_screen.dart';
 
@@ -22,7 +23,7 @@ class HomeScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text(appData.strings.appTitle),
-          actions: const [LanguageSelector()],
+          actions: const [MuteButton(), LanguageSelector()],
           bottom: TabBar(
             tabs: [
               for (final theme in themes)
