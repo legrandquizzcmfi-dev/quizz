@@ -12,6 +12,8 @@ import '../models/stage_result.dart';
 class ProgressService extends ChangeNotifier {
   static const _storageKey = 'le_grand_quiz.progress.v1';
   static const _languageKey = 'le_grand_quiz.language.v1';
+  static const _childNameKey = 'le_grand_quiz.child_name.v1';
+  static const _childAgeKey = 'le_grand_quiz.child_age.v1';
   static const passRatio = 8 / 12;
   static const supportedLanguages = ['fr', 'en'];
   static const defaultLanguage = 'fr';
@@ -24,9 +26,21 @@ class ProgressService extends ChangeNotifier {
   String _languageCode = defaultLanguage;
   String get languageCode => _languageCode;
 
+  String? _childName;
+  int? _childAge;
+  String? get childName => _childName;
+  int? get childAge => _childAge;
+
+  /// Faux dès que le prénom et l'âge de l'enfant ont été renseignés une fois
+  /// (écran « Parlons un peu de toi ! », affiché uniquement à la toute
+  /// première ouverture de l'application).
+  bool get hasProfile => _childName != null && _childAge != null;
+
   ProgressService(this._prefs) {
     _load();
     _languageCode = _prefs.getString(_languageKey) ?? defaultLanguage;
+    _childName = _prefs.getString(_childNameKey);
+    _childAge = _prefs.getInt(_childAgeKey);
   }
 
   static Future<ProgressService> create() async {
@@ -40,6 +54,16 @@ class ProgressService extends ChangeNotifier {
     if (!supportedLanguages.contains(code) || code == _languageCode) return;
     _languageCode = code;
     await _prefs.setString(_languageKey, code);
+    notifyListeners();
+  }
+
+  /// Enregistre le prénom et l'âge de l'enfant, saisis lors du tout premier
+  /// lancement (écran « Parlons un peu de toi ! »).
+  Future<void> saveProfile({required String name, required int age}) async {
+    _childName = name;
+    _childAge = age;
+    await _prefs.setString(_childNameKey, name);
+    await _prefs.setInt(_childAgeKey, age);
     notifyListeners();
   }
 

@@ -62,4 +62,6 @@ class AppStrings {
   }
 
   String get start => _isEn ? 'Start' : 'Commencer';
+
+  String get continueLabel => _isEn ? 'Continue' : 'Continuer';
 }
