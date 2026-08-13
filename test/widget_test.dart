@@ -28,10 +28,34 @@ Future<AppData> _loadAppData(WidgetTester tester) async {
   );
 }
 
+// Plusieurs écrans (accueil, profil, tableau de bord) ont désormais un fond
+// étoilé et/ou un bouton à lueur pulsante — des animations en boucle
+// infinie qui restent actives même une fois l'écran quitté (la route reste
+// montée sous la nouvelle). pumpAndSettle() ne se stabiliserait donc jamais
+// une fois l'un de ces écrans visité : on avance le temps virtuel par petits
+// pas avec pump() à la place, comme le veut le fonctionnement du testeur
+// (un seul grand pump(duration) ne rejoue pas les frames intermédiaires).
+Future<void> _settleTransition(WidgetTester tester) async {
+  for (var i = 0; i < 6; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
+}
+
+/// Simule un écran de téléphone réaliste (plutôt que le petit canevas par
+/// défaut de 800×600) pour que le tableau de bord et l'écran de profil
+/// tiennent entièrement sans avoir besoin de défiler.
+void _usePhoneSizedSurface(WidgetTester tester) {
+  tester.view.physicalSize = const Size(1080, 2340);
+  tester.view.devicePixelRatio = 3.0;
+  addTearDown(tester.view.resetPhysicalSize);
+  addTearDown(tester.view.resetDevicePixelRatio);
+}
+
 void main() {
   testWidgets(
       'Returning user: start screen leads to the dashboard, '
       'and JOUER leads to the theme tabs', (WidgetTester tester) async {
+    _usePhoneSizedSurface(tester);
     // Un profil déjà enregistré simule un utilisateur qui a déjà ouvert
     // l'application : l'écran « Parlons un peu de toi ! » doit être sauté.
     SharedPreferences.setMockInitialValues({
@@ -40,20 +64,17 @@ void main() {
     });
 
     await tester.pumpWidget(await _loadAppData(tester));
-    // Un seul pump : l'écran d'accueil illustré a une lueur animée en boucle
-    // infinie autour du bouton « Commencer », donc pumpAndSettle() ne se
-    // stabiliserait jamais tant qu'on reste sur cet écran.
     await tester.pump();
 
     await tester.tap(find.byKey(const Key('start_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     // On atterrit sur le tableau de bord, pas directement sur les thèmes.
     expect(find.text('Le Camp des Agneaux'), findsNothing);
     expect(find.byKey(const Key('play_button')), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('play_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     expect(find.text('Le Camp des Agneaux'), findsWidgets);
     expect(find.text('Le Message des 3B'), findsOneWidget);
@@ -63,6 +84,7 @@ void main() {
 
   testWidgets('Dashboard: Défis/Classements/Favoris open a coming-soon screen',
       (WidgetTester tester) async {
+    _usePhoneSizedSurface(tester);
     SharedPreferences.setMockInitialValues({
       'le_grand_quiz.child_name.v1': 'Josué',
       'le_grand_quiz.child_age.v1': 7,
@@ -72,23 +94,23 @@ void main() {
     await tester.pump();
 
     await tester.tap(find.byKey(const Key('start_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     await tester.tap(find.byKey(const Key('challenges_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
     expect(find.text('Défis'), findsOneWidget);
     expect(find.text('Cette fonctionnalité arrive bientôt !'), findsOneWidget);
     await tester.pageBack();
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     await tester.tap(find.byKey(const Key('leaderboard_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
     expect(find.text('Classements'), findsOneWidget);
     await tester.pageBack();
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     await tester.tap(find.byKey(const Key('favorites_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
     expect(find.text('Favoris'), findsOneWidget);
   });
 
@@ -96,36 +118,30 @@ void main() {
       'First launch: start screen leads to the profile setup screen, '
       'which saves the profile and unlocks the dashboard',
       (WidgetTester tester) async {
+    _usePhoneSizedSurface(tester);
     SharedPreferences.setMockInitialValues({});
 
     await tester.pumpWidget(await _loadAppData(tester));
     await tester.pump();
 
     await tester.tap(find.byKey(const Key('start_button')));
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
-    // L'écran est une longue image défilable (pour rester utilisable même
-    // clavier ouvert) : il faut faire défiler jusqu'aux champs/bouton avant
-    // d'interagir avec, comme le ferait un vrai doigt.
     final continueButton = find.byKey(const Key('continue_button'));
-    await tester.ensureVisible(continueButton);
-    await tester.pumpAndSettle();
+    expect(continueButton, findsOneWidget);
 
     // Le bouton « Continuer » est désactivé tant que le formulaire n'est
     // pas valide.
     await tester.tap(continueButton);
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
     expect(find.byKey(const Key('play_button')), findsNothing);
 
-    await tester.ensureVisible(find.byType(TextField).first);
     await tester.enterText(find.byType(TextField).first, 'Josué');
-    await tester.ensureVisible(find.byType(TextField).last);
     await tester.enterText(find.byType(TextField).last, '7');
-    await tester.pumpAndSettle();
+    await tester.pump();
 
-    await tester.ensureVisible(continueButton);
     await tester.tap(continueButton);
-    await tester.pumpAndSettle();
+    await _settleTransition(tester);
 
     expect(find.byKey(const Key('play_button')), findsOneWidget);
   });

@@ -83,4 +83,36 @@ class AppStrings {
   String stagesCompleted(int passed, int total) => _isEn
       ? '$passed of $total stages completed'
       : '$passed étapes réussies sur $total';
+
+  String get welcomeBanner => _isEn ? 'Welcome! Ready for the adventure?' : 'Bienvenue ! Prêt pour l\'aventure ?';
+
+  String get playCaption => _isEn ? 'Choose your theme and start playing!' : 'Choisis ton thème et commence à jouer !';
+
+  String get myProgress => _isEn ? 'My progress' : 'Ma progression';
+
+  String get stagesCompletedLabel => _isEn ? 'Stages completed' : 'Étapes réussies';
+
+  String get keepGoing => _isEn ? 'Keep it up!' : 'Continue comme ça !';
+
+  String get myAchievements => _isEn ? 'My achievements' : 'Mes succès';
+
+  String get discoverBadges => _isEn ? 'Discover your badges!' : 'Découvre tes médailles !';
+
+  String get seeAchievements => _isEn ? 'See my achievements' : 'Voir mes succès';
+
+  String get tagline => _isEn ? 'Learn • Play • Grow' : 'Apprends • Joue • Grandis';
+
+  String get profileTitle => _isEn ? 'Let\'s talk about you!' : 'Parlons un peu de toi !';
+
+  String get profileSubtitle => _isEn
+      ? 'To start the quiz, we need a bit of info.'
+      : 'Pour commencer le quiz, nous avons besoin de quelques infos.';
+
+  String get nameLabel => _isEn ? 'Your name' : 'Ton nom';
+
+  String get nameHint => _isEn ? 'Write your name here' : 'Écris ton nom ici';
+
+  String get ageLabel => _isEn ? 'Your age' : 'Ton âge';
+
+  String get ageHint => _isEn ? 'Write your age here' : 'Écris ton âge ici';
 }

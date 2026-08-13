@@ -1,52 +1,23 @@
 import 'package:flutter/material.dart';
 
 import '../app_data.dart';
+import '../widgets/glowing_button.dart';
+import '../widgets/starry_background.dart';
 import 'home_screen.dart';
 import 'profile_setup_screen.dart';
 
-/// Écran d'accueil illustré, affiché juste après le chargement de
-/// l'application : image plein écran fournie par EFDET, avec une zone de
-/// tap invisible calée sur le bouton « COMMENCER » dessiné dans
-/// l'illustration, entourée d'une lueur animée pour attirer l'œil (§9).
-class StartScreen extends StatefulWidget {
+/// Écran d'accueil, affiché juste après le chargement de l'application :
+/// entièrement natif (fond étoilé animé + logo + bouton), donc pleinement
+/// responsive (téléphone comme tablette) et chaque élément s'anime pour
+/// lui-même, plutôt qu'une illustration figée avec une simple zone de tap
+/// invisible par-dessus (§9).
+class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
-
-  @override
-  State<StartScreen> createState() => _StartScreenState();
-}
-
-class _StartScreenState extends State<StartScreen> with SingleTickerProviderStateMixin {
-  // Coordonnées du bouton « COMMENCER » dans assets/images/start_page.jpeg
-  // (900×1600), mesurées sur l'image puis élargies légèrement pour une zone
-  // de tap plus confortable pour de jeunes enfants.
-  static const double _buttonLeft = 0.04;
-  static const double _buttonRight = 0.02;
-  static const double _buttonTop = 0.83;
-  static const double _buttonBottom = 0.02;
-
-  late final AnimationController _pulseController;
-  late final Animation<double> _pulse;
-
-  @override
-  void initState() {
-    super.initState();
-    _pulseController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 1100),
-    )..repeat(reverse: true);
-    _pulse = CurvedAnimation(parent: _pulseController, curve: Curves.easeInOut);
-  }
-
-  @override
-  void dispose() {
-    _pulseController.dispose();
-    super.dispose();
-  }
 
   void _start(BuildContext context) {
     // Le tout premier lancement passe par « Parlons un peu de toi ! » pour
     // recueillir le prénom et l'âge de l'enfant ; les suivants vont
-    // directement aux thèmes (§9).
+    // directement au tableau de bord (§9).
     final hasProfile = AppData.of(context).progress.hasProfile;
     Navigator.of(context).pushReplacement(
       PageRouteBuilder(
@@ -65,67 +36,41 @@ class _StartScreenState extends State<StartScreen> with SingleTickerProviderStat
     final strings = AppData.of(context).strings;
 
     return Scaffold(
-      body: LayoutBuilder(
-        builder: (context, constraints) {
-          return Stack(
-            fit: StackFit.expand,
-            children: [
-              Image.asset(
-                'assets/images/start_page.jpeg',
-                fit: BoxFit.cover,
-              ),
-              Positioned(
-                left: constraints.maxWidth * _buttonLeft,
-                right: constraints.maxWidth * _buttonRight,
-                top: constraints.maxHeight * _buttonTop,
-                bottom: constraints.maxHeight * _buttonBottom,
-                child: Stack(
-                  clipBehavior: Clip.none,
-                  fit: StackFit.expand,
+      body: StarryBackground(
+        child: SafeArea(
+          child: Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 480),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // Lueur pulsante autour du bouton, pour inviter à taper.
-                    AnimatedBuilder(
-                      animation: _pulse,
-                      builder: (context, child) {
-                        final t = _pulse.value;
-                        final scale = 1.0 + t * 0.08;
-                        final opacity = 0.35 + t * 0.4;
-                        return Transform.scale(
-                          scale: scale,
-                          child: DecoratedBox(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(40),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.amber.withValues(alpha: opacity),
-                                  blurRadius: 24,
-                                  spreadRadius: 6,
-                                ),
-                              ],
-                            ),
-                          ),
-                        );
-                      },
-                    ),
-                    Semantics(
-                      button: true,
-                      label: strings.start,
-                      child: Material(
-                        color: Colors.transparent,
-                        child: InkWell(
-                          key: const Key('start_button'),
-                          borderRadius: BorderRadius.circular(40),
-                          onTap: () => _start(context),
-                          child: const SizedBox.expand(),
-                        ),
+                    Image.asset('assets/icon/icon.png', width: 240),
+                    const SizedBox(height: 12),
+                    Text(
+                      strings.welcomeBanner,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
                       ),
+                    ),
+                    const SizedBox(height: 44),
+                    GlowingButton(
+                      tapKey: const Key('start_button'),
+                      label: strings.start,
+                      color: const Color(0xFFFFA726),
+                      trailingIcon: Icons.arrow_forward_rounded,
+                      onTap: () => _start(context),
                     ),
                   ],
                 ),
               ),
-            ],
-          );
-        },
+            ),
+          ),
+        ),
       ),
     );
   }

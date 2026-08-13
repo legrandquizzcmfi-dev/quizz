@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../app_data.dart';
+import '../widgets/glowing_button.dart';
+import '../widgets/starry_background.dart';
 import 'home_screen.dart';
 
 /// Écran « Parlons un peu de toi ! », affiché uniquement au tout premier
-/// lancement de l'application : recueille le prénom et l'âge de l'enfant
-/// par-dessus l'illustration fournie par EFDET, avant d'accéder aux thèmes
-/// (§9).
+/// lancement de l'application : recueille le prénom et l'âge de l'enfant.
+/// Entièrement natif (fond étoilé + carte + champs + bouton), donc
+/// pleinement responsive et localisable, plutôt qu'une illustration figée
+/// avec des champs superposés à des coordonnées fixes (§9).
 class ProfileSetupScreen extends StatefulWidget {
   const ProfileSetupScreen({super.key});
 
@@ -16,25 +19,6 @@ class ProfileSetupScreen extends StatefulWidget {
 }
 
 class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
-  // Image native : assets/images/profile_setup.png, 941×1672. On fixe le
-  // rapport largeur/hauteur du bloc illustré à cette valeur exacte (au lieu
-  // d'un simple BoxFit.cover plein écran) pour que les champs superposés
-  // restent pixel-parfaits même quand le clavier réduit la hauteur visible ;
-  // le contenu devient alors défilable plutôt que déformé.
-  static const double _imageAspectRatio = 941 / 1672;
-
-  static const double _boxLeft = 0.29;
-  static const double _boxRight = 0.13;
-  static const double _nameTop = 0.605;
-  static const double _nameHeight = 0.048;
-  static const double _ageTop = 0.716;
-  static const double _ageHeight = 0.050;
-
-  static const double _buttonLeft = 0.04;
-  static const double _buttonRight = 0.02;
-  static const double _buttonTop = 0.845;
-  static const double _buttonBottom = 0.012;
-
   final _nameController = TextEditingController();
   final _ageController = TextEditingController();
 
@@ -78,14 +62,15 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
     );
   }
 
-  InputDecoration _fieldDecoration(String hint) {
+  InputDecoration _fieldDecoration(IconData icon, String hint) {
     return InputDecoration(
+      prefixIcon: Icon(icon, color: const Color(0xFF6A4C93)),
       hintText: hint,
-      hintStyle: TextStyle(color: Colors.grey.shade500, fontSize: 16),
+      hintStyle: TextStyle(color: Colors.grey.shade500, fontSize: 15),
       filled: true,
       fillColor: Colors.white,
       counterText: '',
-      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
         borderSide: BorderSide(color: Colors.grey.shade300),
@@ -106,88 +91,92 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
     final strings = AppData.of(context).strings;
 
     return Scaffold(
-      backgroundColor: const Color(0xFF0B1E3D),
-      body: SafeArea(
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            final width = constraints.maxWidth;
-            final height = width / _imageAspectRatio;
-
-            return SingleChildScrollView(
-              child: SizedBox(
-                width: width,
-                height: height,
-                child: Stack(
-                  fit: StackFit.expand,
+      body: StarryBackground(
+        child: SafeArea(
+          child: Center(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 480),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
-                    Image.asset(
-                      'assets/images/profile_setup.png',
-                      fit: BoxFit.fill,
-                    ),
-                    Positioned(
-                      left: width * _boxLeft,
-                      right: width * _boxRight,
-                      top: height * _nameTop,
-                      height: height * _nameHeight,
-                      child: TextField(
-                        controller: _nameController,
-                        textCapitalization: TextCapitalization.words,
-                        maxLength: 24,
-                        style: const TextStyle(fontSize: 16, color: Colors.black87),
-                        decoration: _fieldDecoration('Écris ton nom ici'),
-                      ),
-                    ),
-                    Positioned(
-                      left: width * _boxLeft,
-                      right: width * _boxRight,
-                      top: height * _ageTop,
-                      height: height * _ageHeight,
-                      child: TextField(
-                        controller: _ageController,
-                        keyboardType: TextInputType.number,
-                        inputFormatters: [
-                          FilteringTextInputFormatter.digitsOnly,
-                          LengthLimitingTextInputFormatter(2),
-                        ],
-                        maxLength: 2,
-                        style: const TextStyle(fontSize: 16, color: Colors.black87),
-                        decoration: _fieldDecoration('Écris ton âge ici'),
-                      ),
-                    ),
-                    Positioned(
-                      left: width * _buttonLeft,
-                      right: width * _buttonRight,
-                      top: height * _buttonTop,
-                      bottom: height * _buttonBottom,
-                      child: Semantics(
-                        button: true,
-                        label: strings.continueLabel,
-                        enabled: _isValid,
-                        child: Material(
-                          color: Colors.transparent,
-                          child: InkWell(
-                            key: const Key('continue_button'),
-                            borderRadius: BorderRadius.circular(40),
-                            onTap: _isValid ? () => _continue(context) : null,
-                            child: AnimatedOpacity(
-                              opacity: _isValid ? 0 : 1,
-                              duration: const Duration(milliseconds: 200),
-                              child: DecoratedBox(
-                                decoration: BoxDecoration(
-                                  color: Colors.black.withValues(alpha: 0.45),
-                                  borderRadius: BorderRadius.circular(40),
-                                ),
+                    Image.asset('assets/icon/icon.png', width: 140),
+                    const SizedBox(height: 24),
+                    Card(
+                      color: Colors.white,
+                      elevation: 8,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(24),
+                        child: Column(
+                          children: [
+                            Text(
+                              strings.profileTitle,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF1B2E5C),
                               ),
                             ),
-                          ),
+                            const SizedBox(height: 8),
+                            Text(
+                              strings.profileSubtitle,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(fontSize: 15, color: Colors.black54),
+                            ),
+                            const SizedBox(height: 24),
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                strings.nameLabel,
+                                style: const TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF6A4C93)),
+                              ),
+                            ),
+                            const SizedBox(height: 6),
+                            TextField(
+                              controller: _nameController,
+                              textCapitalization: TextCapitalization.words,
+                              maxLength: 24,
+                              decoration: _fieldDecoration(Icons.person_rounded, strings.nameHint),
+                            ),
+                            const SizedBox(height: 18),
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                strings.ageLabel,
+                                style: const TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF2E7D32)),
+                              ),
+                            ),
+                            const SizedBox(height: 6),
+                            TextField(
+                              controller: _ageController,
+                              keyboardType: TextInputType.number,
+                              inputFormatters: [
+                                FilteringTextInputFormatter.digitsOnly,
+                                LengthLimitingTextInputFormatter(2),
+                              ],
+                              maxLength: 2,
+                              decoration: _fieldDecoration(Icons.cake_rounded, strings.ageHint),
+                            ),
+                          ],
                         ),
                       ),
+                    ),
+                    const SizedBox(height: 28),
+                    GlowingButton(
+                      tapKey: const Key('continue_button'),
+                      label: strings.continueLabel,
+                      color: const Color(0xFFFFA726),
+                      trailingIcon: Icons.arrow_forward_rounded,
+                      onTap: _isValid ? () => _continue(context) : null,
                     ),
                   ],
                 ),
               ),
-            );
-          },
+            ),
+          ),
         ),
       ),
     );

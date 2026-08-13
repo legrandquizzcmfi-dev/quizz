@@ -39,52 +39,55 @@ class ProgressTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         onTap: _isEnabled ? onTap : null,
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 8),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Stack(
-                alignment: Alignment.center,
-                children: [
-                  Icon(icon, size: 40, color: Colors.white),
-                  if (state == TileState.locked)
-                    const Positioned(
-                      right: -4,
-                      top: -4,
-                      child: Icon(Icons.lock_rounded, size: 20, color: Colors.white),
-                    ),
-                  if (state == TileState.comingSoon)
-                    const Positioned(
-                      right: -6,
-                      top: -6,
-                      child: Icon(Icons.hourglass_top_rounded, size: 18, color: Colors.white),
-                    ),
-                ],
-              ),
-              const SizedBox(height: 8),
-              Text(
-                label,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 6),
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    Icon(icon, size: 40, color: Colors.white),
+                    if (state == TileState.locked)
+                      const Positioned(
+                        right: -4,
+                        top: -4,
+                        child: Icon(Icons.lock_rounded, size: 20, color: Colors.white),
+                      ),
+                    if (state == TileState.comingSoon)
+                      const Positioned(
+                        right: -6,
+                        top: -6,
+                        child: Icon(Icons.hourglass_top_rounded, size: 18, color: Colors.white),
+                      ),
+                  ],
                 ),
-              ),
-              if (state == TileState.comingSoon)
-                Padding(
-                  padding: const EdgeInsets.only(top: 4),
-                  child: Text(
-                    AppData.of(context).strings.soon,
-                    style: const TextStyle(color: Colors.white, fontSize: 11),
+                const SizedBox(height: 8),
+                Text(
+                  label,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
                   ),
                 ),
-              if (state == TileState.completed)
-                Padding(
-                  padding: const EdgeInsets.only(top: 4),
-                  child: StarsRow(stars: stars),
-                ),
-            ],
+                if (state == TileState.comingSoon)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 4),
+                    child: Text(
+                      AppData.of(context).strings.soon,
+                      style: const TextStyle(color: Colors.white, fontSize: 11),
+                    ),
+                  ),
+                if (state == TileState.completed)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 4),
+                    child: StarsRow(stars: stars),
+                  ),
+              ],
+            ),
           ),
         ),
       ),
