@@ -68,7 +68,7 @@ class _ThemesScreenState extends State<ThemesScreen> {
               Expanded(
                 child: SafeArea(
                   top: false,
-                  child: Padding(
+                  child: SingleChildScrollView(
                     padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -114,7 +114,7 @@ class _ThemesScreenState extends State<ThemesScreen> {
                               _LevelTile(theme: theme, level: level),
                           ],
                         ),
-                        const Spacer(),
+                        const SizedBox(height: 16),
                         _HintCard(),
                         const SizedBox(height: 10),
                         Row(

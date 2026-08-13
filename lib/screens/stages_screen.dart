@@ -35,10 +35,10 @@ class StagesScreen extends StatelessWidget {
               Expanded(
                 child: SafeArea(
                   top: false,
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
-                    child: level.stages.isEmpty
-                        ? Center(
+                  child: level.stages.isEmpty
+                      ? Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+                          child: Center(
                             child: Text(
                               appData.strings.levelEmptyBody,
                               textAlign: TextAlign.center,
@@ -49,8 +49,11 @@ class StagesScreen extends StatelessWidget {
                                 color: Colors.white,
                               ),
                             ),
-                          )
-                        : Column(
+                          ),
+                        )
+                      : SingleChildScrollView(
+                          padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+                          child: Column(
                             children: [
                               GridView.count(
                                 shrinkWrap: true,
@@ -60,43 +63,53 @@ class StagesScreen extends StatelessWidget {
                                 mainAxisSpacing: 12,
                                 children: [
                                   for (final stage in level.stages)
-                                    Builder(builder: (context) {
-                                      final unlocked = progress.isStageUnlocked(
-                                          theme, level.index, stage.index);
-                                      final result = progress.resultFor(
-                                          theme.id, level.index, stage.index);
+                                    Builder(
+                                      builder: (context) {
+                                        final unlocked = progress
+                                            .isStageUnlocked(
+                                              theme,
+                                              level.index,
+                                              stage.index,
+                                            );
+                                        final result = progress.resultFor(
+                                          theme.id,
+                                          level.index,
+                                          stage.index,
+                                        );
 
-                                      final TileState state;
-                                      if (!unlocked) {
-                                        state = TileState.locked;
-                                      } else if (!stage.hasContent) {
-                                        state = TileState.comingSoon;
-                                      } else if (result != null) {
-                                        state = TileState.completed;
-                                      } else {
-                                        state = TileState.available;
-                                      }
+                                        final TileState state;
+                                        if (!unlocked) {
+                                          state = TileState.locked;
+                                        } else if (!stage.hasContent) {
+                                          state = TileState.comingSoon;
+                                        } else if (result != null) {
+                                          state = TileState.completed;
+                                        } else {
+                                          state = TileState.available;
+                                        }
 
-                                      return ProgressTile(
-                                        label: '${stage.index}',
-                                        color: theme.color,
-                                        state: state,
-                                        stars: result?.stars ?? 0,
-                                        delayIndex: stage.index - 1,
-                                        onTap: () => Navigator.of(context).push(
-                                          MaterialPageRoute(
-                                            builder: (_) => QuizScreen(
-                                              theme: theme,
-                                              level: level,
-                                              stage: stage,
-                                            ),
-                                          ),
-                                        ),
-                                      );
-                                    }),
+                                        return ProgressTile(
+                                          label: '${stage.index}',
+                                          color: theme.color,
+                                          state: state,
+                                          stars: result?.stars ?? 0,
+                                          delayIndex: stage.index - 1,
+                                          onTap: () =>
+                                              Navigator.of(context).push(
+                                                MaterialPageRoute(
+                                                  builder: (_) => QuizScreen(
+                                                    theme: theme,
+                                                    level: level,
+                                                    stage: stage,
+                                                  ),
+                                                ),
+                                              ),
+                                        );
+                                      },
+                                    ),
                                 ],
                               ),
-                              const Spacer(),
+                              const SizedBox(height: 16),
                               const _Legend(),
                               const SizedBox(height: 8),
                               Align(
@@ -105,7 +118,7 @@ class StagesScreen extends StatelessWidget {
                               ),
                             ],
                           ),
-                  ),
+                        ),
                 ),
               ),
             ],
@@ -128,31 +141,48 @@ class _Legend extends StatelessWidget {
         borderRadius: BorderRadius.circular(18),
       ),
       padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 11),
-      child: Row(
+      child: Wrap(
+        spacing: 14,
+        runSpacing: 6,
+        crossAxisAlignment: WrapCrossAlignment.center,
         children: [
           _swatch(GameTheme.green, 'Réussie'),
-          const SizedBox(width: 14),
           _swatch(GameTheme.locked, 'Verrouillée'),
-          const Spacer(),
-          Image.asset(GameAssets.starYellow, width: 18),
-          const SizedBox(width: 6),
-          const Text('3 étoiles = sans faute', style: _legendText),
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Image.asset(GameAssets.starYellow, width: 18),
+              const SizedBox(width: 6),
+              Flexible(
+                child: Text(
+                  '3 étoiles = sans faute',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: _legendText,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
   }
 
   Widget _swatch(Color color, String label) => Row(
-        children: [
-          Container(
-            width: 16,
-            height: 16,
-            decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(5)),
-          ),
-          const SizedBox(width: 6),
-          Text(label, style: _legendText),
-        ],
-      );
+    mainAxisSize: MainAxisSize.min,
+    children: [
+      Container(
+        width: 16,
+        height: 16,
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: BorderRadius.circular(5),
+        ),
+      ),
+      const SizedBox(width: 6),
+      Text(label, style: _legendText),
+    ],
+  );
 }
 
 const _legendText = TextStyle(

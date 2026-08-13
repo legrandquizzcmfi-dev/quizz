@@ -32,13 +32,25 @@ class ResultScreen extends StatefulWidget {
 
 class _ResultScreenState extends State<ResultScreen> {
   late final bool _passed;
+  bool _resultRecorded = false;
 
   @override
   void initState() {
     super.initState();
     final total = widget.stage.questions.length;
     _passed = widget.score >= (total * ProgressService.passRatio).ceil();
+  }
 
+  // AppData.of(context) ne peut pas être appelé depuis initState() (il n'est
+  // valide qu'à partir de build()/didChangeDependencies()) ; on enregistre
+  // donc le résultat ici, une seule fois grâce à _resultRecorded.
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_resultRecorded) return;
+    _resultRecorded = true;
+
+    final total = widget.stage.questions.length;
     final appData = AppData.of(context);
     appData.progress.recordStageResult(
       themeId: widget.theme.id,
@@ -76,8 +88,8 @@ class _ResultScreenState extends State<ResultScreen> {
           children: [
             const FallingStars(),
             SafeArea(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(22, 20, 22, 0),
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.fromLTRB(22, 20, 22, 16),
                 child: Column(
                   children: [
                     const SizedBox(height: 16),
@@ -85,7 +97,8 @@ class _ResultScreenState extends State<ResultScreen> {
                       tween: Tween(begin: .85, end: 1),
                       duration: const Duration(milliseconds: 500),
                       curve: Curves.easeOutBack,
-                      builder: (context, t, child) => Transform.scale(scale: t, child: child),
+                      builder: (context, t, child) =>
+                          Transform.scale(scale: t, child: child),
                       child: Image.asset(
                         _passed ? GameAssets.starGold : GameAssets.lamb,
                         width: 126,
@@ -100,7 +113,11 @@ class _ResultScreenState extends State<ResultScreen> {
                         fontWeight: FontWeight.w900,
                         color: Colors.white,
                         shadows: [
-                          Shadow(color: Colors.black38, offset: Offset(0, 4), blurRadius: 4),
+                          Shadow(
+                            color: Colors.black38,
+                            offset: Offset(0, 4),
+                            blurRadius: 4,
+                          ),
                         ],
                       ),
                     ),
@@ -144,7 +161,9 @@ class _ResultScreenState extends State<ResultScreen> {
                       ),
                     ),
                     const SizedBox(height: 20),
-                    if (_passed && nextStage != null && nextStage.hasContent) ...[
+                    if (_passed &&
+                        nextStage != null &&
+                        nextStage.hasContent) ...[
                       GlowingButton(
                         label: strings.nextStage.toUpperCase(),
                         fontSize: 17,
@@ -222,12 +241,16 @@ class _SecondaryButton extends StatelessWidget {
         decoration: BoxDecoration(
           color: filled ? Colors.white : Colors.transparent,
           border: Border.all(
-            color: filled ? GameTheme.navy : Colors.white.withValues(alpha: .85),
+            color: filled
+                ? GameTheme.navy
+                : Colors.white.withValues(alpha: .85),
             width: 3,
           ),
           borderRadius: BorderRadius.circular(999),
           boxShadow: filled
-              ? const [BoxShadow(color: Color(0x2E000000), offset: Offset(0, 5))]
+              ? const [
+                  BoxShadow(color: Color(0x2E000000), offset: Offset(0, 5)),
+                ]
               : null,
         ),
         child: Text(
