@@ -40,7 +40,7 @@ class StartScreen extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 22),
                   child: Column(
-                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(GameAssets.wordmark, width: 300),
                       const SizedBox(height: 0),

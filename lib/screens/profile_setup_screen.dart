@@ -76,7 +76,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               // 35 px de marge latérale : demande explicite du client.
               padding: const EdgeInsets.fromLTRB(35, 22, 35, 35),
               child: Column(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Align(
                     alignment: Alignment.centerLeft,
