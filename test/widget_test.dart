@@ -100,13 +100,13 @@ void main() {
     await _settleTransition(tester);
     expect(find.text('Défis'), findsOneWidget);
     expect(find.text('Cette fonctionnalité arrive bientôt !'), findsOneWidget);
-    await tester.pageBack();
+    await tester.tap(find.byKey(const Key('screen_back_button')));
     await _settleTransition(tester);
 
     await tester.tap(find.byKey(const Key('leaderboard_button')));
     await _settleTransition(tester);
     expect(find.text('Classements'), findsOneWidget);
-    await tester.pageBack();
+    await tester.tap(find.byKey(const Key('screen_back_button')));
     await _settleTransition(tester);
 
     await tester.tap(find.byKey(const Key('favorites_button')));

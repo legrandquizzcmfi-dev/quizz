@@ -2,15 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../app_data.dart';
-import '../widgets/glowing_button.dart';
-import '../widgets/starry_background.dart';
+import '../ui/game_theme.dart';
+import '../widgets/game_controls.dart';
+import '../widgets/game_decor.dart';
 import 'home_screen.dart';
 
-/// Écran « Parlons un peu de toi ! », affiché uniquement au tout premier
-/// lancement de l'application : recueille le prénom et l'âge de l'enfant.
-/// Entièrement natif (fond étoilé + carte + champs + bouton), donc
-/// pleinement responsive et localisable, plutôt qu'une illustration figée
-/// avec des champs superposés à des coordonnées fixes (§9).
+/// « Parlons un peu de toi ! » : panneau bois + ruban, deux champs illustrés,
+/// bouton CONTINUER désactivé jusqu'à saisie valide.
 class ProfileSetupScreen extends StatefulWidget {
   const ProfileSetupScreen({super.key});
 
@@ -25,8 +23,8 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   @override
   void initState() {
     super.initState();
-    _nameController.addListener(_onFieldChanged);
-    _ageController.addListener(_onFieldChanged);
+    _nameController.addListener(_onChanged);
+    _ageController.addListener(_onChanged);
   }
 
   @override
@@ -36,7 +34,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
     super.dispose();
   }
 
-  void _onFieldChanged() => setState(() {});
+  void _onChanged() => setState(() {});
 
   int? get _parsedAge => int.tryParse(_ageController.text.trim());
 
@@ -55,33 +53,8 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
       PageRouteBuilder(
         transitionDuration: const Duration(milliseconds: 400),
         pageBuilder: (context, animation, secondaryAnimation) => const HomeScreen(),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
-      ),
-    );
-  }
-
-  InputDecoration _fieldDecoration(IconData icon, String hint) {
-    return InputDecoration(
-      prefixIcon: Icon(icon, color: const Color(0xFF6A4C93)),
-      hintText: hint,
-      hintStyle: TextStyle(color: Colors.grey.shade500, fontSize: 15),
-      filled: true,
-      fillColor: Colors.white,
-      counterText: '',
-      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-      border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(color: Colors.grey.shade300),
-      ),
-      enabledBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(color: Colors.grey.shade300),
-      ),
-      focusedBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(14),
-        borderSide: const BorderSide(color: Color(0xFF6A4C93), width: 2),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) =>
+            FadeTransition(opacity: animation, child: child),
       ),
     );
   }
@@ -91,85 +64,89 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
     final strings = AppData.of(context).strings;
 
     return Scaffold(
-      body: StarryBackground(
+      body: GameBackground(
         child: SafeArea(
           child: Center(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 480),
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 480),
+              child: SingleChildScrollView(
+                // 35 px de marge latérale : demande explicite du client.
+                padding: const EdgeInsets.fromLTRB(35, 22, 35, 35),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Image.asset('assets/icon/icon.png', width: 140),
-                    const SizedBox(height: 24),
-                    Card(
-                      color: Colors.white,
-                      elevation: 8,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-                      child: Padding(
-                        padding: const EdgeInsets.all(24),
-                        child: Column(
-                          children: [
-                            Text(
-                              strings.profileTitle,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                                color: Color(0xFF1B2E5C),
-                              ),
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              strings.profileSubtitle,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(fontSize: 15, color: Colors.black54),
-                            ),
-                            const SizedBox(height: 24),
-                            Align(
-                              alignment: Alignment.centerLeft,
-                              child: Text(
-                                strings.nameLabel,
-                                style: const TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF6A4C93)),
-                              ),
-                            ),
-                            const SizedBox(height: 6),
-                            TextField(
-                              controller: _nameController,
-                              textCapitalization: TextCapitalization.words,
-                              maxLength: 24,
-                              decoration: _fieldDecoration(Icons.person_rounded, strings.nameHint),
-                            ),
-                            const SizedBox(height: 18),
-                            Align(
-                              alignment: Alignment.centerLeft,
-                              child: Text(
-                                strings.ageLabel,
-                                style: const TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF2E7D32)),
-                              ),
-                            ),
-                            const SizedBox(height: 6),
-                            TextField(
-                              controller: _ageController,
-                              keyboardType: TextInputType.number,
-                              inputFormatters: [
-                                FilteringTextInputFormatter.digitsOnly,
-                                LengthLimitingTextInputFormatter(2),
-                              ],
-                              maxLength: 2,
-                              decoration: _fieldDecoration(Icons.cake_rounded, strings.ageHint),
-                            ),
-                          ],
-                        ),
-                      ),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Image.asset(GameAssets.wordmark, width: 150),
                     ),
-                    const SizedBox(height: 28),
+                    const SizedBox(height: 4),
+                    Stack(
+                      clipBehavior: Clip.none,
+                      children: [
+                        // Les enfants passent DERRIÈRE le panneau et son ruban.
+                        Positioned(
+                          left: -6,
+                          top: -46,
+                          child: Image.asset(GameAssets.kidBoy, width: 104),
+                        ),
+                        Positioned(
+                          right: -10,
+                          top: -46,
+                          child: Image.asset(GameAssets.kidGirl, width: 118),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 96),
+                          child: WoodPanel(
+                            title: strings.profileTitle,
+                            child: Column(
+                              children: [
+                                Text(
+                                  strings.profileSubtitle,
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 14,
+                                    height: 1.45,
+                                    fontWeight: FontWeight.w700,
+                                    color: GameTheme.inkBrown,
+                                  ),
+                                ),
+                                const SizedBox(height: 20),
+                                _Field(
+                                  iconAsset: GameAssets.iconPerson,
+                                  label: strings.nameLabel,
+                                  labelColor: GameTheme.ribbonBottom,
+                                  hint: strings.nameHint,
+                                  controller: _nameController,
+                                  textCapitalization: TextCapitalization.words,
+                                  maxLength: 24,
+                                ),
+                                const SizedBox(height: 16),
+                                _Field(
+                                  iconAsset: GameAssets.iconCake,
+                                  label: strings.ageLabel,
+                                  labelColor: GameTheme.greenDark,
+                                  hint: strings.ageHint,
+                                  controller: _ageController,
+                                  keyboardType: TextInputType.number,
+                                  maxLength: 2,
+                                  inputFormatters: [
+                                    FilteringTextInputFormatter.digitsOnly,
+                                    LengthLimitingTextInputFormatter(2),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 26),
                     GlowingButton(
                       tapKey: const Key('continue_button'),
-                      label: strings.continueLabel,
-                      color: const Color(0xFFFFA726),
-                      trailingIcon: Icons.arrow_forward_rounded,
+                      label: strings.continueLabel.toUpperCase(),
+                      fontSize: 21,
+                      expand: true,
                       onTap: _isValid ? () => _continue(context) : null,
                     ),
                   ],
@@ -181,4 +158,89 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
       ),
     );
   }
+}
+
+class _Field extends StatelessWidget {
+  final String iconAsset;
+  final String label;
+  final Color labelColor;
+  final String hint;
+  final TextEditingController controller;
+  final TextInputType? keyboardType;
+  final TextCapitalization textCapitalization;
+  final int? maxLength;
+  final List<TextInputFormatter>? inputFormatters;
+
+  const _Field({
+    required this.iconAsset,
+    required this.label,
+    required this.labelColor,
+    required this.hint,
+    required this.controller,
+    this.keyboardType,
+    this.textCapitalization = TextCapitalization.none,
+    this.maxLength,
+    this.inputFormatters,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Image.asset(iconAsset, width: 46),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                label,
+                style: TextStyle(
+                  fontFamily: 'Montserrat',
+                  fontSize: 12,
+                  fontWeight: FontWeight.w900,
+                  color: labelColor,
+                ),
+              ),
+              const SizedBox(height: 5),
+              TextField(
+                controller: controller,
+                keyboardType: keyboardType,
+                textCapitalization: textCapitalization,
+                maxLength: maxLength,
+                inputFormatters: inputFormatters,
+                style: const TextStyle(
+                  fontFamily: 'Montserrat',
+                  fontSize: 15,
+                  fontWeight: FontWeight.w700,
+                  color: Color(0xFF33261A),
+                ),
+                decoration: InputDecoration(
+                  hintText: hint,
+                  counterText: '',
+                  filled: true,
+                  fillColor: Colors.white,
+                  hintStyle: TextStyle(
+                    fontFamily: 'Montserrat',
+                    fontSize: 15,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.grey.shade500,
+                  ),
+                  contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                  border: _border(const Color(0xFFC9B689)),
+                  enabledBorder: _border(const Color(0xFFC9B689)),
+                  focusedBorder: _border(labelColor, 2.5),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  OutlineInputBorder _border(Color color, [double width = 2]) => OutlineInputBorder(
+        borderRadius: BorderRadius.circular(14),
+        borderSide: BorderSide(color: color, width: width),
+      );
 }

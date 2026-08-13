@@ -1,32 +1,26 @@
 import 'package:flutter/material.dart';
 
 import '../app_data.dart';
-import '../widgets/glowing_button.dart';
-import '../widgets/starry_background.dart';
+import '../ui/game_theme.dart';
+import '../widgets/game_controls.dart';
+import '../widgets/game_decor.dart';
 import 'home_screen.dart';
 import 'profile_setup_screen.dart';
 
-/// Écran d'accueil, affiché juste après le chargement de l'application :
-/// entièrement natif (fond étoilé animé + logo + bouton), donc pleinement
-/// responsive (téléphone comme tablette) et chaque élément s'anime pour
-/// lui-même, plutôt qu'une illustration figée avec une simple zone de tap
-/// invisible par-dessus (§9).
+/// Écran d'accueil (splash jouable) : décor animé, logo, baseline, livre
+/// lumineux, bouton COMMENCER, les deux enfants en bas.
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
 
   void _start(BuildContext context) {
-    // Le tout premier lancement passe par « Parlons un peu de toi ! » pour
-    // recueillir le prénom et l'âge de l'enfant ; les suivants vont
-    // directement au tableau de bord (§9).
     final hasProfile = AppData.of(context).progress.hasProfile;
     Navigator.of(context).pushReplacement(
       PageRouteBuilder(
         transitionDuration: const Duration(milliseconds: 400),
         pageBuilder: (context, animation, secondaryAnimation) =>
             hasProfile ? const HomeScreen() : const ProfileSetupScreen(),
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: animation, child: child);
-        },
+        transitionsBuilder: (context, animation, secondaryAnimation, child) =>
+            FadeTransition(opacity: animation, child: child),
       ),
     );
   }
@@ -36,37 +30,56 @@ class StartScreen extends StatelessWidget {
     final strings = AppData.of(context).strings;
 
     return Scaffold(
-      body: StarryBackground(
+      body: GameBackground(
         child: SafeArea(
           child: Center(
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 480),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image.asset('assets/icon/icon.png', width: 240),
-                    const SizedBox(height: 12),
-                    Text(
-                      strings.welcomeBanner,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
-                      ),
+              child: Stack(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 22),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset(GameAssets.wordmark, width: 300),
+                        const SizedBox(height: 0),
+                        Transform.translate(
+                          offset: const Offset(0, -14),
+                          child: Image.asset(GameAssets.tagline, width: 280),
+                        ),
+                        Bob(
+                          period: const Duration(seconds: 5),
+                          child: Image.asset(GameAssets.glowBook, width: 238),
+                        ),
+                        const SizedBox(height: 14),
+                        GlowingButton(
+                          tapKey: const Key('start_button'),
+                          label: strings.start.toUpperCase(),
+                          fontSize: 23,
+                          onTap: () => _start(context),
+                        ),
+                        const SizedBox(height: 120),
+                      ],
                     ),
-                    const SizedBox(height: 44),
-                    GlowingButton(
-                      tapKey: const Key('start_button'),
-                      label: strings.start,
-                      color: const Color(0xFFFFA726),
-                      trailingIcon: Icons.arrow_forward_rounded,
-                      onTap: () => _start(context),
+                  ),
+                  Positioned(
+                    left: -18,
+                    bottom: 36,
+                    child: Sway(
+                      period: const Duration(milliseconds: 4600),
+                      child: Image.asset(GameAssets.kidBoy, width: 150),
                     ),
-                  ],
-                ),
+                  ),
+                  Positioned(
+                    right: -24,
+                    bottom: 34,
+                    child: Sway(
+                      period: const Duration(milliseconds: 5400),
+                      child: Image.asset(GameAssets.kidGirl, width: 174),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),

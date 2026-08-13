@@ -5,9 +5,13 @@ import '../models/quiz_level.dart';
 import '../models/quiz_stage.dart';
 import '../models/quiz_theme.dart';
 import '../services/progress_service.dart';
+import '../ui/game_theme.dart';
+import '../widgets/game_controls.dart';
+import '../widgets/game_decor.dart';
 import 'quiz_screen.dart';
 
-/// Score de fin d'étape et déblocage progressif (§5.2, §13.1).
+/// Fin d'étape : pluie d'étoiles, illustration (étoile d'or si réussi,
+/// agneau si presque), score, 3 étoiles, actions.
 class ResultScreen extends StatefulWidget {
   final QuizTheme theme;
   final QuizLevel level;
@@ -35,18 +39,15 @@ class _ResultScreenState extends State<ResultScreen> {
     final total = widget.stage.questions.length;
     _passed = widget.score >= (total * ProgressService.passRatio).ceil();
 
-    // Sauvegarde locale, sans compte ni réseau (§8).
     final appData = AppData.of(context);
     appData.progress.recordStageResult(
-          themeId: widget.theme.id,
-          levelIndex: widget.level.index,
-          stageIndex: widget.stage.index,
-          score: widget.score,
-          totalQuestions: total,
-        );
-    if (_passed) {
-      appData.audio.playVictory();
-    }
+      themeId: widget.theme.id,
+      levelIndex: widget.level.index,
+      stageIndex: widget.stage.index,
+      score: widget.score,
+      totalQuestions: total,
+    );
+    if (_passed) appData.audio.playVictory();
   }
 
   QuizStage? get _nextStage {
@@ -55,136 +56,191 @@ class _ResultScreenState extends State<ResultScreen> {
     return idx == -1 ? null : stages[idx];
   }
 
+  int get _stars {
+    final total = widget.stage.questions.length;
+    if (widget.score >= total) return 3;
+    if (widget.score >= total - 2) return 2;
+    if (_passed) return 1;
+    return 0;
+  }
+
   @override
   Widget build(BuildContext context) {
     final strings = AppData.of(context).strings;
     final total = widget.stage.questions.length;
-    final color = widget.theme.color;
     final nextStage = _nextStage;
 
     return Scaffold(
-      backgroundColor: color,
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                _passed ? Icons.emoji_events_rounded : Icons.replay_rounded,
-                color: Colors.white,
-                size: 96,
-              ),
-              const SizedBox(height: 16),
-              Text(
-                _passed ? strings.bravo : strings.almost,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 12),
-              Text(
-                strings.score(widget.score, total),
-                style: const TextStyle(color: Colors.white, fontSize: 24),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                _passed ? strings.passedMessage : strings.failedMessage,
-                textAlign: TextAlign.center,
-                style: const TextStyle(color: Colors.white70, fontSize: 16),
-              ),
-              const SizedBox(height: 40),
-              _ActionButton(
-                label: strings.replayStage,
-                icon: Icons.refresh_rounded,
-                color: color,
-                onTap: () => Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(
-                    builder: (_) => QuizScreen(
-                      theme: widget.theme,
-                      level: widget.level,
-                      stage: widget.stage,
-                    ),
-                  ),
-                ),
-              ),
-              if (_passed && nextStage != null && nextStage.hasContent) ...[
-                const SizedBox(height: 14),
-                _ActionButton(
-                  label: strings.nextStage,
-                  icon: Icons.arrow_forward_rounded,
-                  color: color,
-                  onTap: () => Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(
-                      builder: (_) => QuizScreen(
-                        theme: widget.theme,
-                        level: widget.level,
-                        stage: nextStage,
+      body: GameBackground(
+        child: Stack(
+          children: [
+            const FallingStars(),
+            SafeArea(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(22, 20, 22, 0),
+                child: Column(
+                  children: [
+                    const SizedBox(height: 16),
+                    TweenAnimationBuilder<double>(
+                      tween: Tween(begin: .85, end: 1),
+                      duration: const Duration(milliseconds: 500),
+                      curve: Curves.easeOutBack,
+                      builder: (context, t, child) => Transform.scale(scale: t, child: child),
+                      child: Image.asset(
+                        _passed ? GameAssets.starGold : GameAssets.lamb,
+                        width: 126,
                       ),
                     ),
-                  ),
+                    const SizedBox(height: 10),
+                    Text(
+                      _passed ? strings.bravo : strings.almost,
+                      style: const TextStyle(
+                        fontFamily: 'Montserrat',
+                        fontSize: 34,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.white,
+                        shadows: [
+                          Shadow(color: Colors.black38, offset: Offset(0, 4), blurRadius: 4),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      strings.score(widget.score, total),
+                      style: const TextStyle(
+                        fontFamily: 'Montserrat',
+                        fontSize: 21,
+                        fontWeight: FontWeight.w900,
+                        color: GameTheme.gold,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        for (var i = 0; i < 3; i++)
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 3),
+                            child: Opacity(
+                              opacity: i < _stars ? 1 : .35,
+                              child: Image.asset(
+                                GameAssets.starYellow,
+                                width: i < _stars ? 40 : 34,
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 14),
+                    Text(
+                      _passed ? strings.passedMessage : strings.failedMessage,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        fontFamily: 'Montserrat',
+                        fontSize: 13.5,
+                        height: 1.5,
+                        fontWeight: FontWeight.w700,
+                        color: Color(0xFFEAF5FF),
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    if (_passed && nextStage != null && nextStage.hasContent) ...[
+                      GlowingButton(
+                        label: strings.nextStage.toUpperCase(),
+                        fontSize: 17,
+                        expand: true,
+                        onTap: () => Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (_) => QuizScreen(
+                              theme: widget.theme,
+                              level: widget.level,
+                              stage: nextStage,
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                    ],
+                    _SecondaryButton(
+                      label: strings.replayStage,
+                      filled: true,
+                      onTap: () => Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (_) => QuizScreen(
+                            theme: widget.theme,
+                            level: widget.level,
+                            stage: widget.stage,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    _SecondaryButton(
+                      label: strings.backToStages,
+                      filled: false,
+                      onTap: () => Navigator.of(context).pop(),
+                    ),
+                  ],
                 ),
-              ],
-              const SizedBox(height: 14),
-              _ActionButton(
-                label: strings.backToStages,
-                icon: Icons.list_rounded,
-                color: color,
-                outlined: true,
-                onTap: () => Navigator.of(context).pop(),
               ),
-            ],
-          ),
+            ),
+            Positioned(
+              left: -22,
+              bottom: 8,
+              child: Image.asset(GameAssets.kidBoy, width: 128),
+            ),
+            Positioned(
+              right: -26,
+              bottom: 6,
+              child: Image.asset(GameAssets.kidGirl, width: 146),
+            ),
+          ],
         ),
       ),
     );
   }
 }
 
-class _ActionButton extends StatelessWidget {
+class _SecondaryButton extends StatelessWidget {
   final String label;
-  final IconData icon;
-  final Color color;
-  final bool outlined;
+  final bool filled;
   final VoidCallback onTap;
 
-  const _ActionButton({
+  const _SecondaryButton({
     required this.label,
-    required this.icon,
-    required this.color,
+    required this.filled,
     required this.onTap,
-    this.outlined = false,
   });
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      height: 54,
-      child: outlined
-          ? OutlinedButton.icon(
-              onPressed: onTap,
-              icon: Icon(icon, color: Colors.white),
-              label: Text(label, style: const TextStyle(fontSize: 17, color: Colors.white)),
-              style: OutlinedButton.styleFrom(
-                side: const BorderSide(color: Colors.white, width: 2),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-              ),
-            )
-          : ElevatedButton.icon(
-              onPressed: onTap,
-              icon: Icon(icon, color: color),
-              label: Text(
-                label,
-                style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: color),
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-              ),
-            ),
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(vertical: 13),
+        decoration: BoxDecoration(
+          color: filled ? Colors.white : Colors.transparent,
+          border: Border.all(
+            color: filled ? GameTheme.navy : Colors.white.withValues(alpha: .85),
+            width: 3,
+          ),
+          borderRadius: BorderRadius.circular(999),
+          boxShadow: filled
+              ? const [BoxShadow(color: Color(0x2E000000), offset: Offset(0, 5))]
+              : null,
+        ),
+        child: Text(
+          label,
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontFamily: 'Montserrat',
+            fontSize: filled ? 15 : 14,
+            fontWeight: FontWeight.w900,
+            color: filled ? GameTheme.navy : Colors.white,
+          ),
+        ),
+      ),
     );
   }
 }

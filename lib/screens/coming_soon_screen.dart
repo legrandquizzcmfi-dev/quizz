@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
 
 import '../app_data.dart';
+import '../ui/game_theme.dart';
+import '../widgets/game_controls.dart';
+import '../widgets/game_decor.dart';
 
-/// Écran générique « bientôt disponible », utilisé pour les sections du
-/// tableau de bord pas encore développées (Défis, Classements, Favoris) —
-/// même esprit que les vignettes « Bientôt » déjà utilisées pour les
-/// niveaux/étapes sans contenu (§9).
+/// Écran « bientôt disponible » (Défis, Classements, Favoris, Succès) :
+/// même décor que le reste du jeu, illustration qui flotte.
+///
+/// ⚠ Signature modifiée : `IconData icon` devient `String artAsset`.
+/// Les appels se font depuis HomeScreen avec les assets illustrés.
 class ComingSoonScreen extends StatelessWidget {
   final String title;
-  final IconData icon;
+  final String artAsset;
   final Color color;
 
   const ComingSoonScreen({
     super.key,
     required this.title,
-    required this.icon,
+    required this.artAsset,
     required this.color,
   });
 
@@ -23,25 +27,42 @@ class ComingSoonScreen extends StatelessWidget {
     final strings = AppData.of(context).strings;
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-        backgroundColor: color,
-      ),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(32),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(icon, size: 96, color: color),
-              const SizedBox(height: 24),
-              Text(
-                strings.featureComingSoon,
-                textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 18, color: Colors.black54),
+      body: GameBackground(
+        child: Column(
+          children: [
+            ScreenHeader(
+              title: title,
+              color: color,
+              onBack: () => Navigator.of(context).pop(),
+            ),
+            Expanded(
+              child: SafeArea(
+                top: false,
+                child: Padding(
+                  padding: const EdgeInsets.all(30),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Bob(child: Image.asset(artAsset, width: 110)),
+                      const SizedBox(height: 18),
+                      Text(
+                        strings.featureComingSoon,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontFamily: 'Montserrat',
+                          fontSize: 15,
+                          height: 1.5,
+                          fontWeight: FontWeight.w800,
+                          color: Colors.white,
+                          shadows: GameTheme.textShadow,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
