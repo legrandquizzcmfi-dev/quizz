@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app_data.dart';
 import '../models/quiz_level.dart';
 import '../models/quiz_stage.dart';
 import '../models/quiz_theme.dart';
@@ -64,13 +65,14 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final strings = AppData.of(context).strings;
     final question = _questions[_questionIndex];
     final total = _questions.length;
     final color = widget.theme.color;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.theme.title} — Étape ${widget.stage.index}'),
+        title: Text(strings.stageTitle(widget.theme.title, widget.stage.index)),
         backgroundColor: color,
       ),
       body: Padding(
@@ -87,7 +89,7 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'Question ${_questionIndex + 1} / $total',
+              strings.questionProgress(_questionIndex + 1, total),
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
@@ -122,7 +124,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   ),
                 ),
                 child: Text(
-                  _questionIndex == total - 1 ? 'Terminer' : 'Suivant',
+                  _questionIndex == total - 1 ? strings.finish : strings.next,
                   style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),

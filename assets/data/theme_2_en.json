@@ -1,0 +1,1326 @@
+{
+  "themeId": "message_3b",
+  "title": "The 3B Message",
+  "levels": [
+    {
+      "index": 1,
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "m3b_l1_s1_q1",
+              "text": "What is the general theme of the 3B Messages?",
+              "options": [
+                "The holidays",
+                "Spiritual revival",
+                "Sports"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q2",
+              "text": "How many messages make up the \"3B\"?",
+              "options": [
+                "3",
+                "2",
+                "5"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q3",
+              "text": "What are the three messages?",
+              "options": [
+                "Douala, Yaoundé and Lagos",
+                "Paris, Rome and London",
+                "Beijing, Bertoua and Brazzaville"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s1_q4",
+              "text": "In which city was the Beijing message received?",
+              "options": [
+                "Beijing",
+                "Douala",
+                "Paris"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q5",
+              "text": "Which book is presented as a guide for mature pilgrims?",
+              "options": [
+                "A school book",
+                "The Bible",
+                "A newspaper"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q6",
+              "text": "What are the three guides mentioned in the Beijing message?",
+              "options": [
+                "The Bible, the Cross and the Holy Spirit",
+                "Sports, school and games",
+                "The house, the street and school"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q7",
+              "text": "Who is mentioned as having received the Beijing message?",
+              "options": [
+                "Zacharias Tanee Fomum",
+                "Noah",
+                "Moses"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q8",
+              "text": "What must we do toward God?",
+              "options": [
+                "Forget Him",
+                "Obey Him",
+                "Disobey Him"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q9",
+              "text": "What must we love?",
+              "options": [
+                "The Lord Jesus",
+                "Only money",
+                "Only our toys"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s1_q10",
+              "text": "The Bertoua message speaks especially about:",
+              "options": [
+                "Football",
+                "Returning to first love",
+                "Video games"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q11",
+              "text": "For whom must we have our first love?",
+              "options": [
+                "For our toys",
+                "For the Lord Jesus Christ",
+                "For money"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s1_q12",
+              "text": "What must be abandoned?",
+              "options": [
+                "Sin",
+                "Prayer",
+                "The Bible"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "m3b_l1_s2_q1",
+              "text": "What must we read?",
+              "options": [
+                "Only comic books",
+                "The Bible",
+                "Nothing"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q2",
+              "text": "What must we do with other children?",
+              "options": [
+                "Hate them",
+                "Pray with them",
+                "Fight them"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q3",
+              "text": "Is prayer important in the 3B Messages?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q4",
+              "text": "Who can pray according to the Brazzaville message?",
+              "options": [
+                "Children",
+                "No one",
+                "Only adults"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q5",
+              "text": "Must children pray seriously?",
+              "options": [
+                "Only during the holidays",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q6",
+              "text": "Can prayer be done in a group?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q7",
+              "text": "Can prayer be done as a pair?",
+              "options": [
+                "Yes",
+                "Only on Sundays",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q8",
+              "text": "What must we do when we have sinned?",
+              "options": [
+                "Confess our sin to God",
+                "Blame someone else",
+                "Hide it"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q9",
+              "text": "Does the message speak about fasting?",
+              "options": [
+                "Never",
+                "No",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s2_q10",
+              "text": "Is fasting associated with prayer?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s2_q11",
+              "text": "What does returning to first love mean?",
+              "options": [
+                "Loving money",
+                "Returning to a deep love for Jesus",
+                "Loving toys more"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s2_q12",
+              "text": "Must a disciple be faithful to Jesus?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "m3b_l1_s3_q1",
+              "text": "Must we do the will of God?",
+              "options": [
+                "No",
+                "Only sometimes",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q2",
+              "text": "Must we serve the Lord?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q3",
+              "text": "What must we do with the Word of God?",
+              "options": [
+                "Hide it",
+                "Throw it away",
+                "Read it and believe it"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q4",
+              "text": "Must we put the Word of God into practice?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s3_q5",
+              "text": "Does revival concern only adults?",
+              "options": [
+                "No, children pray too",
+                "Yes",
+                "Only grandparents"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s3_q6",
+              "text": "What is one of the goals of revival?",
+              "options": [
+                "Play all day",
+                "Bring people to Jesus",
+                "Buy toys"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q7",
+              "text": "What does evangelizing mean?",
+              "options": [
+                "Sleeping",
+                "Announcing the message of Jesus",
+                "Playing"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q8",
+              "text": "Does the message speak about making disciples?",
+              "options": [
+                "Never",
+                "No",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q9",
+              "text": "Whom must we serve?",
+              "options": [
+                "No one",
+                "The Lord Jesus",
+                "Only ourselves"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q10",
+              "text": "Is the Bible important for the believer?",
+              "options": [
+                "Never",
+                "No",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s3_q11",
+              "text": "Is the Holy Spirit mentioned in the Beijing message?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s3_q12",
+              "text": "Is the Cross mentioned?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "m3b_l1_s4_q1",
+              "text": "Which message speaks about returning to first love?",
+              "options": [
+                "Bertoua",
+                "Beijing only",
+                "None"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s4_q2",
+              "text": "Which message bears the name of a city in Cameroon?",
+              "options": [
+                "Bertoua",
+                "Brazzaville",
+                "Beijing"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s4_q3",
+              "text": "Which message bears the name of a city in Congo?",
+              "options": [
+                "Bertoua",
+                "Beijing",
+                "Brazzaville"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q4",
+              "text": "Which message bears the name of a city in China?",
+              "options": [
+                "Yaoundé",
+                "Beijing",
+                "Bertoua"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q5",
+              "text": "Does God want His children to return to Him?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q6",
+              "text": "What must children do according to the Brazzaville message?",
+              "options": [
+                "Never pray",
+                "Sleep during prayer",
+                "Pray seriously"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q7",
+              "text": "Can one pray in a small group?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q8",
+              "text": "Can one pray in a large group?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q9",
+              "text": "Does the message speak about confession?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q10",
+              "text": "Does the message speak about proclamation?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s4_q11",
+              "text": "Does God want His children to love Him?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s4_q12",
+              "text": "Does God want His children to serve Him?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "m3b_l1_s5_q1",
+              "text": "What must we do with laziness?",
+              "options": [
+                "Reject it",
+                "Love it",
+                "Seek it"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q2",
+              "text": "What must we do with lying?",
+              "options": [
+                "Reject it",
+                "Practice it",
+                "Love it"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q3",
+              "text": "What must we do with greed?",
+              "options": [
+                "Reject it",
+                "Love it",
+                "Seek it"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q4",
+              "text": "What must we do with selfishness?",
+              "options": [
+                "Develop it",
+                "Teach it",
+                "Reject it"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q5",
+              "text": "What must we seek?",
+              "options": [
+                "The will of God",
+                "Laziness",
+                "Disobedience"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q6",
+              "text": "What must we do every day?",
+              "options": [
+                "Refuse to pray",
+                "Seek God",
+                "Forget God"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q7",
+              "text": "Can a believer pray alone?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l1_s5_q8",
+              "text": "Can a believer read the Bible alone?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q9",
+              "text": "Must we love the Word of God?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l1_s5_q10",
+              "text": "Must we believe the Word of God?",
+              "options": [
+                "Only sometimes",
+                "No",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q11",
+              "text": "Must we put the Word into practice with joy?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l1_s5_q12",
+              "text": "Which word comes up strongly in the 3B Messages?",
+              "options": [
+                "Revival",
+                "Holidays",
+                "Football"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": []
+        },
+        {
+          "index": 7,
+          "questions": []
+        },
+        {
+          "index": 8,
+          "questions": []
+        },
+        {
+          "index": 9,
+          "questions": []
+        },
+        {
+          "index": 10,
+          "questions": []
+        },
+        {
+          "index": 11,
+          "questions": []
+        },
+        {
+          "index": 12,
+          "questions": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "m3b_l2_s1_q1",
+              "text": "Why does the Beijing message speak about maturity?",
+              "options": [
+                "To learn how to play",
+                "Because the believer is called to grow spiritually",
+                "To become rich"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q2",
+              "text": "What are the three guides of the mature pilgrim?",
+              "options": [
+                "Bible, Cross and Holy Spirit",
+                "Money, school and sports",
+                "House, food and clothing"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s1_q3",
+              "text": "What was the choice presented in Zacharias Tanee Fomum's trial?",
+              "options": [
+                "Refuse to go to Beijing",
+                "Obey God despite the cost of the trial",
+                "Abandon the faith"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q4",
+              "text": "What did Zacharias Tanee Fomum choose?",
+              "options": [
+                "His comfort",
+                "His money",
+                "The will of God above all"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q5",
+              "text": "Which quality stands out strongly from the Beijing trial?",
+              "options": [
+                "Laziness",
+                "Disobedience",
+                "Obedience"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q6",
+              "text": "What does it mean to be a disciple of Jesus?",
+              "options": [
+                "Refuse to obey Him",
+                "Forget Him",
+                "Be faithful to Jesus and follow Him"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q7",
+              "text": "What is the first step on the path of revival in Bertoua?",
+              "options": [
+                "Entertainment",
+                "Returning to first love",
+                "Seeking money"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q8",
+              "text": "Does returning to first love involve turning away from sin?",
+              "options": [
+                "Only sometimes",
+                "No",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q9",
+              "text": "Does the Bertoua message ask us to be freed from love of the world?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s1_q10",
+              "text": "Does the Bertoua message speak about freedom from lying?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q11",
+              "text": "Does the message ask us to abandon laziness?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s1_q12",
+              "text": "Does the message ask us to abandon greed?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "m3b_l2_s2_q1",
+              "text": "Does returning to first love include reading the Bible?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q2",
+              "text": "Does it also include praying with other people?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q3",
+              "text": "Does it include winning souls?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s2_q4",
+              "text": "Does it include making disciples?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q5",
+              "text": "Must the believer be faithful to a local church?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q6",
+              "text": "Must the believer serve in the area of God's calling?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q7",
+              "text": "For whom must we do all things?",
+              "options": [
+                "To receive applause",
+                "To become famous",
+                "For the exclusive glory of the Lord Jesus"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s2_q8",
+              "text": "According to Bertoua, is revival linked to prayer and fasting?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q9",
+              "text": "Does the Bertoua message speak about evangelism?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q10",
+              "text": "Does the message speak about winning souls?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s2_q11",
+              "text": "Does the message speak about planting churches?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s2_q12",
+              "text": "Does the Brazzaville message ask people to complete a 52-day fast?",
+              "options": [
+                "Yes, in the text of the Brazzaville message",
+                "It speaks of 2 days",
+                "No"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "m3b_l2_s3_q1",
+              "text": "After this fast, does the message speak of \"heaven on earth\"?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q2",
+              "text": "For whom does the message mention prayer?",
+              "options": [
+                "Only for pastors",
+                "For children and several generations",
+                "Only for grandparents"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q3",
+              "text": "Are children included in the prayer of revival?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q4",
+              "text": "Can prayer be done as a couple?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q5",
+              "text": "Can prayer be done in small groups?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q6",
+              "text": "Can prayer be done in large assemblies?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q7",
+              "text": "What type of prayer is mentioned after the prayer of confession?",
+              "options": [
+                "The prayer of sleep",
+                "The prayer of play",
+                "The prayer of proclamation"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q8",
+              "text": "According to Brazzaville, what will the children do?",
+              "options": [
+                "They will pray earnestly",
+                "They will sleep during prayer",
+                "They will give up prayer"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s3_q9",
+              "text": "What must children do with the Word?",
+              "options": [
+                "Hide it",
+                "Love it, read it and believe it",
+                "Throw it away"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q10",
+              "text": "What must they do after believing the Word?",
+              "options": [
+                "Hide it",
+                "Forget it",
+                "Put it into practice with joy"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s3_q11",
+              "text": "Does the message speak about revival books and tracts?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s3_q12",
+              "text": "What must children who have sinned do?",
+              "options": [
+                "Lie",
+                "Hide it",
+                "Sincerely confess their sin to God"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "m3b_l2_s4_q1",
+              "text": "What does \"repentance\" mean in the given context?",
+              "options": [
+                "Willingly continuing in sin",
+                "Sincerely turning away from sin",
+                "Hiding sin"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q2",
+              "text": "What is the purpose of evangelism?",
+              "options": [
+                "Organizing games",
+                "Doing business",
+                "Winning people to Christ"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q3",
+              "text": "Does the Beijing message speak about winning disciples?",
+              "options": [
+                "Yes",
+                "No",
+                "Never"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q4",
+              "text": "Does the message speak about missionaries?",
+              "options": [
+                "No",
+                "Yes",
+                "Never"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q5",
+              "text": "Does the Beijing message speak about international missionaries?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q6",
+              "text": "What does the message associate church planting with?",
+              "options": [
+                "Holidays",
+                "Sports",
+                "Prayer and fasting"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q7",
+              "text": "How many hours of prayer per week are mentioned for some church-planting workers?",
+              "options": [
+                "50 hours",
+                "5 hours",
+                "2 hours"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s4_q8",
+              "text": "What monthly fasting duration is mentioned for some people?",
+              "options": [
+                "1 hour",
+                "7 days",
+                "30 minutes"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q9",
+              "text": "What role is mentioned for a prayer director?",
+              "options": [
+                "Organizing games",
+                "Selling toys",
+                "Helping to systematically organize the prayer force"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q10",
+              "text": "What other leader is mentioned?",
+              "options": [
+                "The holiday director",
+                "The fasting director",
+                "The football director"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s4_q11",
+              "text": "Do the 3B Messages want to see revival?",
+              "options": [
+                "No",
+                "Never",
+                "Yes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s4_q12",
+              "text": "Should revival touch only one person?",
+              "options": [
+                "Only children",
+                "Yes",
+                "No, it must spread widely"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "m3b_l2_s5_q1",
+              "text": "Is revival associated with prayer?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q2",
+              "text": "Is revival associated with evangelism?",
+              "options": [
+                "Never",
+                "Yes",
+                "No"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q3",
+              "text": "Is revival associated with making disciples?",
+              "options": [
+                "Yes",
+                "Never",
+                "No"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q4",
+              "text": "What does \"living the 3B Messages\" mean?",
+              "options": [
+                "Putting them into practice in making disciples",
+                "Forgetting them",
+                "Only memorizing them"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q5",
+              "text": "According to the document, what is the overall goal pursued?",
+              "options": [
+                "The revival of everyone in CMFI",
+                "Sports competitions",
+                "The holidays"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q6",
+              "text": "What feeling must replace love of the world?",
+              "options": [
+                "Anger",
+                "Jealousy",
+                "Love for the Lord Jesus"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q7",
+              "text": "What must a child who loves Jesus do?",
+              "options": [
+                "Forget Him",
+                "Disobey Him",
+                "Seek Him, love Him and serve Him"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q8",
+              "text": "What attitude does the message ask us to have toward the Word?",
+              "options": [
+                "Believe it and practice it",
+                "Hide it",
+                "Reject it"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "m3b_l2_s5_q9",
+              "text": "What is a good example of returning to first love?",
+              "options": [
+                "Lying and being lazy",
+                "Praying, reading the Bible and serving Jesus",
+                "Loving only money"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q10",
+              "text": "Why do we pray with revival in view?",
+              "options": [
+                "To play",
+                "To seek God and take part in His work",
+                "To sleep"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "m3b_l2_s5_q11",
+              "text": "Which word best describes the spirit of the 3B Messages?",
+              "options": [
+                "Disobedience",
+                "Laziness",
+                "Revival"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "m3b_l2_s5_q12",
+              "text": "Which answer best sums up the 3B Messages?",
+              "options": [
+                "Refusing to serve God",
+                "Loving only the things of the world",
+                "Loving Jesus, obeying Him, praying, reading His Word and taking part in revival"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": []
+        },
+        {
+          "index": 7,
+          "questions": []
+        },
+        {
+          "index": 8,
+          "questions": []
+        },
+        {
+          "index": 9,
+          "questions": []
+        },
+        {
+          "index": 10,
+          "questions": []
+        },
+        {
+          "index": 11,
+          "questions": []
+        },
+        {
+          "index": 12,
+          "questions": []
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "stages": []
+    }
+  ]
+}

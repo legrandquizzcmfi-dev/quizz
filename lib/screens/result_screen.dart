@@ -53,6 +53,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final strings = AppData.of(context).strings;
     final total = widget.stage.questions.length;
     final color = widget.theme.color;
     final nextStage = _nextStage;
@@ -72,7 +73,7 @@ class _ResultScreenState extends State<ResultScreen> {
               ),
               const SizedBox(height: 16),
               Text(
-                _passed ? 'Bravo !' : 'Presque !',
+                _passed ? strings.bravo : strings.almost,
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 32,
@@ -81,20 +82,18 @@ class _ResultScreenState extends State<ResultScreen> {
               ),
               const SizedBox(height: 12),
               Text(
-                'Score : ${widget.score} / $total',
+                strings.score(widget.score, total),
                 style: const TextStyle(color: Colors.white, fontSize: 24),
               ),
               const SizedBox(height: 8),
               Text(
-                _passed
-                    ? 'Étape validée, la suite est débloquée !'
-                    : 'Il faut au moins 8 bonnes réponses pour débloquer la suite.',
+                _passed ? strings.passedMessage : strings.failedMessage,
                 textAlign: TextAlign.center,
                 style: const TextStyle(color: Colors.white70, fontSize: 16),
               ),
               const SizedBox(height: 40),
               _ActionButton(
-                label: 'Rejouer cette étape',
+                label: strings.replayStage,
                 icon: Icons.refresh_rounded,
                 color: color,
                 onTap: () => Navigator.of(context).pushReplacement(
@@ -110,7 +109,7 @@ class _ResultScreenState extends State<ResultScreen> {
               if (_passed && nextStage != null && nextStage.hasContent) ...[
                 const SizedBox(height: 14),
                 _ActionButton(
-                  label: 'Étape suivante',
+                  label: strings.nextStage,
                   icon: Icons.arrow_forward_rounded,
                   color: color,
                   onTap: () => Navigator.of(context).pushReplacement(
@@ -126,7 +125,7 @@ class _ResultScreenState extends State<ResultScreen> {
               ],
               const SizedBox(height: 14),
               _ActionButton(
-                label: 'Retour aux étapes',
+                label: strings.backToStages,
                 icon: Icons.list_rounded,
                 color: color,
                 outlined: true,

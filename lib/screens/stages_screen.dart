@@ -16,25 +16,25 @@ class StagesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final progress = AppData.of(context).progress;
+    final appData = AppData.of(context);
+    final progress = appData.progress;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('${theme.title} — Niveau ${level.index}'),
+        title: Text(appData.strings.levelTitle(theme.title, level.index)),
         backgroundColor: theme.color,
       ),
       body: AnimatedBuilder(
         animation: progress,
         builder: (context, _) {
           if (level.stages.isEmpty) {
-            return const Center(
+            return Center(
               child: Padding(
-                padding: EdgeInsets.all(24),
+                padding: const EdgeInsets.all(24),
                 child: Text(
-                  'Ce niveau ne contient pas encore de questions.\n'
-                  'Le contenu sera ajouté prochainement.',
+                  appData.strings.levelEmptyBody,
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 16, color: Colors.black54),
+                  style: const TextStyle(fontSize: 16, color: Colors.black54),
                 ),
               ),
             );

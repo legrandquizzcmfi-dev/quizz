@@ -11,20 +11,36 @@ import '../models/stage_result.dart';
 /// Seuil de déblocage retenu : 8 bonnes réponses sur 12 (~67 %), voir §13.1.
 class ProgressService extends ChangeNotifier {
   static const _storageKey = 'le_grand_quiz.progress.v1';
+  static const _languageKey = 'le_grand_quiz.language.v1';
   static const passRatio = 8 / 12;
+  static const supportedLanguages = ['fr', 'en'];
+  static const defaultLanguage = 'fr';
 
   final SharedPreferences _prefs;
 
   /// results[themeId][levelIndex][stageIndex] = StageResult
   final Map<String, Map<int, Map<int, StageResult>>> _results = {};
 
+  String _languageCode = defaultLanguage;
+  String get languageCode => _languageCode;
+
   ProgressService(this._prefs) {
     _load();
+    _languageCode = _prefs.getString(_languageKey) ?? defaultLanguage;
   }
 
   static Future<ProgressService> create() async {
     final prefs = await SharedPreferences.getInstance();
     return ProgressService(prefs);
+  }
+
+  /// Change la langue du contenu et de l'interface, et la sauvegarde
+  /// localement pour la prochaine ouverture de l'application.
+  Future<void> setLanguage(String code) async {
+    if (!supportedLanguages.contains(code) || code == _languageCode) return;
+    _languageCode = code;
+    await _prefs.setString(_languageKey, code);
+    notifyListeners();
   }
 
   void _load() {

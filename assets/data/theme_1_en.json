@@ -1,0 +1,733 @@
+{
+  "themeId": "camp_des_agneaux",
+  "title": "The Lambs' Camp",
+  "levels": [
+    {
+      "index": 1,
+      "stages": [
+        {
+          "index": 1,
+          "questions": [
+            {
+              "id": "born_l1_s1_q1",
+              "text": "What are the two kinds of birth discussed in the lesson?",
+              "options": [
+                "School birth and church birth",
+                "Natural birth and spiritual birth",
+                "Animal birth and plant birth"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q2",
+              "text": "According to John 1:12, what can people who receive Jesus become?",
+              "options": [
+                "Children of God",
+                "Kings of the earth",
+                "Angels"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s1_q3",
+              "text": "What is the first birth called in the lesson?",
+              "options": [
+                "New birth",
+                "Natural birth",
+                "Spiritual birth"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q4",
+              "text": "Who gives us natural birth?",
+              "options": [
+                "Our teachers",
+                "Our parents",
+                "Our friends"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q5",
+              "text": "What is the second birth called?",
+              "options": [
+                "Natural birth",
+                "Spiritual birth",
+                "School birth"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q6",
+              "text": "What happens when a child hears about Jesus and believes in Him?",
+              "options": [
+                "The child can invite Jesus into his or her heart",
+                "The child stops growing",
+                "The child becomes an animal"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s1_q7",
+              "text": "What does the lesson say happens when we sincerely ask Jesus into our heart?",
+              "options": [
+                "We become physically smaller",
+                "We receive power to become a child of God",
+                "We never need to pray again"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s1_q8",
+              "text": "What is another name for the second birth?",
+              "options": [
+                "Being born again",
+                "Being born at home",
+                "Being born at school"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s1_q9",
+              "text": "How many births does the lesson say a person can receive?",
+              "options": [
+                "None",
+                "One hundred",
+                "Two"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s1_q10",
+              "text": "What is the first birth related to?",
+              "options": [
+                "A television",
+                "A toy",
+                "Our parents"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s1_q11",
+              "text": "What is the second birth related to?",
+              "options": [
+                "A classroom",
+                "A football",
+                "The Holy Spirit"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s1_q12",
+              "text": "What did the speaker say happened on September 17, 1962?",
+              "options": [
+                "His first birth",
+                "His second birth",
+                "His graduation"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "questions": [
+            {
+              "id": "born_l1_s2_q1",
+              "text": "What date did the speaker give for his second birth?",
+              "options": [
+                "December 25, 2000",
+                "September 17, 1962",
+                "July 7, 1978"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q2",
+              "text": "How old did the speaker say he was at his second birth?",
+              "options": [
+                "25",
+                "15",
+                "5"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s2_q3",
+              "text": "What did the speaker ask Jesus to give him?",
+              "options": [
+                "Power so he would not sin",
+                "A new toy",
+                "A new house"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q4",
+              "text": "Through whom does Jesus come into the heart, according to the lesson?",
+              "options": [
+                "The power of money",
+                "The power of the Holy Spirit",
+                "The power of muscles"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s2_q5",
+              "text": "What does a person become after receiving Jesus and God's power in the heart?",
+              "options": [
+                "A teacher",
+                "A bird",
+                "A child of God"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q6",
+              "text": "According to John 3:5, of what must a person be born?",
+              "options": [
+                "Water and the Spirit",
+                "Parents and teachers",
+                "Food and water"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q7",
+              "text": "What does Jesus say a person cannot see without being born again?",
+              "options": [
+                "A classroom",
+                "A football field",
+                "The kingdom of God"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q8",
+              "text": "What is born from a human being?",
+              "options": [
+                "A human being",
+                "An angel",
+                "A tree"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q9",
+              "text": "What does being born of the Spirit make a person?",
+              "options": [
+                "A child of God",
+                "A plant",
+                "A machine"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q10",
+              "text": "What is the nature of a person after the first birth?",
+              "options": [
+                "Human nature",
+                "Plant nature",
+                "Animal nature"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s2_q11",
+              "text": "What nature does the lesson associate with the second birth?",
+              "options": [
+                "The nature of a car",
+                "The nature of a fish",
+                "The nature of God"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s2_q12",
+              "text": "What does \"born again\" mean in the lesson?",
+              "options": [
+                "Being born twice physically",
+                "Going back into one's mother's womb",
+                "Born a second time in a spiritual way"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "questions": [
+            {
+              "id": "born_l1_s3_q1",
+              "text": "What should a person do instead of trying to enter the mother's womb again?",
+              "options": [
+                "Let Jesus enter the heart",
+                "Go to sleep",
+                "Stop talking"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q2",
+              "text": "What does the lesson say we can see in someone who has God's nature?",
+              "options": [
+                "The person's height",
+                "The color of the person's shoes",
+                "The way the person lives"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q3",
+              "text": "What subject is mentioned when explaining living organisms?",
+              "options": [
+                "Geography",
+                "History",
+                "Biology"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q4",
+              "text": "How many characteristics of living organisms are listed?",
+              "options": [
+                "Twenty",
+                "Eight",
+                "Two"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s3_q5",
+              "text": "What is the first characteristic of living organisms listed?",
+              "options": [
+                "Breathing",
+                "Singing",
+                "Running"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q6",
+              "text": "What is the second characteristic listed?",
+              "options": [
+                "Sleeping",
+                "Reading",
+                "Excretion"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q7",
+              "text": "What is the third characteristic listed?",
+              "options": [
+                "Flying",
+                "Growth",
+                "Painting"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s3_q8",
+              "text": "What is the fourth characteristic listed?",
+              "options": [
+                "Cooking",
+                "Writing",
+                "Movement"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q9",
+              "text": "What is the fifth characteristic listed?",
+              "options": [
+                "Swimming",
+                "Dancing",
+                "Reproduction"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q10",
+              "text": "Which characteristic means being able to react to something?",
+              "options": [
+                "Growth",
+                "Nutrition",
+                "Sensitivity/reactivity"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s3_q11",
+              "text": "What happens to every living organism eventually?",
+              "options": [
+                "It dies",
+                "It becomes a toy",
+                "It becomes a building"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s3_q12",
+              "text": "Which characteristic means taking in what the body needs for life?",
+              "options": [
+                "Nutrition",
+                "Movement",
+                "Excretion"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "questions": [
+            {
+              "id": "born_l1_s4_q1",
+              "text": "What do plants absorb from the soil?",
+              "options": [
+                "Books",
+                "Shoes",
+                "Nutrients"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q2",
+              "text": "What do people do as a sign of breathing spiritually?",
+              "options": [
+                "Pray",
+                "Run",
+                "Eat candy"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s4_q3",
+              "text": "What does the lesson compare prayer to?",
+              "options": [
+                "Sleeping",
+                "Walking",
+                "Breathing"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q4",
+              "text": "What should a spiritually living person feed on?",
+              "options": [
+                "Dirt",
+                "Television",
+                "The Word of God"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q5",
+              "text": "What does spiritual \"excretion\" mean in the lesson?",
+              "options": [
+                "Growing taller",
+                "Eating more food",
+                "Abandoning sin and worldly things"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q6",
+              "text": "What should spiritual growth lead to?",
+              "options": [
+                "Maturity and knowing God",
+                "Forgetting God",
+                "Stopping prayer"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s4_q7",
+              "text": "In what direction should a spiritually living person move?",
+              "options": [
+                "Toward a classroom",
+                "Away from God",
+                "Toward God and heaven"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q8",
+              "text": "What does spiritual sensitivity help a person recognize?",
+              "options": [
+                "Only colors",
+                "Good and evil",
+                "Only numbers"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s4_q9",
+              "text": "What does the lesson call the ability to recognize good and evil?",
+              "options": [
+                "Nutrition",
+                "Discernment",
+                "Reproduction"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s4_q10",
+              "text": "What can spiritually living people do for others?",
+              "options": [
+                "Build airplanes",
+                "Make everyone sleep",
+                "Win souls and help others believe"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q11",
+              "text": "What kind of life is the new spiritual life described as?",
+              "options": [
+                "A one-day life",
+                "A school holiday",
+                "Eternal life"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s4_q12",
+              "text": "Why is the new life described as unable to die?",
+              "options": [
+                "Because bodies never change",
+                "Because people never grow old",
+                "Because Jesus cannot die"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "questions": [
+            {
+              "id": "born_l1_s5_q1",
+              "text": "What do the appetites of a living thing reveal?",
+              "options": [
+                "Its nature",
+                "Its birthday",
+                "Its height"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q2",
+              "text": "What do fish have, according to the example?",
+              "options": [
+                "Bird appetites",
+                "Human appetites",
+                "Fish appetites"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q3",
+              "text": "What do birds have, according to the example?",
+              "options": [
+                "Bird appetites",
+                "Fish appetites",
+                "Cat appetites"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q4",
+              "text": "What do children of God love?",
+              "options": [
+                "Only toys",
+                "God and the things of God",
+                "Dirt and sin"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s5_q5",
+              "text": "What new desires can come with new spiritual life?",
+              "options": [
+                "A desire to avoid prayer",
+                "A desire to do wrong",
+                "Love for God and His Word"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q6",
+              "text": "What can a new spiritual life create a desire to do?",
+              "options": [
+                "What is right",
+                "What is wrong",
+                "Nothing"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q7",
+              "text": "What is the name of the preacher mentioned from the speaker's school days?",
+              "options": [
+                "Moses",
+                "Nicodemus",
+                "Stephen Olford"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q8",
+              "text": "Which animal is used to represent a love for dirt?",
+              "options": [
+                "A bird",
+                "A cat",
+                "A pig"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s5_q9",
+              "text": "Which animal is used to represent a love for cleanliness?",
+              "options": [
+                "A fish",
+                "A domestic cat",
+                "A pig"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s5_q10",
+              "text": "What does the pig in the example naturally love?",
+              "options": [
+                "Books",
+                "Dirt",
+                "Clean places"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s5_q11",
+              "text": "What does the cat in the example naturally love?",
+              "options": [
+                "Being clean",
+                "Mud",
+                "Noise"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s5_q12",
+              "text": "If the pig is washed, what does it eventually return to?",
+              "options": [
+                "The classroom",
+                "The sky",
+                "The mud"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "questions": [
+            {
+              "id": "born_l1_s6_q1",
+              "text": "If a cat gets dirty, what does it do?",
+              "options": [
+                "It turns into a pig",
+                "It cleans itself",
+                "It stays dirty forever"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s6_q2",
+              "text": "What does the pig-and-cat story illustrate?",
+              "options": [
+                "A change of height",
+                "A change of school",
+                "A change of nature"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "born_l1_s6_q3",
+              "text": "What does new birth change, according to the lesson?",
+              "options": [
+                "A person's nature",
+                "A person's birthday",
+                "A person's parents"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s6_q4",
+              "text": "What does Jesus give a person after the second birth?",
+              "options": [
+                "Power to begin pleasing God",
+                "A new animal",
+                "A new classroom"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "born_l1_s6_q5",
+              "text": "What should a child do after committing a sin, according to the lesson's cat example?",
+              "options": [
+                "Hide it forever",
+                "Confess the sin quickly",
+                "Pretend it did not happen"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "born_l1_s6_q6",
+              "text": "What did the speaker repeat at the end?",
+              "options": [
+                "One birth: teacher; two births: student",
+                "One birth: creature of God; two births: child of God",
+                "One birth: angel; two births: animal"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "questions": []
+        },
+        {
+          "index": 8,
+          "questions": []
+        },
+        {
+          "index": 9,
+          "questions": []
+        },
+        {
+          "index": 10,
+          "questions": []
+        },
+        {
+          "index": 11,
+          "questions": []
+        },
+        {
+          "index": 12,
+          "questions": []
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "stages": []
+    },
+    {
+      "index": 3,
+      "stages": []
+    }
+  ]
+}

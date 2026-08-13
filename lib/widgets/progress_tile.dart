@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app_data.dart';
 import 'stars_row.dart';
 
 enum TileState { locked, comingSoon, available, completed }
@@ -71,11 +72,11 @@ class ProgressTile extends StatelessWidget {
                 ),
               ),
               if (state == TileState.comingSoon)
-                const Padding(
-                  padding: EdgeInsets.only(top: 4),
+                Padding(
+                  padding: const EdgeInsets.only(top: 4),
                   child: Text(
-                    'Bientôt',
-                    style: TextStyle(color: Colors.white, fontSize: 11),
+                    AppData.of(context).strings.soon,
+                    style: const TextStyle(color: Colors.white, fontSize: 11),
                   ),
                 ),
               if (state == TileState.completed)

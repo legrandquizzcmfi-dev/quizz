@@ -11,15 +11,20 @@ Future<void> main() async {
   runApp(const _AppLoader());
 }
 
-/// Charge le contenu JSON et la progression sauvegardée avant d'afficher
-/// l'application (fonctionnement autonome, sans réseau, §7).
+/// Charge le contenu JSON (dans chaque langue disponible) et la progression
+/// sauvegardée avant d'afficher l'application (fonctionnement autonome,
+/// sans réseau, §7).
 class _AppLoader extends StatelessWidget {
   const _AppLoader();
 
-  Future<(List<QuizTheme>, ProgressService)> _load() async {
-    final themes = await ContentRepository().loadThemes();
+  Future<(Map<String, List<QuizTheme>>, ProgressService)> _load() async {
+    final repository = ContentRepository();
+    final themesByLanguage = <String, List<QuizTheme>>{
+      for (final language in ProgressService.supportedLanguages)
+        language: await repository.loadThemes(languageCode: language),
+    };
     final progress = await ProgressService.create();
-    return (themes, progress);
+    return (themesByLanguage, progress);
   }
 
   @override
@@ -35,9 +40,9 @@ class _AppLoader extends StatelessWidget {
             ),
           );
         }
-        final (themes, progress) = snapshot.data!;
+        final (themesByLanguage, progress) = snapshot.data!;
         return AppData(
-          themes: themes,
+          themesByLanguage: themesByLanguage,
           progressService: progress,
           child: const LeGrandQuizApp(),
         );

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app_data.dart';
 import '../models/quiz_level.dart';
 import '../models/quiz_theme.dart';
+import '../widgets/language_selector.dart';
 import '../widgets/progress_tile.dart';
 import 'stages_screen.dart';
 
@@ -13,13 +14,15 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final themes = AppData.of(context).themes;
+    final appData = AppData.of(context);
+    final themes = appData.themes;
 
     return DefaultTabController(
       length: themes.length,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Le Grand Quiz'),
+          title: Text(appData.strings.appTitle),
+          actions: const [LanguageSelector()],
           bottom: TabBar(
             tabs: [
               for (final theme in themes)
@@ -44,7 +47,8 @@ class _LevelsTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final progress = AppData.of(context).progress;
+    final appData = AppData.of(context);
+    final progress = appData.progress;
 
     return AnimatedBuilder(
       animation: progress,
@@ -64,9 +68,9 @@ class _LevelsTab extends StatelessWidget {
               ),
               const SizedBox(height: 4),
               if (!theme.hasContent)
-                const Text(
-                  'Contenu à venir — les questions de ce thème seront ajoutées prochainement.',
-                  style: TextStyle(color: Colors.black54),
+                Text(
+                  appData.strings.comingSoonBody,
+                  style: const TextStyle(color: Colors.black54),
                 ),
               const SizedBox(height: 20),
               Expanded(
@@ -109,7 +113,7 @@ class _LevelCard extends StatelessWidget {
     }
 
     return ProgressTile(
-      label: 'Niveau ${level.index}',
+      label: AppData.of(context).strings.level(level.index),
       icon: Icons.flag_rounded,
       color: theme.color,
       state: state,

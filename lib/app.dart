@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'app_data.dart';
 import 'screens/home_screen.dart';
 
 /// Thème visuel : lisible, couleurs franches, gros textes et boutons,
@@ -10,7 +11,7 @@ class LeGrandQuizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Le Grand Quiz',
+      title: AppData.of(context).strings.appTitle,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

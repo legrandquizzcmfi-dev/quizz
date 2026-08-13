@@ -1,0 +1,58 @@
+/// Textes de l'interface (hors contenu des questions, qui vit dans les JSON
+/// de thème), disponibles en français et en anglais pour le sélecteur de
+/// langue (§9).
+class AppStrings {
+  final String languageCode;
+
+  const AppStrings(this.languageCode);
+
+  bool get _isEn => languageCode == 'en';
+
+  String get appTitle => _isEn ? 'The Great Quiz' : 'Le Grand Quiz';
+
+  String get comingSoonBody => _isEn
+      ? 'Coming soon — the questions for this theme will be added shortly.'
+      : 'Contenu à venir — les questions de ce thème seront ajoutées prochainement.';
+
+  String level(int index) => _isEn ? 'Level $index' : 'Niveau $index';
+
+  String get levelEmptyBody => _isEn
+      ? "This level doesn't have any questions yet.\nContent will be added shortly."
+      : 'Ce niveau ne contient pas encore de questions.\nLe contenu sera ajouté prochainement.';
+
+  String stageTitle(String themeTitle, int index) =>
+      _isEn ? '$themeTitle — Stage $index' : '$themeTitle — Étape $index';
+
+  String levelTitle(String themeTitle, int index) =>
+      _isEn ? '$themeTitle — Level $index' : '$themeTitle — Niveau $index';
+
+  String questionProgress(int current, int total) =>
+      'Question $current / $total';
+
+  String get next => _isEn ? 'Next' : 'Suivant';
+
+  String get finish => _isEn ? 'Finish' : 'Terminer';
+
+  String get bravo => _isEn ? 'Great job!' : 'Bravo !';
+
+  String get almost => _isEn ? 'Almost!' : 'Presque !';
+
+  String score(int score, int total) =>
+      _isEn ? 'Score: $score / $total' : 'Score : $score / $total';
+
+  String get passedMessage => _isEn
+      ? 'Stage passed, the next one is unlocked!'
+      : 'Étape validée, la suite est débloquée !';
+
+  String get failedMessage => _isEn
+      ? 'You need at least 8 correct answers to unlock the next stage.'
+      : 'Il faut au moins 8 bonnes réponses pour débloquer la suite.';
+
+  String get replayStage => _isEn ? 'Replay this stage' : 'Rejouer cette étape';
+
+  String get nextStage => _isEn ? 'Next stage' : 'Étape suivante';
+
+  String get backToStages => _isEn ? 'Back to stages' : 'Retour aux étapes';
+
+  String get soon => _isEn ? 'Soon' : 'Bientôt';
+}
