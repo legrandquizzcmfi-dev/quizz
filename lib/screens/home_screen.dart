@@ -5,6 +5,7 @@ import '../l10n/app_strings.dart';
 import '../ui/game_theme.dart';
 import '../widgets/game_controls.dart';
 import '../widgets/game_decor.dart';
+import '../widgets/responsive_design.dart';
 import 'coming_soon_screen.dart';
 import 'themes_screen.dart';
 
@@ -63,217 +64,210 @@ class HomeScreen extends StatelessWidget {
         return Scaffold(
           body: GameBackground(
             child: SafeArea(
-              child: Center(
-                child: ConstrainedBox(
-                  constraints: const BoxConstraints(maxWidth: 560),
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(18, 22, 18, 22),
-                    child: Column(
-                      children: [
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Flexible(
-                              child: Image.asset(
-                                GameAssets.wordmark,
-                                width: 132,
-                                fit: BoxFit.scaleDown,
-                                alignment: Alignment.centerLeft,
-                              ),
+              child: ResponsiveDesign(
+                designWidth: 560,
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(18, 22, 18, 22),
+                  child: Column(
+                    children: [
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Flexible(
+                            child: Image.asset(
+                              GameAssets.wordmark,
+                              width: 132,
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.centerLeft,
                             ),
-                            const SizedBox(width: 8),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.end,
-                                children: [
-                                  Text(
-                                    name == null
-                                        ? 'Bienvenue !'
-                                        : 'Salut $name !',
-                                    maxLines: 1,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: const TextStyle(
-                                      fontFamily: 'Montserrat',
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w900,
-                                      color: Colors.white,
-                                      shadows: GameTheme.textShadow,
-                                    ),
-                                  ),
-                                  Text(
-                                    strings.welcomeBanner
-                                        .split('!')
-                                        .last
-                                        .trim(),
-                                    maxLines: 1,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: const TextStyle(
-                                      fontFamily: 'Montserrat',
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w700,
-                                      color: Color(0xFFDCEEFF),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        Bob(
-                          child: Image.asset(GameAssets.glowBook, width: 230),
-                        ),
-                        GlowingButton(
-                          tapKey: const Key('play_button'),
-                          label: strings.play.toUpperCase(),
-                          fontSize: 24,
-                          onTap: () => _openThemes(context),
-                        ),
-                        const SizedBox(height: 9),
-                        Text(
-                          strings.playCaption,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontSize: 12.5,
-                            fontWeight: FontWeight.w700,
-                            color: Color(0xFFEAF5FF),
                           ),
-                        ),
-                        const SizedBox(height: 16),
-                        RiseIn(
-                          delay: const Duration(milliseconds: 100),
-                          child: IntrinsicHeight(
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
-                                Expanded(
-                                  child: _ProgressCard(
-                                    passed: passedStages,
-                                    total: totalStages,
-                                    ratio: ratio,
-                                    strings: strings,
+                                Text(
+                                  name == null
+                                      ? 'Bienvenue !'
+                                      : 'Salut $name !',
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: const TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w900,
+                                    color: Colors.white,
+                                    shadows: GameTheme.textShadow,
                                   ),
                                 ),
-                                const SizedBox(width: 11),
-                                Expanded(
-                                  child: _AchievementsCard(
-                                    strings: strings,
-                                    onTap: () => _openComingSoon(
-                                      context,
-                                      title: strings.myAchievements,
-                                      artAsset: GameAssets.starGold,
-                                      color: GameTheme.green,
-                                    ),
+                                Text(
+                                  strings.welcomeBanner.split('!').last.trim(),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: const TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w700,
+                                    color: Color(0xFFDCEEFF),
                                   ),
                                 ),
                               ],
                             ),
                           ),
+                        ],
+                      ),
+                      Bob(child: Image.asset(GameAssets.glowBook, width: 230)),
+                      GlowingButton(
+                        tapKey: const Key('play_button'),
+                        label: strings.play.toUpperCase(),
+                        fontSize: 24,
+                        onTap: () => _openThemes(context),
+                      ),
+                      const SizedBox(height: 9),
+                      Text(
+                        strings.playCaption,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontFamily: 'Montserrat',
+                          fontSize: 12.5,
+                          fontWeight: FontWeight.w700,
+                          color: Color(0xFFEAF5FF),
                         ),
-                        const SizedBox(height: 13),
-                        RiseIn(
-                          delay: const Duration(milliseconds: 220),
+                      ),
+                      const SizedBox(height: 16),
+                      RiseIn(
+                        delay: const Duration(milliseconds: 100),
+                        child: IntrinsicHeight(
                           child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               Expanded(
-                                child: _Shortcut(
-                                  tapKey: const Key('themes_button'),
-                                  artAsset: GameAssets.bookOpen,
-                                  artWidth: 34,
-                                  label: strings.themes.toUpperCase(),
-                                  color: GameTheme.purpleLight,
-                                  onTap: () => _openThemes(context),
+                                child: _ProgressCard(
+                                  passed: passedStages,
+                                  total: totalStages,
+                                  ratio: ratio,
+                                  strings: strings,
                                 ),
                               ),
-                              const SizedBox(width: 9),
+                              const SizedBox(width: 11),
                               Expanded(
-                                child: _Shortcut(
-                                  tapKey: const Key('challenges_button'),
-                                  artAsset: GameAssets.questionMark,
-                                  artWidth: 26,
-                                  label: strings.challenges.toUpperCase(),
-                                  color: GameTheme.amberLight,
+                                child: _AchievementsCard(
+                                  strings: strings,
                                   onTap: () => _openComingSoon(
                                     context,
-                                    title: strings.challenges,
-                                    artAsset: GameAssets.questionMark,
-                                    color: GameTheme.amberLight,
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(width: 9),
-                              Expanded(
-                                child: _Shortcut(
-                                  tapKey: const Key('leaderboard_button'),
-                                  artAsset: GameAssets.bulb,
-                                  artWidth: 30,
-                                  label: strings.leaderboard.toUpperCase(),
-                                  color: GameTheme.blueLight,
-                                  onTap: () => _openComingSoon(
-                                    context,
-                                    title: strings.leaderboard,
-                                    artAsset: GameAssets.bulb,
-                                    color: GameTheme.blueLight,
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(width: 9),
-                              Expanded(
-                                child: _Shortcut(
-                                  tapKey: const Key('favorites_button'),
-                                  artAsset: GameAssets.flowerPink,
-                                  artWidth: 28,
-                                  label: strings.favorites.toUpperCase(),
-                                  color: GameTheme.pinkLight,
-                                  onTap: () => _openComingSoon(
-                                    context,
-                                    title: strings.favorites,
-                                    artAsset: GameAssets.flowerPink,
-                                    color: GameTheme.pinkLight,
+                                    title: strings.myAchievements,
+                                    artAsset: GameAssets.starGold,
+                                    color: GameTheme.green,
                                   ),
                                 ),
                               ),
                             ],
                           ),
                         ),
-                        const SizedBox(height: 16),
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.end,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      ),
+                      const SizedBox(height: 13),
+                      RiseIn(
+                        delay: const Duration(milliseconds: 220),
+                        child: Row(
                           children: [
-                            Flexible(
-                              flex: 94,
-                              child: FittedBox(
-                                fit: BoxFit.scaleDown,
-                                alignment: Alignment.bottomLeft,
-                                child: Image.asset(GameAssets.lamb, width: 94),
+                            Expanded(
+                              child: _Shortcut(
+                                tapKey: const Key('themes_button'),
+                                artAsset: GameAssets.bookOpen,
+                                artWidth: 34,
+                                label: strings.themes.toUpperCase(),
+                                color: GameTheme.purpleLight,
+                                onTap: () => _openThemes(context),
                               ),
                             ),
-                            Flexible(
-                              flex: 196,
-                              child: Padding(
-                                padding: const EdgeInsets.only(bottom: 14),
-                                child: FittedBox(
-                                  fit: BoxFit.scaleDown,
-                                  child: Image.asset(
-                                    GameAssets.tagline,
-                                    width: 196,
-                                  ),
+                            const SizedBox(width: 9),
+                            Expanded(
+                              child: _Shortcut(
+                                tapKey: const Key('challenges_button'),
+                                artAsset: GameAssets.questionMark,
+                                artWidth: 26,
+                                label: strings.challenges.toUpperCase(),
+                                color: GameTheme.amberLight,
+                                onTap: () => _openComingSoon(
+                                  context,
+                                  title: strings.challenges,
+                                  artAsset: GameAssets.questionMark,
+                                  color: GameTheme.amberLight,
                                 ),
                               ),
                             ),
-                            Flexible(
-                              flex: 90,
-                              child: FittedBox(
-                                fit: BoxFit.scaleDown,
-                                alignment: Alignment.bottomRight,
-                                child: Image.asset(GameAssets.lion, width: 90),
+                            const SizedBox(width: 9),
+                            Expanded(
+                              child: _Shortcut(
+                                tapKey: const Key('leaderboard_button'),
+                                artAsset: GameAssets.bulb,
+                                artWidth: 30,
+                                label: strings.leaderboard.toUpperCase(),
+                                color: GameTheme.blueLight,
+                                onTap: () => _openComingSoon(
+                                  context,
+                                  title: strings.leaderboard,
+                                  artAsset: GameAssets.bulb,
+                                  color: GameTheme.blueLight,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 9),
+                            Expanded(
+                              child: _Shortcut(
+                                tapKey: const Key('favorites_button'),
+                                artAsset: GameAssets.flowerPink,
+                                artWidth: 28,
+                                label: strings.favorites.toUpperCase(),
+                                color: GameTheme.pinkLight,
+                                onTap: () => _openComingSoon(
+                                  context,
+                                  title: strings.favorites,
+                                  artAsset: GameAssets.flowerPink,
+                                  color: GameTheme.pinkLight,
+                                ),
                               ),
                             ),
                           ],
                         ),
-                      ],
-                    ),
+                      ),
+                      const SizedBox(height: 16),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Flexible(
+                            flex: 94,
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.bottomLeft,
+                              child: Image.asset(GameAssets.lamb, width: 94),
+                            ),
+                          ),
+                          Flexible(
+                            flex: 196,
+                            child: Padding(
+                              padding: const EdgeInsets.only(bottom: 14),
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                child: Image.asset(
+                                  GameAssets.tagline,
+                                  width: 196,
+                                ),
+                              ),
+                            ),
+                          ),
+                          Flexible(
+                            flex: 90,
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.bottomRight,
+                              child: Image.asset(GameAssets.lion, width: 90),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
               ),
