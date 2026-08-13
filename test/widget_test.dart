@@ -29,11 +29,11 @@ Future<AppData> _loadAppData(WidgetTester tester) async {
 }
 
 void main() {
-  testWidgets('Returning user: start screen goes straight to the theme tabs',
-      (WidgetTester tester) async {
+  testWidgets(
+      'Returning user: start screen leads to the dashboard, '
+      'and JOUER leads to the theme tabs', (WidgetTester tester) async {
     // Un profil déjà enregistré simule un utilisateur qui a déjà ouvert
-    // l'application : l'écran « Parlons un peu de toi ! » doit être
-    // sauté.
+    // l'application : l'écran « Parlons un peu de toi ! » doit être sauté.
     SharedPreferences.setMockInitialValues({
       'le_grand_quiz.child_name.v1': 'Josué',
       'le_grand_quiz.child_age.v1': 7,
@@ -48,15 +48,53 @@ void main() {
     await tester.tap(find.byKey(const Key('start_button')));
     await tester.pumpAndSettle();
 
+    // On atterrit sur le tableau de bord, pas directement sur les thèmes.
+    expect(find.text('Le Camp des Agneaux'), findsNothing);
+    expect(find.byKey(const Key('play_button')), findsOneWidget);
+
+    await tester.tap(find.byKey(const Key('play_button')));
+    await tester.pumpAndSettle();
+
     expect(find.text('Le Camp des Agneaux'), findsWidgets);
     expect(find.text('Le Message des 3B'), findsOneWidget);
     expect(find.text('Instant ZTF'), findsOneWidget);
     expect(find.text('La Vie de Maman Emily Tendo'), findsOneWidget);
   });
 
+  testWidgets('Dashboard: Défis/Classements/Favoris open a coming-soon screen',
+      (WidgetTester tester) async {
+    SharedPreferences.setMockInitialValues({
+      'le_grand_quiz.child_name.v1': 'Josué',
+      'le_grand_quiz.child_age.v1': 7,
+    });
+
+    await tester.pumpWidget(await _loadAppData(tester));
+    await tester.pump();
+
+    await tester.tap(find.byKey(const Key('start_button')));
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byKey(const Key('challenges_button')));
+    await tester.pumpAndSettle();
+    expect(find.text('Défis'), findsOneWidget);
+    expect(find.text('Cette fonctionnalité arrive bientôt !'), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byKey(const Key('leaderboard_button')));
+    await tester.pumpAndSettle();
+    expect(find.text('Classements'), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byKey(const Key('favorites_button')));
+    await tester.pumpAndSettle();
+    expect(find.text('Favoris'), findsOneWidget);
+  });
+
   testWidgets(
       'First launch: start screen leads to the profile setup screen, '
-      'which saves the profile and unlocks the theme tabs',
+      'which saves the profile and unlocks the dashboard',
       (WidgetTester tester) async {
     SharedPreferences.setMockInitialValues({});
 
@@ -77,7 +115,7 @@ void main() {
     // pas valide.
     await tester.tap(continueButton);
     await tester.pumpAndSettle();
-    expect(find.text('Le Camp des Agneaux'), findsNothing);
+    expect(find.byKey(const Key('play_button')), findsNothing);
 
     await tester.ensureVisible(find.byType(TextField).first);
     await tester.enterText(find.byType(TextField).first, 'Josué');
@@ -89,6 +127,6 @@ void main() {
     await tester.tap(continueButton);
     await tester.pumpAndSettle();
 
-    expect(find.text('Le Camp des Agneaux'), findsWidgets);
+    expect(find.byKey(const Key('play_button')), findsOneWidget);
   });
 }

@@ -8,10 +8,11 @@ import '../widgets/mute_button.dart';
 import '../widgets/progress_tile.dart';
 import 'stages_screen.dart';
 
-/// Écran d'accueil : navigation par onglets (un par thème), puis sélection
-/// de niveau à l'intérieur de l'onglet (§5.2).
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+/// Écran de sélection des thèmes : navigation par onglets (un par thème),
+/// puis sélection de niveau à l'intérieur de l'onglet. Atteint depuis le
+/// tableau de bord (HomeScreen) via « JOUER » ou « THÈMES » (§5.2).
+class ThemesScreen extends StatelessWidget {
+  const ThemesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

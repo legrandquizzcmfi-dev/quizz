@@ -64,4 +64,23 @@ class AppStrings {
   String get start => _isEn ? 'Start' : 'Commencer';
 
   String get continueLabel => _isEn ? 'Continue' : 'Continuer';
+
+  String get play => _isEn ? 'Play' : 'Jouer';
+
+  String get themes => _isEn ? 'Themes' : 'Thèmes';
+
+  String get challenges => _isEn ? 'Challenges' : 'Défis';
+
+  String get leaderboard => _isEn ? 'Leaderboard' : 'Classements';
+
+  String get favorites => _isEn ? 'Favorites' : 'Favoris';
+
+  String get featureComingSoon =>
+      _isEn ? 'This feature is coming soon!' : 'Cette fonctionnalité arrive bientôt !';
+
+  String get stagesWord => _isEn ? 'stages' : 'étapes';
+
+  String stagesCompleted(int passed, int total) => _isEn
+      ? '$passed of $total stages completed'
+      : '$passed étapes réussies sur $total';
 }
