@@ -232,6 +232,10 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 16),
+                      // Absorbe l'espace vertical en trop sur les écrans très
+                      // allongés : garde la rangée agneau/lion ancrée près du
+                      // sol au lieu de laisser un vide sous les raccourcis.
+                      const Expanded(child: SizedBox.shrink()),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -445,7 +449,10 @@ class _AchievementsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: () {
+        AppData.of(context).audio.playPop();
+        onTap();
+      },
       child: Container(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
@@ -541,7 +548,10 @@ class _ShortcutState extends State<_Shortcut> {
       onTapDown: (_) => setState(() => _pressed = true),
       onTapUp: (_) => setState(() => _pressed = false),
       onTapCancel: () => setState(() => _pressed = false),
-      onTap: widget.onTap,
+      onTap: () {
+        AppData.of(context).audio.playPop();
+        widget.onTap();
+      },
       child: AnimatedSlide(
         offset: Offset(0, _pressed ? .06 : 0),
         duration: const Duration(milliseconds: 90),

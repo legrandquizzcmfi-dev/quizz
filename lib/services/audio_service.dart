@@ -72,6 +72,7 @@ class AudioService extends ChangeNotifier {
   Future<void> playCorrect() => _playSfx('correct.wav');
   Future<void> playWrong() => _playSfx('wrong.wav');
   Future<void> playVictory() => _playSfx('victory.wav');
+  Future<void> playPop() => _playSfx('pop.wav');
 
   @override
   void dispose() {

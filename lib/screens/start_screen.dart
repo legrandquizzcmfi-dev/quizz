@@ -37,30 +37,41 @@ class StartScreen extends StatelessWidget {
             designWidth: 480,
             child: Stack(
               children: [
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 22),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(GameAssets.wordmark, width: 300),
-                      const SizedBox(height: 0),
-                      Transform.translate(
-                        offset: const Offset(0, -14),
-                        child: Image.asset(GameAssets.tagline, width: 280),
-                      ),
-                      Bob(
-                        period: const Duration(seconds: 5),
-                        child: Image.asset(GameAssets.glowBook, width: 238),
-                      ),
-                      const SizedBox(height: 14),
-                      GlowingButton(
-                        tapKey: const Key('start_button'),
-                        label: strings.start.toUpperCase(),
-                        fontSize: 23,
-                        onTap: () => _start(context),
-                      ),
-                      const SizedBox(height: 120),
-                    ],
+                Positioned.fill(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 22),
+                    child: Column(
+                      children: [
+                        const SizedBox(height: 8),
+                        Image.asset(GameAssets.wordmark, width: 300),
+                        const SizedBox(height: 0),
+                        Transform.translate(
+                          offset: const Offset(0, -14),
+                          child: Image.asset(GameAssets.tagline, width: 280),
+                        ),
+                        // Absorbe l'espace vertical en trop sur les écrans
+                        // très allongés au lieu de le laisser vide sous le
+                        // bouton : le livre garde le bouton à distance fixe
+                        // et grandit l'espace au-dessus de lui.
+                        Expanded(
+                          child: Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Bob(
+                              period: const Duration(seconds: 5),
+                              child: Image.asset(GameAssets.glowBook, width: 238),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 14),
+                        GlowingButton(
+                          tapKey: const Key('start_button'),
+                          label: strings.start.toUpperCase(),
+                          fontSize: 23,
+                          onTap: () => _start(context),
+                        ),
+                        const SizedBox(height: 48),
+                      ],
+                    ),
                   ),
                 ),
                 Positioned(

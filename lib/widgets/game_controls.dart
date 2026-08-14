@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 
+import '../app_data.dart';
 import '../ui/game_theme.dart';
 import 'game_decor.dart';
+
+/// Joue le son "pop" avant d'exécuter [onTap], si présent. Utilisé par tous
+/// les contrôles tactiles du jeu pour un retour sonore cohérent.
+VoidCallback? _withPop(BuildContext context, VoidCallback? onTap) {
+  if (onTap == null) return null;
+  return () {
+    AppData.of(context).audio.playPop();
+    onTap();
+  };
+}
 
 /// Gros bouton d'action principal (COMMENCER / JOUER / CONTINUER / SUIVANT) :
 /// dégradé orange, bordure marine, ombre portée « posée », lueur pulsante,
@@ -128,7 +139,7 @@ class _GlowingButtonState extends State<GlowingButton>
         onTapDown: enabled ? (_) => setState(() => _pressed = true) : null,
         onTapUp: enabled ? (_) => setState(() => _pressed = false) : null,
         onTapCancel: enabled ? () => setState(() => _pressed = false) : null,
-        onTap: widget.onTap,
+        onTap: _withPop(context, widget.onTap),
         child: AnimatedBuilder(
           animation: _pulse,
           builder: (context, child) {
@@ -271,7 +282,7 @@ class ScreenHeader extends StatelessWidget {
           if (onBack != null)
             GestureDetector(
               key: const Key('screen_back_button'),
-              onTap: onBack,
+              onTap: _withPop(context, onBack),
               child: Container(
                 width: 34,
                 height: 34,
@@ -347,7 +358,7 @@ class ProgressTile extends StatelessWidget {
       child: Opacity(
         opacity: _enabled ? 1 : .72,
         child: GestureDetector(
-          onTap: _enabled ? onTap : null,
+          onTap: _withPop(context, _enabled ? onTap : null),
           child: Container(
             decoration: BoxDecoration(
               color: bg,

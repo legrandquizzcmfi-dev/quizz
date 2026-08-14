@@ -250,7 +250,12 @@ class _OptionButton extends StatelessWidget {
     final answered = highlight != _OptionHighlight.none;
 
     return GestureDetector(
-      onTap: answered ? null : onTap,
+      onTap: answered
+          ? null
+          : () {
+              AppData.of(context).audio.playPop();
+              onTap();
+            },
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 180),
         decoration: BoxDecoration(

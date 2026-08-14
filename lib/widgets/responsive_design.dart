@@ -22,10 +22,19 @@ import 'package:flutter/material.dart';
 /// toujours ses proportions et ne déborde jamais : sur un écran plus petit
 /// que `designWidth`, il rétrécit au lieu de dépasser.
 ///
-/// Filet de sécurité : si `child` a malgré tout besoin de plus de hauteur
-/// que `designHeight` (texte plus long dans une langue, très grand écran en
-/// paysage…), il devient défilable à l'intérieur de la boîte mise à
-/// l'échelle plutôt que de déborder.
+/// `child` reçoit une hauteur bornée et exacte (`designHeight`), pas une
+/// hauteur infinie : c'est ce qui permet à `mainAxisAlignment.center`,
+/// `Expanded` et `Spacer` de vraiment répartir l'espace disponible dans
+/// `child`, plutôt que de laisser Flutter replier la colonne sur la taille
+/// intrinsèque de son contenu (elle ne peut pas viser "max" une hauteur
+/// infinie) et peindre le reste de `designHeight` en vide — c'est ce bug
+/// précis qui écrasait tout le contenu en haut de l'écran avec une grande
+/// bande vide en dessous quand un `SingleChildScrollView` fournissait une
+/// hauteur non bornée ici.
+///
+/// Pas de filet de sécurité anti-débordement : les écrans doivent être
+/// conçus pour tenir dans `designHeight` (via `Expanded`/`Flexible`), ce que
+/// permet justement cette hauteur bornée.
 class ResponsiveDesign extends StatelessWidget {
   final double designWidth;
   final double maxScale;
@@ -50,16 +59,7 @@ class ResponsiveDesign extends StatelessWidget {
         return Center(
           child: FittedBox(
             fit: BoxFit.contain,
-            child: SizedBox(
-              width: designWidth,
-              height: designHeight,
-              child: SingleChildScrollView(
-                child: ConstrainedBox(
-                  constraints: BoxConstraints(minHeight: designHeight),
-                  child: child,
-                ),
-              ),
-            ),
+            child: SizedBox(width: designWidth, height: designHeight, child: child),
           ),
         );
       },
