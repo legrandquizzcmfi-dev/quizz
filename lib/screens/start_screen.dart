@@ -6,7 +6,6 @@ import '../widgets/game_controls.dart';
 import '../widgets/game_decor.dart';
 import '../widgets/responsive_design.dart';
 import 'home_screen.dart';
-import 'profile_setup_screen.dart';
 
 /// Écran d'accueil (splash jouable) : décor animé, logo, baseline, livre
 /// lumineux, bouton COMMENCER, les deux enfants en bas.
@@ -14,12 +13,11 @@ class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
 
   void _start(BuildContext context) {
-    final hasProfile = AppData.of(context).progress.hasProfile;
     Navigator.of(context).pushReplacement(
       PageRouteBuilder(
         transitionDuration: const Duration(milliseconds: 400),
         pageBuilder: (context, animation, secondaryAnimation) =>
-            hasProfile ? const HomeScreen() : const ProfileSetupScreen(),
+            const HomeScreen(),
         transitionsBuilder: (context, animation, secondaryAnimation, child) =>
             FadeTransition(opacity: animation, child: child),
       ),
@@ -40,8 +38,9 @@ class StartScreen extends StatelessWidget {
                 Positioned.fill(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 22),
-                    child: Column(
-                      children: [
+                    child: FillOrScroll(
+                      child: Column(
+                        children: [
                         const SizedBox(height: 8),
                         Image.asset(GameAssets.wordmark, width: 300),
                         const SizedBox(height: 0),
@@ -70,7 +69,8 @@ class StartScreen extends StatelessWidget {
                           onTap: () => _start(context),
                         ),
                         const SizedBox(height: 48),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ),

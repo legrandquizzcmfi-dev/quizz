@@ -59,17 +59,17 @@ class HomeScreen extends StatelessWidget {
           }
         }
         final ratio = totalStages == 0 ? 0.0 : passedStages / totalStages;
-        final name = progress.childName;
 
         return Scaffold(
           body: GameBackground(
             child: SafeArea(
               child: ResponsiveDesign(
                 designWidth: 560,
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(18, 22, 18, 22),
-                  child: Column(
-                    children: [
+                child: FillOrScroll(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(18, 22, 18, 22),
+                    child: Column(
+                      children: [
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -86,13 +86,11 @@ class HomeScreen extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
-                                Text(
-                                  name == null
-                                      ? 'Bienvenue !'
-                                      : 'Salut $name !',
+                                const Text(
+                                  'Hello friend !',
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
-                                  style: const TextStyle(
+                                  style: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w900,
@@ -277,6 +275,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
+        ),
         );
       },
     );

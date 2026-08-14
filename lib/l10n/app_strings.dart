@@ -89,8 +89,6 @@ class AppStrings {
 
   String get start => _isEn ? 'Start' : 'Commencer';
 
-  String get continueLabel => _isEn ? 'Continue' : 'Continuer';
-
   String get play => _isEn ? 'Play' : 'Jouer';
 
   String get themes => _isEn ? 'Themes' : 'Thèmes';
@@ -136,19 +134,4 @@ class AppStrings {
 
   String get tagline =>
       _isEn ? 'Learn • Play • Grow' : 'Apprends • Joue • Grandis';
-
-  String get profileTitle =>
-      _isEn ? 'Let\'s talk about you!' : 'Parlons un peu de toi !';
-
-  String get profileSubtitle => _isEn
-      ? 'To start the quiz, we need a bit of info.'
-      : 'Pour commencer le quiz, nous avons besoin de quelques infos.';
-
-  String get nameLabel => _isEn ? 'Your name' : 'Ton nom';
-
-  String get nameHint => _isEn ? 'Write your name here' : 'Écris ton nom ici';
-
-  String get ageLabel => _isEn ? 'Your age' : 'Ton âge';
-
-  String get ageHint => _isEn ? 'Write your age here' : 'Écris ton âge ici';
 }

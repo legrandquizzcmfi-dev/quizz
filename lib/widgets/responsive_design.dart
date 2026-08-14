@@ -32,9 +32,11 @@ import 'package:flutter/material.dart';
 /// bande vide en dessous quand un `SingleChildScrollView` fournissait une
 /// hauteur non bornée ici.
 ///
-/// Pas de filet de sécurité anti-débordement : les écrans doivent être
+/// Pas de filet de sécurité anti-débordement ici : les écrans doivent être
 /// conçus pour tenir dans `designHeight` (via `Expanded`/`Flexible`), ce que
-/// permet justement cette hauteur bornée.
+/// permet justement cette hauteur bornée. Un écran dont le contenu peut
+/// malgré tout dépasser (petit écran très large, texte plus long dans une
+/// langue…) doit s'enrober lui-même dans [FillOrScroll].
 class ResponsiveDesign extends StatelessWidget {
   final double designWidth;
   final double maxScale;
@@ -63,6 +65,31 @@ class ResponsiveDesign extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+/// Donne à `child` la hauteur exacte disponible — pour que ses `Expanded`
+/// et `Spacer` répartissent vraiment l'espace, comme le permet
+/// [ResponsiveDesign] — tout en le rendant défilable s'il a malgré tout
+/// besoin de plus de place (écran très large et bas, texte plus long dans
+/// une langue…) plutôt que de déborder (`IntrinsicHeight` mesure `child`
+/// avec ses `Expanded` réduits à leur taille minimale, ce qui permet à
+/// `ConstrainedBox` de savoir s'il doit rester à `minHeight` ou grandir).
+class FillOrScroll extends StatelessWidget {
+  final Widget child;
+
+  const FillOrScroll({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) => SingleChildScrollView(
+        child: ConstrainedBox(
+          constraints: BoxConstraints(minHeight: constraints.maxHeight),
+          child: IntrinsicHeight(child: child),
+        ),
+      ),
     );
   }
 }

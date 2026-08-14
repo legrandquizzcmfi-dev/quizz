@@ -6,7 +6,6 @@ import 'package:le_grand_quiz/data/content_repository.dart';
 import 'package:le_grand_quiz/models/quiz_theme.dart';
 import 'package:le_grand_quiz/screens/coming_soon_screen.dart';
 import 'package:le_grand_quiz/screens/home_screen.dart';
-import 'package:le_grand_quiz/screens/profile_setup_screen.dart';
 import 'package:le_grand_quiz/screens/quiz_screen.dart';
 import 'package:le_grand_quiz/screens/result_screen.dart';
 import 'package:le_grand_quiz/screens/stages_screen.dart';
@@ -111,51 +110,16 @@ Future<void> main() async {
     );
   });
 
-  testWidgets(
-    'ProfileSetupScreen sans overflow sur toute la plage de tailles',
-    (tester) async {
-      SharedPreferences.setMockInitialValues({});
-      final progress = await ProgressService.create();
-      final audio = await AudioService.create();
-
-      await pumpScreenAtSizes(
-        tester,
-        'ProfileSetupScreen',
-        progress,
-        audio,
-        () => const ProfileSetupScreen(),
-      );
-    },
-  );
-
-  testWidgets(
-    'HomeScreen (avec et sans prénom long) sans overflow sur toute la plage',
-    (tester) async {
-      SharedPreferences.setMockInitialValues({
-        'le_grand_quiz.child_name.v1': 'Marie-Alexandra-Christelle',
-        'le_grand_quiz.child_age.v1': 7,
-      });
-      final progress = await ProgressService.create();
-      final audio = await AudioService.create();
-
-      await pumpScreenAtSizes(
-        tester,
-        'HomeScreen (prénom long)',
-        progress,
-        audio,
-        () => const HomeScreen(),
-      );
-    },
-  );
-
-  testWidgets('HomeScreen sans prénom (bienvenue générique)', (tester) async {
+  testWidgets('HomeScreen sans overflow sur toute la plage de tailles', (
+    tester,
+  ) async {
     SharedPreferences.setMockInitialValues({});
     final progress = await ProgressService.create();
     final audio = await AudioService.create();
 
     await pumpScreenAtSizes(
       tester,
-      'HomeScreen (sans prénom)',
+      'HomeScreen',
       progress,
       audio,
       () => const HomeScreen(),

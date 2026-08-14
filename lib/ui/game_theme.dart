@@ -114,6 +114,4 @@ class GameAssets {
   static const checkGreen = '${_d}check_green.png';
   static const cross = '${_d}cross.png';
   static const logoCmfi = '${_d}logo_cmfi.png';
-  static const iconPerson = '${_d}icon_person.png';
-  static const iconCake = '${_d}icon_cake.png';
 }
