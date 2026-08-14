@@ -53,15 +53,10 @@ void _usePhoneSizedSurface(WidgetTester tester) {
 
 void main() {
   testWidgets(
-      'Returning user: start screen leads to the dashboard, '
+      'Start screen leads to the dashboard, '
       'and JOUER leads to the theme tabs', (WidgetTester tester) async {
     _usePhoneSizedSurface(tester);
-    // Un profil déjà enregistré simule un utilisateur qui a déjà ouvert
-    // l'application : l'écran « Parlons un peu de toi ! » doit être sauté.
-    SharedPreferences.setMockInitialValues({
-      'le_grand_quiz.child_name.v1': 'Josué',
-      'le_grand_quiz.child_age.v1': 7,
-    });
+    SharedPreferences.setMockInitialValues({});
 
     await tester.pumpWidget(await _loadAppData(tester));
     await tester.pump();
@@ -85,10 +80,7 @@ void main() {
   testWidgets('Dashboard: Défis/Classements/Favoris open a coming-soon screen',
       (WidgetTester tester) async {
     _usePhoneSizedSurface(tester);
-    SharedPreferences.setMockInitialValues({
-      'le_grand_quiz.child_name.v1': 'Josué',
-      'le_grand_quiz.child_age.v1': 7,
-    });
+    SharedPreferences.setMockInitialValues({});
 
     await tester.pumpWidget(await _loadAppData(tester));
     await tester.pump();
@@ -112,37 +104,5 @@ void main() {
     await tester.tap(find.byKey(const Key('favorites_button')));
     await _settleTransition(tester);
     expect(find.text('Favoris'), findsOneWidget);
-  });
-
-  testWidgets(
-      'First launch: start screen leads to the profile setup screen, '
-      'which saves the profile and unlocks the dashboard',
-      (WidgetTester tester) async {
-    _usePhoneSizedSurface(tester);
-    SharedPreferences.setMockInitialValues({});
-
-    await tester.pumpWidget(await _loadAppData(tester));
-    await tester.pump();
-
-    await tester.tap(find.byKey(const Key('start_button')));
-    await _settleTransition(tester);
-
-    final continueButton = find.byKey(const Key('continue_button'));
-    expect(continueButton, findsOneWidget);
-
-    // Le bouton « Continuer » est désactivé tant que le formulaire n'est
-    // pas valide.
-    await tester.tap(continueButton);
-    await _settleTransition(tester);
-    expect(find.byKey(const Key('play_button')), findsNothing);
-
-    await tester.enterText(find.byType(TextField).first, 'Josué');
-    await tester.enterText(find.byType(TextField).last, '7');
-    await tester.pump();
-
-    await tester.tap(continueButton);
-    await _settleTransition(tester);
-
-    expect(find.byKey(const Key('play_button')), findsOneWidget);
   });
 }
